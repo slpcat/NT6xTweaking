@@ -1,0 +1,445 @@
+Windows Registry Editor Version 5.00
+
+
+[HKEY_CURRENT_USER/Software/Policies/Microsoft/Internet Explorer/Control Panel]
+"HOMEPAGE"=dword:00000001
+
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer]
+"No3DBorder"=dword:00000000
+"RtfConverterFlags"=dword:00000001
+"DisableFlashInIE"=dword:00000000
+"AppliedUnattend"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Activities]
+"NoActivities"=dword:00000000
+"NoOOBActivities"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\AutoComplete]
+"Append Completion"="yes"
+
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\BrokerManager]
+"BrokerTelemetry"=dword:00000001
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\BrowserEmulation]
+"CVListTTL"=dword:00000000
+"UnattendLoaded"=dword:00000001
+"IECompatVersionHigh"=dword:10000000
+"IECompatVersionLow"=dword:178e3678
+"CVListXMLVersionLow"=dword:178e3678
+"CVListXMLVersionHigh"=dword:10000000
+"StaleCompatCache"=dword:00000000
+"LocalMachineCompatibilityMode"=dword:00000000
+"IntranetCompatibilityMode"=dword:00000001
+"TLDUpdates"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\BrowserEmulation\LowMic]
+"IECompatVersionHigh"=dword:00000000
+"IECompatVersionLow"=dword:00000000
+"StaleCompatCache"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\BrowserEmulation\PPB]
+"IECompatVersionHigh"=dword:00000000
+"IECompatVersionLow"=dword:00000000
+"AllowLocationInPP"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\CaretBrowsing]
+"EnableOnStartup"=dword:00000000
+"DontShowPrompt"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\CodeIntegrity]
+"DynamicCodePolicy"=dword:00000002
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\CommandBar]
+"ShowLeftAddressToolbar"=dword:00000000
+"CommandBarEnabled"=dword:00000001
+"TextOption"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\ContinuousBrowsing]
+"Enabled"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Control Panel]
+"UTF8URLQuery"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\DomStorageState]
+"EdpState"=dword:00000000
+"EdpCleanupState"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Download]
+"RunInvalidSignatures"=dword:00000001
+"CheckExeSignatures"="no"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\DxTrans]
+"TransitionsDisabled"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\EmptyTab]
+"ReuseTimeOut"=dword:0000ea60
+"MaxCountPerFrameWindowPerContentProcess"=dword:00000001
+"EnsureEmptyTabForActiveTabProcess"=dword:00000001
+"EnsureEmptyTabOnTabSwitchingDelay"=dword:000007d0
+"MaxEmptyTabCountPerIEInstance"=dword:00000005
+
+
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\ExperimentalFeatures]
+"StandardDocumentScrollProperties"=dword:00000000
+"CSSFilterProperty"=dword:00000001
+"VisiblyRenderControlCharacters"=dword:00000000
+"TouchEvents"=dword:00000000
+"InteropMouseEventsForTouch"=dword:00000002
+"DisableMSPointer"=dword:00000001
+"UseInteropCompositor"=dword:00000000
+"IndependentScrollThumbs"=dword:00000000
+"FullStackingContextForFixedPosition"=dword:00000001
+"IndependentPreserve3D"=dword:00000001
+"ExperimentalJS"=dword:00000001
+"ExperimentalAccessibility"=dword:00000001
+"VP9VideoFormat"=dword:00000002
+"RelayHoverActiveFromControlToLabels"=dword:00000000
+"AllowLocalhostLoopback"=dword:00000001
+"EnableWebNotifications"=dword:00000001
+"EnableWebRTC"=dword:00000001
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Feeds]
+"AllowBasicAuthInClear"=dword:00000000
+
+;启用翻页
+[HKEY_USERS\.DEFAULT\SOFTWARE\Microsoft\Internet Explorer\FlipAhead]
+"FPEnabled"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\FlipAhead]
+"FPEnabled"=dword:00000001
+
+;禁止RSS订阅更新
+[HKEY_USERS\.DEFAULT\Software\Microsoft\Internet Explorer\Feeds]
+"TurnOffOPV"=dword:00000001
+"AutoMarkAsReadOPV"=dword:00000000
+"TurnOnClipButton"=dword:00000000
+"SyncStatus"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Feeds]
+"TurnOffOPV"=dword:00000001
+"AutoMarkAsReadOPV"=dword:00000000
+"TurnOnClipButton"=dword:00000000
+"SyncStatus"=dword:00000000
+
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Geolocation]
+"BlockAllWebsites"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\GPU]
+"SoftwareFallback"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\ImageStore]
+"AutoCleanTesting"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\International]
+"AutoDetect"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\LinksExplorer]
+"FavoritesCenterFlyoutHeight"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Low Rights]
+"ProtectedModeOffForAllZones"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Main]
+
+;禁止IE追踪
+"DoNotTrack"=dword:00000001
+;禁止IE首次运行自定义设置
+"RunOnceHasShown"=dword:00000001
+"RunOnceComplete"=dword:00000001
+"Anchor Underline"="yes"
+"Cache_Update_Frequency"="Once_Per_Session"
+"Disable Script Debugger"="yes"
+"DisableScriptDebuggerIE"="yes"
+"Display Inline Images"="yes"
+"Do404Search"=hex:01,00,00,00
+"Local Page"="C:\\Windows\\system32\\blank.htm"
+"Save_Session_History_On_Exit"="no"
+"Show_FullURL"="no"
+"Show_StatusBar"="yes"
+"Show_ToolBar"="yes"
+"Show_URLinStatusBar"="yes"
+"Show_URLToolBar"="yes"
+"Use_DlgBox_Colors"="yes"
+"UseClearType"="no"
+"XMLHTTP"=dword:00000001
+"Enable Browser Extensions"="yes"
+"Play_Background_Sounds"="yes"
+"Play_Animations"="yes"
+"RunOnceComplete"=dword:00000001
+"RunOnceHasShown"=dword:00000001
+"Default_Page_URL"="abou:blank"
+"Default_Secondary_Page_URL"=""
+"CompatibilityFlags"=dword:00000000
+"IE10TourNoShow"=dword:00000001
+"FullScreen"="no"
+"SyncHomePage"=hex:
+"ScriptDebugger_EnableHiddenTabs"=dword:00000000
+"ApplicationTileImmersiveActivation"=dword:00000001
+"AssociationActivationMode"=dword:00000000
+"StatusBarWeb"=dword:00000001
+"ForceGDIPlus"=dword:00000000
+"AlwaysShowMenus"=dword:00000000
+"ShutdownWaitForOnUnload"=dword:00000000
+"DNSPreresolution"=dword:00000008
+"SpellChecking"=dword:00000000
+"DisablePasswordReveal"=dword:00000000
+"Check_Associations"="yes"
+"DisableRequiresActiveXPrompt"=""
+"GotoIntranetSiteForSingleWordEntry"=dword:00000000
+"AutoSearch"=dword:00000001
+"SuppressScriptDebuggerDialog"=dword:00000000
+"PredictedViewExpansion"=dword:00000064
+"PredictedViewChangeThreshold"=dword:0000000a
+"PredictedViewChangeThresholdPaint"=dword:0000000a
+"ContentLayerCacheExpansion"=dword:0000012c
+"RenderingLoopMaxTime"=dword:000000fa
+"NscSingleExpand"=dword:00000000
+"Error Dlg Displayed On Every Error"="no"
+"NotifyDownloadComplete"="yes"
+"Friendly http errors"="no"
+"CSS_Compat"="doctype"
+"Expand Alt Text"="no"
+"Display Inline Videos"=dword:00000001
+"Use Stylesheets"=dword:00000001
+"SmoothScroll"=dword:00000001
+"Show image placeholders"=dword:00000000
+"Disable Diagnostics Mode"="no"
+"Move System Caret"="no"
+"Enable AutoImageResize"="yes"
+"UseThemes"=dword:00000001
+"UseHR"=dword:00000000
+"Q300829"=dword:00000000
+"Cleanup HTCs"=dword:00000000
+"XDomainRequest"=dword:00000001
+"DOMStorage"=dword:00000001
+"EnableAlternativeCodec"="yes"
+"JScriptProfileCacheEventDelay"=dword:00001388
+"HideLocalHostIP"=dword:00000000
+"CrossfadeMinTimeoutInMS"=dword:00007530
+"CrossfadeMaxTimeoutInMS"=dword:00007530
+"CrossfadeCurrentTimeoutInMS"=dword:00007530
+"ScrollTimeoutInMS"=dword:00001770
+"DisableFirstRunCustomize"=dword:00000000
+"IE10RunOnceLastShown"=dword:00000001
+"IE10RunOncePerInstallCompleted"=dword:00000001
+"IE10TourShown"=dword:00000001
+"IE10RecommendedSettingsNo"=dword:00000001
+"FrameTabWindow"=dword:00000001
+"AdminTabProcs"=dword:00000001
+"SessionMerging"=dword:00000001
+"FrameMerging"=dword:00000001
+"HangRecovery"=dword:00000001
+"DesktopTransparentCoverWindowTime"=dword:00000008
+"TSEnable"=dword:00000001
+"Isolation"="PMIL"
+"Isolation64Bit"=dword:00000000
+"IsolationImmersive"="PMEM"
+"TabShutdownDelay"=dword:0000ea60
+"FrameShutdownDelay"=dword:00000000
+"NoUpdateCheck"=dword:00000001
+"Search Bar"="Preserve"
+"MinIEEnabled"=dword:00000001
+"RefcountTracker"=dword:00000000
+"TabDragOnSingleProc"=dword:00000000
+"ForceBFCacheCandidacyPass"=dword:00000000
+"Fasterback"=dword:00000001
+"BackForwardInstrumentation"=dword:00000000
+"Start Page"="about:Tabs"
+"DoNotTrack"=dword:00000001
+"MixedContentBlockImages"=dword:00000000
+"PlaySounds"=dword:00000001
+"UseSWRender"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_BROWSER_MODE]
+"iexplore.exe"=dword:00000008
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_LOCALMACHINE_LOCKDOWN]
+"iexplore.exe"=dword:00000001
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_LOCALMACHINE_LOCKDOWN\Settings]
+"LOCALMACHINE_CD_UNLOCK"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Main\Touch]
+"FlickEducatorInfo"=dword:00000000
+"GestureZoomMinimumIncrement"=dword:00000001
+"GestureTimerInterval"=dword:0000000f
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\MINIE]
+"TabBandWidth"=dword:000001f4
+"ShowStatusBar"=dword:00000000
+"LinksBandWidth"=dword:000000c8
+"ToolBarRow"=dword:00000002
+"CommandBarEnabled"=dword:00000000
+"LinksBandRow"=dword:00000002
+"LinksBandEnabled"=dword:00000000
+"AlwaysShowMenus"=dword:00000000
+"ShowTabsBelowAddressBar"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\New Windows]
+"PopupMgr"=dword:00000001
+"Use Anchor Hover Color"="1"
+"UseSecBand"=dword:00000001
+"BlockUserInit"=dword:00000000
+"UseTimerMethod"=dword:00000000
+"UseHooks"=dword:00000001
+"AllowHTTPs"=dword:00000000
+"BlockControls"=dword:00000000
+"BlockHTMLDialogs"=dword:00000001
+"UserInitTimeout"=dword:00000000
+"InactiveTabDialogs"=dword:00000001
+"InactiveTabWindows"=dword:00000000
+"PlaySound"=dword:00000001
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\PageSetup]
+"header"="&w&bPage &p of &P"
+"footer"="&u&b&d"
+"margin_top"="0.750000"
+"margin_bottom"="0.750000"
+"margin_left"="0.750000"
+"margin_right"="0.750000"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\PhishingFilter]
+"PreventOverride"=dword:00000000
+"PreventOverrideAppRepUnknown"=dword:00000000
+"ActionsDialogExpandedCount"=dword:00000000
+"VerifyShowStatement"="yes"
+"EnabledV9"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Pointerlock]
+"EnablePointerLock"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\PrefetchPrerender]
+"Enabled"=dword:00000001
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Privacy]
+"ClearBrowsingHistoryOnExit"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Recovery]
+"NoReopenLastSession"=dword:00000000
+"AutoRecover"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Recovery\PendingRecovery]
+"Active"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Security]
+"Safety Warning Level"="Query"
+"Sending_Security"="Medium"
+"Viewing_Security"="Medium"
+"DisableFixSecuritySettings"=dword:00000001
+"ENABLE_MD2_MD4"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Security\Adv AddrBar Spoof Detection]
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Services]
+@=""
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Settings]
+"Anchor Color"="0,0,255"
+"Anchor Color Visited"="128,0,128"
+"Background Color"="192,192,192"
+"Text Color"="0,0,0"
+"Use Anchor Hover Color"="no"
+"Always Use My Colors"=dword:00000000
+"Always Use My Font Size"=dword:00000000
+"Always Use My Font Face"=dword:00000000
+"Disable Visited Hyperlinks"=dword:00000000
+"MiscFlags"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\SiteMode]
+"ShowStatusBar"=dword:00000000
+"LinksBandWidth"=dword:000000c8
+"ToolBarRow"=dword:00000002
+"CommandBarEnabled"=dword:00000000
+"LinksBandRow"=dword:00000002
+"LinksBandEnabled"=dword:00000000
+"LinksExplorerDocked"=dword:00000000
+"AlwaysShowMenus"=dword:00000000
+"ShowTabsBelowAddressBar"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Spartan]
+"RAC_LaunchFlags"=dword:00000005
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Styles]
+"Use My Stylesheet"=dword:00000000
+"MaxScriptStatements"=dword:004c4b40
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Suggested Sites]
+"Enabled"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\TabbedBrowsing]
+"TabsStickyMode"=dword:00000000
+"NTPFirstRun"=dword:00000001
+"ThumbnailBehavior"=dword:00000001
+"NewTabPageShow"=dword:00000002
+"WarnOnClose"=dword:00000001
+"PopupsUseNewWindow"=dword:00000000
+"ShortcutBehavior"=dword:00000001
+"OpenInForeground"=dword:00000000
+"OpenAllHomePages"=dword:00000001
+"UseMRUSwitching"="no"
+"Groups"=dword:00000001
+"NewTabNextToCurrent"=dword:00000001
+"NTPFirstRoamedEntries"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Toolbar]
+"Locked"=dword:00000001
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\VersionManager]
+"DownloadVersionList"=dword:00000001
+"DebugDownload"=dword:00000000
+"UpdateEnabled"=dword:00000001
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Viewport]
+"DesktopModeLayoutWidth"=dword:00000400
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\WMITelemetry]
+"Active"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Zoom]
+"ZoomDisabled"=dword:00000000
+"ResetTextSizeOnStartup"=dword:00000000
+"ResetTextSizeOnZoom"=dword:00000001
+"ResetZoomOnStartup"=dword:00000001
+"ResetZoomOnStartup2"=dword:00000000
+"ZoomFactor"=dword:000186a0
+
+;禁止IE错误报告
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Main]
+"IEWatsonEnabled"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Main]
+"DisableFirstRunCustomize"=dword:00000001
+
+
+;禁止IE建议网站
+[HKEY_USERS\.DEFAULT\SOFTWARE\Microsoft\Internet Explorer\Suggested Sites]
+"DataStreamEnabledState"=dword:00000000
+"Enabled"=dword:00000000
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Suggested Sites]
+"DataStreamEnabledState"=dword:00000000
+"Enabled"=dword:00000000
+
+;禁止安全检查
+[HKEY_USERS\.DEFAULT\SOFTWARE\Microsoft\Internet Explorer\Security]
+"DisableSecuritySettingsCheck"=dword:00000001
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Security]
+"DisableSecuritySettingsCheck"=dword:00000001
+
+;启用IE多线程
+[HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings]
+"MaxConnectionsPer1_0Server"=dword:00000020
+"MaxConnectionsPerServer"=dword:00000020
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings]
+"MaxConnectionsPer1_0Server"=dword:00000020
+"MaxConnectionsPerServer"=dword:00000020
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_MAXCONNECTIONSPER1_0SERVER]
+"explorer.exe"=dword:00000004
+"iexplore.exe"=dword:00000020
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_MAXCONNECTIONSPERSERVER]
+"explorer.exe"=dword:00000002
+"iexplore.exe"=dword:00000020
+

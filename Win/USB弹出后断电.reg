@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\usbhub\HubG]
+"DisableOnSoftRemove"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\usbhub3\HubG]
+"DisableOnSoftRemove"=dword:00000001

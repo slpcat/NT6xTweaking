@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+;设置“系统失败”选项
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CrashControl]
+"LogEvent"=dword:00000001           ;将事件写入系统日志
+"SendAlert"=dword:00000000          ;不发送管理警报
+"AutoReboot"=dword:00000001         ;自动重启动
+"CrashDumpEnabled"=dword:00000001   ;写入调试信息
+"Overwrite"=dword:00000001
+"DisplayParameters"=dword:00000001
+"AlwaysKeepMemoryDump"=dword:00000000

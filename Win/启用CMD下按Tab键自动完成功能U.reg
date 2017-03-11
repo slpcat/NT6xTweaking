@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+;开启 CMD 下按 Tab 键自动完成功能 
+[HKEY_USERS\.DEFAULT\Software\Microsoft\Command Processor] 
+"CompletionChar"=dword:9 
+[HKEY_CURRENT_USER\Software\Microsoft\Command Processor] 
+"CompletionChar"=dword:9 

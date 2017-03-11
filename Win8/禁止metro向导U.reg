@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00   
+; Turn off The Let Me Teach You About Metro Tutorial Tips
+[HKEY_USERS\.DEFAULT\Software\Policies\Microsoft\Windows\EdgeUI]
+"DisableHelpSticker"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\EdgeUI]
+"DisableHelpSticker"=dword:00000001

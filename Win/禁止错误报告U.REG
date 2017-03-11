@@ -1,0 +1,64 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\ERSvc]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PCHealth\ErrorReporting]
+"DoReport"=dword:00000000
+"AllOrNone"=dword:00000001
+"ShowUI"=dword:00000000
+"IncludeKernelFaults"=dword:00000001
+"DontSendAdditionalData"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\PCHealth\ErrorReporting]
+"ForceQueueMode"=dword:00000000
+"ShowUI"=dword:00000000
+"IncludeKernelFaults"=dword:00000000
+"IncludeShutdownErrs"=dword:00000000
+"IncludeMicrosoftApps"=dword:00000000
+"IncludeWindowsApps"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\PCHealth\ErrorReporting\DW]
+"DWNoExternalURL"=dword:00000000
+"DWNoFileCollection"=dword:00000000
+"DWNoSecondLevelCollection"=dword:00000000
+"DWAllowHeadless"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Error Reporting]
+"AutoApproveOSDumps"=dword:00000000
+"BypassNetworkCostThrottling"=dword:00000000
+"BypassPowerThrottling"=dword:00000000
+"Disabled"=dword:00000001
+"DontShowUI"=dword:00000001
+"LoggingDisabled"=dword:00000001
+"DontSendAdditionalData"=dword:00000001
+"DisableArchive"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\Windows Error Reporting]
+"Disabled"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Windows Error Reporting\WMR]
+"Disable"=dword:00000001
+
+[HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\Windows Error Reporting]
+"Disabled"=dword:00000001
+"DisableQueue"=dword:00000001
+"LoggingDisabled"=dword:00000001
+"DontSendAdditionalData"=dword:00000001
+"DontShowUI"=dword:00000001
+"DisableArchive"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\Windows Error Reporting]
+"Disabled"=dword:00000001
+"DisableQueue"=dword:00000001
+"LoggingDisabled"=dword:00000001
+"DontSendAdditionalData"=dword:00000001
+"DontShowUI"=dword:00000001
+"DisableArchive"=dword:00000001
+
+[HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\Windows Error Reporting\Consent]
+"DefaultConsent"=dword:00000002
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\Windows Error Reporting\Consent]
+"DefaultConsent"=dword:00000002
+
+
+

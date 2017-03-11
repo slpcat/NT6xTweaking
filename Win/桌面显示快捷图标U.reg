@@ -1,0 +1,34 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel]
+"{20D04FE0-3AEA-1069-A2D8-08002B30309D}"=dword:00000000  ;桌面显示计算机
+;"{5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0}"=dword:00000000  ;桌面显示控制面板
+"{59031a47-3f72-44a7-89c5-5595fe6b30ee}"=dword:00000000  ;桌面显示用户
+"{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}"=dword:00000000  ;桌面显示网络
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel]
+"{20D04FE0-3AEA-1069-A2D8-08002B30309D}"=dword:00000000  ;桌面显示计算机
+;"{5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0}"=dword:00000000  ;桌面显示控制面板
+"{59031a47-3f72-44a7-89c5-5595fe6b30ee}"=dword:00000000  ;桌面显示用户
+"{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}"=dword:00000000  ;桌面显示网络
+
+;桌面显示IE浏览器
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{00000000-0000-0000-0000-100000000001}]
+@="Internet Explorer"
+[HKEY_CLASSES_ROOT\CLSID\{00000000-0000-0000-0000-100000000001}]
+@="Internet Explorer"
+[HKEY_CLASSES_ROOT\CLSID\{00000000-0000-0000-0000-100000000001}\DefaultIcon]
+@="C:\\Windows\\System32\\ieframe.dll,-190"
+[HKEY_CLASSES_ROOT\CLSID\{00000000-0000-0000-0000-100000000001}\shell]
+@=""
+[HKEY_CLASSES_ROOT\CLSID\{00000000-0000-0000-0000-100000000001}\shell\NoAddOns]
+@="无加载项(&N)"
+[HKEY_CLASSES_ROOT\CLSID\{00000000-0000-0000-0000-100000000001}\shell\NoAddOns\Command]
+@="\"C:\\Program Files\\Internet Explorer\\iexplore.exe\" -extoff"
+[HKEY_CLASSES_ROOT\CLSID\{00000000-0000-0000-0000-100000000001}\shell\Open]
+@="打开主页(&H)"
+[HKEY_CLASSES_ROOT\CLSID\{00000000-0000-0000-0000-100000000001}\shell\Open\Command]
+@="\"C:\\Program Files\\Internet Explorer\\iexplore.exe\""
+[HKEY_CLASSES_ROOT\CLSID\{00000000-0000-0000-0000-100000000001}\shell\Set]
+@="属性(&R)"
+[HKEY_CLASSES_ROOT\CLSID\{00000000-0000-0000-0000-100000000001}\shell\Set\Command]
+@="\"C:\\Windows\\System32\\rundll32.exe\" C:\\Windows\\System32\\shell32.dll,Control_RunDLL C:\\Windows\\System32\\inetcpl.cpl"

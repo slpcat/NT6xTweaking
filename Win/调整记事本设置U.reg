@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+;设置记事本
+[HKEY_USERS\.DEFAULT\Software\Microsoft\NotePad]
+"fwrap"=dword:00000001       ;自动换行
+"StatusBar"=dword:00000001   ;显示状态栏
+[HKEY_CURRENT_USER\Software\Microsoft\NotePad]
+"fwrap"=dword:00000001       ;自动换行
+"StatusBar"=dword:00000001   ;显示状态栏

@@ -1,0 +1,16 @@
+Get-AppxPackage -AllUsers
+remove-appxpackage PackageFullName
+1.卸掉当前账户应用，创建新用户时不会再预安装。
+
+
+Get-AppXProvisionedPackage -online | Remove-AppxProvisionedPackage -online
+2.保留windows store
+
+
+Get-AppXPackage -User | Remove-AppxPackage
+3.卸掉所有（包含windows store）
+
+
+Get-AppxPackage -AllUsers | Remove-AppxPackage
+4 重装商店
+Get-AppXPackage *WindowsStore* -AllUsers | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
