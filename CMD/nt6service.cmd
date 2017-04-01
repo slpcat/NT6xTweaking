@@ -124,7 +124,7 @@ sc config DcomLaunch start= AUTO
 rem SERVICE_NAME: defragsvc
 rem DISPLAY_NAME: Optimize drives
 
-sc config defragsvc start= DISABLED
+sc config defragsvc start= DEMAND
 
 rem SERVICE_NAME: DeviceAssociationService
 rem DISPLAY_NAME: Device Association Service
