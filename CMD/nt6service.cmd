@@ -124,7 +124,7 @@ sc config DcomLaunch start= AUTO
 rem SERVICE_NAME: defragsvc
 rem DISPLAY_NAME: Optimize drives
 
-sc config defragsvc start= DEMAND
+sc config defragsvc start= DISABLED
 
 rem SERVICE_NAME: DeviceAssociationService
 rem DISPLAY_NAME: Device Association Service
@@ -587,7 +587,7 @@ sc config sppsvc start= delayed-auto
 rem SERVICE_NAME: SSDPSRV
 rem DISPLAY_NAME: SSDP Discovery
 
-sc config SSDPSRV start= DISABLED
+sc config SSDPSRV start= DEMAND
 
 
 rem SERVICE_NAME: SstpSvc
@@ -604,7 +604,7 @@ sc config StiSvc start= DEMAND
 rem SERVICE_NAME: StorSvc
 rem DISPLAY_NAME: Storage Service
 
-sc config StorSvc start= DISABLED
+sc config StorSvc start= DEMAND
 
 rem SERVICE_NAME: svsvc
 rem DISPLAY_NAME: Spot Verifier
@@ -686,7 +686,7 @@ sc config UmRdpService start= DEMAND
 rem SERVICE_NAME: upnphost
 rem DISPLAY_NAME: UPnP Device Host
 
-sc config upnphost start= DISABLED
+sc config upnphost start= DEMAND
 
 rem SERVICE_NAME: VaultSvc
 rem DISPLAY_NAME: Credential Manager
