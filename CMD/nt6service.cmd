@@ -243,7 +243,7 @@ rem sc config IEEtwCollectorService start= DEMAND
 rem SERVICE_NAME: IKEEXT
 rem DISPLAY_NAME: IKE and AuthIP IPsec Keying Modules
 
-sc config IKEEXT start= DEMAND
+sc config IKEEXT start= DISABLED
 
 
 rem SERVICE_NAME: iphlpsvc
@@ -964,3 +964,5 @@ sc config SecurityHealthService start= DISABLED
 sc config PolicyAgent start= DISABLED
 
 sc config iphlpsvc start= DISABLED
+
+sc config XboxNetApiSvc start= DISABLED
