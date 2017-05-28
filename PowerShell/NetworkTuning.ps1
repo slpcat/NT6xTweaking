@@ -13,11 +13,11 @@ Set-NetTCPSetting -SettingName DataCenterCustom -MemoryPressureProtection enable
 #win2012
 Set-NetTCPSetting -SettingName InternetCustom -InitialCongestionWindow 10
 Set-NetTCPSetting -SettingName InternetCustom -DelayedAckTimeoutMs 10
-Set-NetTCPSetting -SettingName InternetCustom -DelayedAckFreq 0
+Set-NetTCPSetting -SettingName InternetCustom -DelayedAckFreq 1
 
 Set-NetTCPSetting -SettingName DataCenterCustom -InitialCongestionWindow 10
 Set-NetTCPSetting -SettingName DataCenterCustom -DelayedAckTimeoutMs 10
-Set-NetTCPSetting -SettingName DataCenterCustom -DelayedAckFreq 0
+Set-NetTCPSetting -SettingName DataCenterCustom -DelayedAckFreq 1
 
 #win7
 netsh interface tcp set global congestionprovider=ctcp
@@ -25,7 +25,11 @@ netsh interface tcp set global congestionprovider=ctcp
 #win2012 
 netsh int tcp set supplemental custom 20 10 dctcp enabled 10
 
-netsh int tcp set heuristics disabled
+#win10
+netsh int tcp set supplemental custom congestionprovider=dctcp enablecwndrestart=enabled
+
+#netsh int tcp set heuristics disabled
+netsh int tcp set global congestionProvider=ctcp
 netsh int tcp set global autotuninglevel=experimental
 netsh int tcp set global chimney=enabled
 netsh int tcp set global dca=enabled
@@ -36,4 +40,6 @@ netsh int tcp set global initialrto=1000
 netsh int tcp set global rss=enabled
 netsh int tcp set global rsc=enabled
 netsh int tcp set global fastopen=enabled
-netsh int tcp set heuristics wsh=disabled
+netsh int tcp set global pacingprofile=always
+netsh int tcp set heuristics wsh=enabled forcews=enabled
+netsh int tcp set security mpp=enabled startport=10000 numberofports=50000
