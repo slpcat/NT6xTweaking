@@ -54,6 +54,8 @@ schtasks /change /TN "\Microsoft\Windows\Location\WindowsActionDialog" /Disable
 schtasks /change /TN "\Microsoft\Windows\Maintenance\WinSAT" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Maps\MapsToastTask" /Disable
 schtasks /change /TN "\Microsoft\Windows\Maps\MapsUpdateTask" /Disable
+schtasks /change /TN "\Microsoft\Windows\Management\Provisioning\Cellular" /Disable
+schtasks /change /TN "\Microsoft\Windows\Management\Provisioning\Logon" /Disable
 schtasks /change /TN "\Microsoft\Windows\Media Center\ActivateWindowsSearch" /DISABLE 
 schtasks /change /TN "\Microsoft\Windows\Media Center\ConfigureInternetTimeService" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Media Center\DispatchRecoveryTasks" /DISABLE
@@ -109,6 +111,8 @@ rem schtasks /change /TN "\Microsoft\Windows\SkyDrive\Routine Maintenance Task" 
 schtasks /change /TN "\Microsoft\Windows\SoftwareProtectionPlatform\SvcRestartTaskNetwork" /Disable
 schtasks /change /TN "\Microsoft\Windows\SoftwareProtectionPlatform\SvcRestartTaskLogon" /Disable
 schtasks /change /TN "\Microsoft\Windows\SoftwareProtectionPlatform\SvcRestartTask" /Disable
+schtasks /change /TN "\Microsoft\Windows\SpacePort\SpaceAgentTask" /Disable
+schtasks /change /TN "\Microsoft\Windows\SpacePort\SpaceManagerTask" /Disable
 schtasks /change /TN "\Microsoft\Windows\Sysmain\ResPriStaticDbSync" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Sysmain\WsSwapAssessmentTask" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\SystemRestore\SR" /DISABLE

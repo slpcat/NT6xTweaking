@@ -94,6 +94,7 @@ rem SERVICE_NAME: bthserv
 rem DISPLAY_NAME: Bluetooth Support Service
 
 sc config bthserv start= DISABLED
+sc config BthHFSrv start= DISABLED
 
 rem SERVICE_NAME: CertPropSvc
 rem DISPLAY_NAME: Certificate Propagation
