@@ -6,16 +6,16 @@ rem powercfg.exe -setactive 381b4222-f694-41f0-9685-ff5bb260df2e
 rem 磁盘子系统 AHCI Link Power Management - HIPM/DIPM 無win7
 powercfg -setacvalueindex scheme_current sub_disk 0b2d69d7-a2a1-449c-9680-f91c70521c60 1
 
-rem 在此时间后关闭硬盘5分钟
+rem 在此时间后关闭硬盘10分钟
 rem powercfg -setacvalueindex scheme_current sub_disk DISKIDLE 300
-powercfg -setacvalueindex scheme_current 0012ee47-9041-4b5d-9b77-535fba8b1442 6738e2c4-e8a5-4a42-b16a-e040e769756e 300
-powercfg -setdcvalueindex scheme_current 0012ee47-9041-4b5d-9b77-535fba8b1442 6738e2c4-e8a5-4a42-b16a-e040e769756e 300
+powercfg -setacvalueindex scheme_current 0012ee47-9041-4b5d-9b77-535fba8b1442 6738e2c4-e8a5-4a42-b16a-e040e769756e 600
+powercfg -setdcvalueindex scheme_current 0012ee47-9041-4b5d-9b77-535fba8b1442 6738e2c4-e8a5-4a42-b16a-e040e769756e 600
 
 rem 在此时间后显示器变暗3分钟
 powercfg -setacvalueindex scheme_current 7516b95f-f776-4464-8c53-06167f40cc99 17aaa29b-8b43-4b94-aafe-35f64daaf1ee 180 
 
-rem 在此时间后关闭显示器10分钟
-powercfg -setacvalueindex scheme_current 7516b95f-f776-4464-8c53-06167f40cc99 3c0bc021-c8a8-4e07-a973-6b14cbcb2b7e 600
+rem 在此时间后关闭显示器15分钟
+powercfg -setacvalueindex scheme_current 7516b95f-f776-4464-8c53-06167f40cc99 3c0bc021-c8a8-4e07-a973-6b14cbcb2b7e 900
 
 rem 中断路由控制设置 值：任何处理器 無win7
 powercfg -setacvalueindex scheme_current sub_intsteer MODE 1
