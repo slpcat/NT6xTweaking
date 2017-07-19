@@ -1,8 +1,8 @@
 Windows Registry Editor Version 5.00
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AFD\Parameters]
-"DefaultReceiveWindow"=dword:00040000
-"DefaultSendWindow"=dword:00040000
+;[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AFD\Parameters]
+;"DefaultReceiveWindow"=dword:00040000
+;"DefaultSendWindow"=dword:00040000
 ;"EnableDynamicBacklog"=dword:00000001
 ;"MinimumDynamicBacklog"=dword:00000100
 ;"MaximumDynamicBacklog"=dword:00004000
@@ -19,9 +19,9 @@ Windows Registry Editor Version 5.00
 "EnableAddrMaskReply"=dword:00000000
 "DisableIPSourceRouting"=dword:00000002
 "DisableLargeMtu"=dword:00000000
-"EnableTCPA"=dword:00000001
-"EnableRSS"=dword:00000001
-"EnableTCPChimney"=dword:00000001
+;"EnableTCPA"=dword:00000001
+;"EnableRSS"=dword:00000001
+;"EnableTCPChimney"=dword:00000001
 "EnableConnectionRateLimiting"=dword:00000000
 "IPEnableRouter"=dword:00000000
 "GlobalMaxTcpWindowSize"=dword:01000000
@@ -29,9 +29,9 @@ Windows Registry Editor Version 5.00
 "TCPWindowSize"=dword:01000000
 "TcpMaxSendFree"=dword:0000ffff
 "Tcp1323Opts"=dword:00000003
-"ForwardBufferMemory"=dword:00013880
-"NumForwardPackets"=dword:0000ea60
-"MaxHashTableSize"=dword:00010000
+;"ForwardBufferMemory"=dword:00013880
+;"NumForwardPackets"=dword:0000ea60
+;"MaxHashTableSize"=dword:00010000
 ;"NumTcbTablePartitions"=dword:00000010
 ;"QualifyingDestinationThreshold"=dword:00010003
 ;"MaxUserPort"=dword:0000ffff
@@ -45,7 +45,7 @@ Windows Registry Editor Version 5.00
 ;"MTU"=dword:000005dc
 "DisableTaskOffload"=dword:00000000
 "SynAttackProtect"=dword:00000000
-"TcpMaxPortsExhausted"=dword:00000005
+;"TcpMaxPortsExhausted"=dword:00000005
 "TcpMaxHalfOpen"=dword:00002000
 "TcpMaxHalfOpenRetried"=dword:00001000
 ;"TcpMaxConnectResponseRetransmissions"=dword:00000002
@@ -68,8 +68,8 @@ Windows Registry Editor Version 5.00
 ;[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NDIS\Parameters]
 ;"MaxNumRssCpus"=dword:00000010
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Psched]
-"NonBestEffortLimit"=dword:00000000
+;[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Psched]
+;"NonBestEffortLimit"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Tcpip\QoS]
 "Do not use NLA"="1"
