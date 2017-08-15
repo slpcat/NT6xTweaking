@@ -27,7 +27,7 @@ Windows Registry Editor Version 5.00
 "GlobalMaxTcpWindowSize"=dword:01000000
 ;"TcpAckFrequency"=dword:00000001
 "TCPWindowSize"=dword:01000000
-"TcpMaxSendFree"=dword:0000ffff
+;"TcpMaxSendFree"=dword:0000ffff
 "Tcp1323Opts"=dword:00000003
 ;"ForwardBufferMemory"=dword:00013880
 ;"NumForwardPackets"=dword:0000ea60
@@ -39,7 +39,7 @@ Windows Registry Editor Version 5.00
 "TcpTimedWaitDelay"=dword:00000014
 ;"EnablePMTUDiscovery"=dword:00000000
 ;"EnablePMTUBHDetect"=dword:00000001
-"SackOpts"=dword:00000001
+;"SackOpts"=dword:00000001
 "DefaultTTL"=dword:00000040
 ;"TcpMaxDupAcks"=dword:00000003
 ;"MTU"=dword:000005dc
@@ -49,8 +49,8 @@ Windows Registry Editor Version 5.00
 "TcpMaxHalfOpen"=dword:00002000
 "TcpMaxHalfOpenRetried"=dword:00001000
 ;"TcpMaxConnectResponseRetransmissions"=dword:00000002
-"TcpMaxDataRetransmissions"=dword:00000005
-"TcpNumConnections"=dword:00fffffe
+;"TcpMaxDataRetransmissions"=dword:00000005
+;"TcpNumConnections"=dword:00fffffe
 "KeepAliveTime"=dword:0036ee80
 "KeepAliveInterval"=dword:0000ea60
 ;"NoNameReleaseOnDemand"=dword:00000001
@@ -62,7 +62,7 @@ Windows Registry Editor Version 5.00
 ;"TcpDelAckTicks"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RpcXdr\Parameters]
-"DefaultNumberofWorkerThreads"=dword:00000040
+;"DefaultNumberofWorkerThreads"=dword:00000040
 "MaxConcurrentConnectionsPerIp"=dword:00002000
 
 ;[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NDIS\Parameters]
