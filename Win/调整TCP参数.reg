@@ -1,8 +1,8 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AFD\Parameters]
-;"DefaultReceiveWindow"=dword:00040000
-;"DefaultSendWindow"=dword:00040000
+"DefaultReceiveWindow"=dword:00040000
+"DefaultSendWindow"=dword:00040000
 "EnableDynamicBacklog"=dword:00000001
 "MinimumDynamicBacklog"=dword:00000100
 "MaximumDynamicBacklog"=dword:00004000
@@ -27,7 +27,7 @@ Windows Registry Editor Version 5.00
 "GlobalMaxTcpWindowSize"=dword:01000000
 ;"TcpAckFrequency"=dword:00000001
 "TCPWindowSize"=dword:01000000
-;"TcpMaxSendFree"=dword:0000ffff
+"TcpMaxSendFree"=dword:0000ffff
 "Tcp1323Opts"=dword:00000003
 ;"ForwardBufferMemory"=dword:00013880
 ;"NumForwardPackets"=dword:0000ea60
@@ -35,7 +35,7 @@ Windows Registry Editor Version 5.00
 ;"NumTcbTablePartitions"=dword:00000010
 ;"QualifyingDestinationThreshold"=dword:00010003
 ;"MaxUserPort"=dword:0000ffff
-;"MaxFreeTcbs"=dword:00010000
+"MaxFreeTcbs"=dword:ffffffff
 "TcpTimedWaitDelay"=dword:00000014
 ;"EnablePMTUDiscovery"=dword:00000000
 ;"EnablePMTUBHDetect"=dword:00000001
@@ -46,11 +46,11 @@ Windows Registry Editor Version 5.00
 "DisableTaskOffload"=dword:00000000
 "SynAttackProtect"=dword:00000000
 ;"TcpMaxPortsExhausted"=dword:00000005
-"TcpMaxHalfOpen"=dword:00002000
+"TcpMaxHalfOpen"=dword:0000ffff
 "TcpMaxHalfOpenRetried"=dword:00001000
 "TcpMaxConnectResponseRetransmissions"=dword:00000002
 "TcpMaxDataRetransmissions"=dword:00000003
-;"TcpNumConnections"=dword:00fffffe
+"TcpNumConnections"=dword:00fffffe
 "KeepAliveTime"=dword:0036ee80
 "KeepAliveInterval"=dword:0000ea60
 ;"NoNameReleaseOnDemand"=dword:00000001
