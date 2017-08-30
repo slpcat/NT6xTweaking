@@ -1,15 +1,16 @@
 rem win7不支持別名
 
 rem 启动电源计划“平衡”
-rem powercfg.exe -setactive 381b4222-f694-41f0-9685-ff5bb260df2e
+powercfg.exe -setactive 381b4222-f694-41f0-9685-ff5bb260df2e
 
 rem 磁盘子系统 AHCI Link Power Management - HIPM/DIPM 無win7
 powercfg -setacvalueindex scheme_current sub_disk 0b2d69d7-a2a1-449c-9680-f91c70521c60 1
 
-rem 在此时间后关闭硬盘10分钟
-rem powercfg -setacvalueindex scheme_current sub_disk DISKIDLE 300
-powercfg -setacvalueindex scheme_current 0012ee47-9041-4b5d-9b77-535fba8b1442 6738e2c4-e8a5-4a42-b16a-e040e769756e 600
-powercfg -setdcvalueindex scheme_current 0012ee47-9041-4b5d-9b77-535fba8b1442 6738e2c4-e8a5-4a42-b16a-e040e769756e 600
+rem 在此时间后关闭硬盘5分钟
+powercfg -setacvalueindex scheme_current sub_disk DISKIDLE 300
+powercfg -setdcvalueindex scheme_current sub_disk DISKIDLE 300
+powercfg -setacvalueindex scheme_current 0012ee47-9041-4b5d-9b77-535fba8b1442 6738e2c4-e8a5-4a42-b16a-e040e769756e 300
+powercfg -setdcvalueindex scheme_current 0012ee47-9041-4b5d-9b77-535fba8b1442 6738e2c4-e8a5-4a42-b16a-e040e769756e 300
 
 rem 在此时间后显示器变暗3分钟
 powercfg -setacvalueindex scheme_current 7516b95f-f776-4464-8c53-06167f40cc99 17aaa29b-8b43-4b94-aafe-35f64daaf1ee 180 
@@ -24,15 +25,15 @@ rem USB 选择性暂停设置
 powercfg -setacvalueindex scheme_current 2a737441-1930-4402-8d77-b2bebba308a3 48e6b7a6-50f5-4782-a5d4-53bb8f07e226 1
 
 rem PCIE电源管理 最高性能
-rem powercfg -setacvalueindex scheme_current sub_pciexpress ASPM 0
+powercfg -setacvalueindex scheme_current sub_pciexpress ASPM 0
 powercfg -setacvalueindex scheme_current 501a4d13-42af-4429-9fd1-a8218c268e20 ee12f906-d277-404b-b6da-e5fa1a576df5 0
 
 rem 禁用cpu core parking
-rem powercfg -setacvalueindex scheme_current sub_processor CPMINCORES 100
+powercfg -setacvalueindex scheme_current sub_processor CPMINCORES 100
 powercfg -setacvalueindex scheme_current 54533251-82be-4824-96c1-47b60b740d00 0cc5b647-c1df-4637-891a-dec35c318583 100
 
 rem 禁用cpu throttle
-rem powercfg -setacvalueindex scheme_current sub_processor THROTTLING 0
+powercfg -setacvalueindex scheme_current sub_processor THROTTLING 0
 powercfg -setacvalueindex scheme_current 54533251-82be-4824-96c1-47b60b740d00 3b04d4fd-1cc7-4f23-ab1c-d1337819c4bb 0
 
 rem 最小处理器状态 5%
@@ -60,6 +61,5 @@ powercfg -setacvalueindex scheme_current 238c9fa8-0aad-41ed-83f4-97be242c8f20 29
 
 rem 禁止使用唤醒定时器
 powercfg -setacvalueindex scheme_current 238c9fa8-0aad-41ed-83f4-97be242c8f20 bd3b718a-0680-4d9d-8ab2-e1d2b4ac806d 0
-
 
 powercfg -setactive scheme_current  
