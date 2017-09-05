@@ -10,11 +10,11 @@ schtasks /change /TN "\Microsoft\Windows\Application Experience\StartupAppTask" 
 schtasks /change /TN "\Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\ApplicationData\CleanupTemporaryState" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\ApplicationData\DsSvcCleanup" /DISABLE
-rem schtasks /change /TN "\Microsoft\Windows\Autochk\Proxy" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\Autochk\Proxy" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Bluetooth\UninstallDeviceTask" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\CertificateServicesClient\UserTask-Roam" /Disable
 schtasks /change /TN "\Microsoft\Windows\CloudExperienceHost\CreateObjectTask" /DISABLE
-rem schtasks /change /TN "\Microsoft\Windows\Chkdsk\ProactiveScan" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\Chkdsk\ProactiveScan" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Customer Experience Improvement Program\Uploader" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Customer Experience Improvement Program\BthSQM" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Customer Experience Improvement Program\Consolidator"  /DISABLE
@@ -36,9 +36,9 @@ schtasks /change /TN "\Microsoft\Windows\DeviceDirectoryClient\RegisterDeviceSet
 schtasks /change /TN "\Microsoft\Windows\DeviceDirectoryClient\RegisterUserDevice" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Diagnosis\Scheduled" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\DiskCleanup\SilentCleanup" /DISABLE
-rem schtasks /change /TN "\Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector" /DISABLE
-rem schtasks /change /TN "\Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticResolver" /DISABLE
-rem schtasks /change /TN "\Microsoft\Windows\DiskFootprint\Diagnostics"  /DISABLE
+schtasks /change /TN "\Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticResolver" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\DiskFootprint\Diagnostics"  /DISABLE
 rem schtasks /change /TN "\Microsoft\Windows\DiskFootprint\StorageSense"  /DISABLE
 rem schtasks /change /TN "\Microsoft\Windows\Device Information\Device" /DISABLE
 rem schtasks /change /TN "\Microsoft\Windows\Device Setup\Metadata Refresh" /DISABLE
