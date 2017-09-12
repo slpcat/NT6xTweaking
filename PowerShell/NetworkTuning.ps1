@@ -1,10 +1,10 @@
-Set-NetTCPSetting -SettingName InternetCustom -CongestionProvider CTCP
+Set-NetTCPSetting -SettingName InternetCustom -CongestionProvider DCTCP
 Set-NetTCPSetting -SettingName InternetCustom -Timestamps enabled
 Set-NetTCPSetting -SettingName InternetCustom -InitialRto 1000
 Set-NetTCPSetting -SettingName InternetCustom -ForceWS enabled
 Set-NetTCPSetting -SettingName InternetCustom -MemoryPressureProtection enabled
 
-Set-NetTCPSetting -SettingName DataCenterCustom -CongestionProvider CTCP
+Set-NetTCPSetting -SettingName DataCenterCustom -CongestionProvider DCTCP
 Set-NetTCPSetting -SettingName DataCenterCustom -Timestamps enabled
 Set-NetTCPSetting -SettingName DataCenterCustom -InitialRto 1000
 Set-NetTCPSetting -SettingName DataCenterCustom -ForceWS enabled
