@@ -42,4 +42,4 @@ netsh int tcp set global rsc=enabled
 netsh int tcp set global fastopen=enabled
 netsh int tcp set global pacingprofile=always
 netsh int tcp set heuristics wsh=enabled forcews=enabled
-netsh int tcp set security mpp=enabled startport=10000 numberofports=50000
+netsh int tcp set security mpp=enabled startport=1024 numberofports=64500

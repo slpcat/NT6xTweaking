@@ -27,7 +27,7 @@ Windows Registry Editor Version 5.00
 "GlobalMaxTcpWindowSize"=dword:01000000
 ;"TcpAckFrequency"=dword:00000001
 "TCPWindowSize"=dword:01000000
-"TcpMaxSendFree"=dword:0000ffff
+;"TcpMaxSendFree"=dword:0000ffff
 "Tcp1323Opts"=dword:00000003
 ;"ForwardBufferMemory"=dword:00013880
 ;"NumForwardPackets"=dword:0000ea60
@@ -35,7 +35,7 @@ Windows Registry Editor Version 5.00
 ;"NumTcbTablePartitions"=dword:00000010
 ;"QualifyingDestinationThreshold"=dword:00010003
 ;"MaxUserPort"=dword:0000ffff
-"MaxFreeTcbs"=dword:ffffffff
+;"MaxFreeTcbs"=dword:ffffffff
 "TcpTimedWaitDelay"=dword:00000014
 ;"EnablePMTUDiscovery"=dword:00000000
 ;"EnablePMTUBHDetect"=dword:00000001
