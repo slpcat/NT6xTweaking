@@ -1,12 +1,12 @@
 Windows Registry Editor Version 5.00
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AFD\Parameters]
-"DefaultReceiveWindow"=dword:00040000
-"DefaultSendWindow"=dword:00040000
-"EnableDynamicBacklog"=dword:00000001
-"MinimumDynamicBacklog"=dword:00000100
-"MaximumDynamicBacklog"=dword:00004000
-"DynamicBacklogGrowthDelta"=dword:00000080
+;[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AFD\Parameters]
+;"DefaultReceiveWindow"=dword:00040000
+;"DefaultSendWindow"=dword:00040000
+;"EnableDynamicBacklog"=dword:00000001
+;"MinimumDynamicBacklog"=dword:00000100
+;"MaximumDynamicBacklog"=dword:00004000
+;"DynamicBacklogGrowthDelta"=dword:00000080
 
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
@@ -43,11 +43,11 @@ Windows Registry Editor Version 5.00
 "DefaultTTL"=dword:00000040
 "TcpMaxDupAcks"=dword:00000003
 ;"MTU"=dword:000005dc
-"DisableTaskOffload"=dword:00000000
+;"DisableTaskOffload"=dword:00000000
 "SynAttackProtect"=dword:00000000
 ;"TcpMaxPortsExhausted"=dword:00000005
-"TcpMaxHalfOpen"=dword:0000ffff
-"TcpMaxHalfOpenRetried"=dword:00001000
+;"TcpMaxHalfOpen"=dword:0000ffff
+;"TcpMaxHalfOpenRetried"=dword:00001000
 "TcpMaxConnectResponseRetransmissions"=dword:00000002
 "TcpMaxDataRetransmissions"=dword:00000003
 "TcpNumConnections"=dword:00fffffe
