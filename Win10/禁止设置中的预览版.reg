@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Hide Windows Insider Program in Settings\Update & Security
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsSelfHost\UI\Visibility]
+"HideInsiderPage"=dword:00000001

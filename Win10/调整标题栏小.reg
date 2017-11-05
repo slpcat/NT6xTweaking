@@ -1,0 +1,14 @@
+Windows Registry Editor Version 5.00
+
+; Thanks to https://superuser.com/questions/461982/how-do-i-reduce-the-size-of-the-titlebar-and-window-border-padding-on-windows-8/461983#461983
+; or use http://winaero.com/comment.php?comment.news.96 a tool called 'Tiny Window Boarders'
+[HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics]
+"CaptionHeight"="-285"
+"CaptionWidth"="-285"
+"CaptionFont"=hex:f4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,\
+00,00,00,01,00,00,05,00,53,00,65,00,67,00,6f,00,65,00,20,00,55,00,49,00,00,\
+00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"ScrollWidth"="-240"
+"ScrollHeight"="-240"
+"PaddedBorderWidth"="0"

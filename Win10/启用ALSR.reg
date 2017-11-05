@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+
+; Turn on ALSR for all programs
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+
+"MoveImages"=dword:ffffffff
