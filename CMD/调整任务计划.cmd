@@ -90,7 +90,7 @@ schtasks /change /TN "\Microsoft\Windows\Offline Files\Background Synchronizatio
 schtasks /change /TN "\Microsoft\Windows\Offline Files\Logon Synchronization" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\PLA\新的数据收集器集" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\PI\Sqm-Tasks" /DISABLE
-rem schtasks /change /TN "\Microsoft\Windows\Power Efficiency Diagnostics\AnalyzeSystem" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\Power Efficiency Diagnostics\AnalyzeSystem" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\RAC\RacTask" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Ras\MobilityManager" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\RecoveryEnvironment\VerifyWinRE" /DISABLE
@@ -162,6 +162,7 @@ schtasks /change /TN "\Microsoft\Office\Office 15 Subscription Heartbeat" /DISAB
 schtasks /change /TN "\Microsoft\Office\Office ClickToRun Service Monitor" /DISABLE
 schtasks /change /TN "\Microsoft\Office\Office Automatic Updates" /DISABLE
 schtasks /change /TN "\Microsoft\Office\OfficeTelemetryAgentFallBack2016" /DISABLE
+schtasks /Change /TN "\Microsoft\Office\OfficeTelemetry\OfficeTelemetryAgentLogOn2016" /Disable
 schtasks /change /TN "\Microsoft\Office\OfficeTelemetryAgentLogOn2016" /DISABLE
 schtasks /change /TN "\User_Feed_Synchronization-{D8B1424E-3CC8-4325-927B-8F9A930247AF}" /DISABLE
 schtasks /change /TN "\User_Feed_Synchronization-{6DF692D3-0523-4E8C-898C-B4FEEA9BAA71}" /DISABLE
@@ -175,3 +176,5 @@ schtasks /change /TN "\Microsoft\XblGameSave\XblGameSaveTask" /DISABLE
 schtasks /change /TN "\Microsoft\XblGameSave\XblGameSaveTaskLogon" /DISABLE
 REM The stubborn task Microsoft\Windows\SettingSync\BackgroundUploadTask can be Disabled using a simple bit change.
 REM Please note that the key changes for each machine!! I have explained how to disable it in a later post.
+
+
