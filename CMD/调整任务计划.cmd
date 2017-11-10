@@ -40,8 +40,8 @@ schtasks /change /TN "\Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDi
 schtasks /change /TN "\Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticResolver" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\DiskFootprint\Diagnostics"  /DISABLE
 rem schtasks /change /TN "\Microsoft\Windows\DiskFootprint\StorageSense"  /DISABLE
-rem schtasks /change /TN "\Microsoft\Windows\Device Information\Device" /DISABLE
-rem schtasks /change /TN "\Microsoft\Windows\Device Setup\Metadata Refresh" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\Device Information\Device" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\Device Setup\Metadata Refresh" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\ErrorDetails\EnableErrorDetailsUpdate"  /DISABLE
 schtasks /change /TN "\Microsoft\Windows\ErrorDetails\ErrorDetailsUpdate"  /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Feedback\Siuf\DmClient" /DISABLE
