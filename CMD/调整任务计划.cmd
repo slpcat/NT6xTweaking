@@ -8,10 +8,13 @@ schtasks /change /TN "\Microsoft\Windows\Application Experience\AitAgent" /DISAB
 schtasks /change /TN "\Microsoft\Windows\Application Experience\ProgramDataUpdater" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Application Experience\StartupAppTask" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\ApplicationData\appuriverifierdaily" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\ApplicationData\appuriverifierinstall" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\ApplicationData\CleanupTemporaryState" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\ApplicationData\DsSvcCleanup" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Autochk\Proxy" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Bluetooth\UninstallDeviceTask" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\BrokerInfrastructure\BgTaskRegistrationMaintenanceTask" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\CertificateServicesClient\UserTask-Roam" /Disable
 schtasks /change /TN "\Microsoft\Windows\CloudExperienceHost\CreateObjectTask" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Chkdsk\ProactiveScan" /DISABLE
@@ -49,6 +52,7 @@ schtasks /change /TN "\Microsoft\Windows\Feedback\Siuf\DmClientOnScenarioDownloa
 schtasks /change /TN "\Microsoft\Windows\File Classification Infrastructure\Property Definition Sync" /Disable
 schtasks /change /TN "\Microsoft\Windows\FileHistory\File History (maintenance mode)" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\LanguageComponentsInstaller\Installation" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\License Manager\TempSignedLicenseExchange" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Location\Notifications" /Disable
 schtasks /change /TN "\Microsoft\Windows\Location\WindowsActionDialog" /Disable
 schtasks /change /TN "\Microsoft\Windows\Maintenance\WinSAT" /DISABLE
@@ -113,6 +117,7 @@ schtasks /change /TN "\Microsoft\Windows\SoftwareProtectionPlatform\SvcRestartTa
 schtasks /change /TN "\Microsoft\Windows\SoftwareProtectionPlatform\SvcRestartTask" /Disable
 schtasks /change /TN "\Microsoft\Windows\SpacePort\SpaceAgentTask" /Disable
 schtasks /change /TN "\Microsoft\Windows\SpacePort\SpaceManagerTask" /Disable
+schtasks /change /TN "\Microsoft\Windows\Subscription\EnableLicenseAcquisition" /Disable
 schtasks /change /TN "\Microsoft\Windows\Sysmain\ResPriStaticDbSync" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Sysmain\WsSwapAssessmentTask" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\SystemRestore\SR" /DISABLE
