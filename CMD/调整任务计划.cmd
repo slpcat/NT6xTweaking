@@ -2,6 +2,8 @@
 schtasks /change /TN "\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319 64" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319 64 Critical" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319 Critical" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\Active Directory Rights Management Services Client\AD RMS Rights Policy Template Management (Automated)" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\Active Directory Rights Management Services Client\AD RMS Rights Policy Template Management (Manual)" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\AppID\EDP Policy Manager" /Disable
 schtasks /change /TN "\Microsoft\Windows\AppID\SmartScreenSpecific" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Application Experience\AitAgent" /DISABLE
@@ -15,15 +17,21 @@ schtasks /change /TN "\Microsoft\Windows\ApplicationData\DsSvcCleanup" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Autochk\Proxy" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Bluetooth\UninstallDeviceTask" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\BrokerInfrastructure\BgTaskRegistrationMaintenanceTask" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\CertificateServicesClient\AikCertEnrollTask" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\CertificateServicesClient\CryptoPolicyTask" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\CertificateServicesClient\KeyPreGenTask" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\CertificateServicesClient\SystemTask" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\CertificateServicesClient\UserTask" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\CertificateServicesClient\UserTask-Roam" /Disable
 schtasks /change /TN "\Microsoft\Windows\CloudExperienceHost\CreateObjectTask" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Chkdsk\ProactiveScan" /DISABLE
-schtasks /change /TN "\Microsoft\Windows\Customer Experience Improvement Program\Uploader" /DISABLE
-schtasks /change /TN "\Microsoft\Windows\Customer Experience Improvement Program\BthSQM" /DISABLE
-schtasks /change /TN "\Microsoft\Windows\Customer Experience Improvement Program\Consolidator"  /DISABLE
-schtasks /change /TN "\Microsoft\Windows\Customer Experience Improvement Program\HypervisorFlightingTask" /DISABLE
-schtasks /change /TN "\Microsoft\Windows\Customer Experience Improvement Program\KernelCeipTask"  /DISABLE
-schtasks /change /TN "\Microsoft\Windows\Customer Experience Improvement Program\UsbCeip" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\Chkdsk\SyspartRepair" /DISABLE
+schtasks /delete /f /TN "\Microsoft\Windows\Customer Experience Improvement Program\Uploader"
+schtasks /delete /f /TN "\Microsoft\Windows\Customer Experience Improvement Program\BthSQM"
+schtasks /delete /f /TN "\Microsoft\Windows\Customer Experience Improvement Program\Consolidator"
+schtasks /delete /f /TN "\Microsoft\Windows\Customer Experience Improvement Program\HypervisorFlightingTask"
+schtasks /delete /f /TN "\Microsoft\Windows\Customer Experience Improvement Program\KernelCeipTask"
+schtasks /delete /f /TN "\Microsoft\Windows\Customer Experience Improvement Program\UsbCeip"
 schtasks /change /TN "\Microsoft\Windows\Data Integrity Scan\Data Integrity Scan for Crash Recovery" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Defrag\ScheduledDefrag" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\DeviceDirectoryClient\HandleCommand" /DISABLE
@@ -39,12 +47,18 @@ schtasks /change /TN "\Microsoft\Windows\DeviceDirectoryClient\RegisterDeviceSet
 schtasks /change /TN "\Microsoft\Windows\DeviceDirectoryClient\RegisterUserDevice" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Diagnosis\Scheduled" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\DiskCleanup\SilentCleanup" /DISABLE
-schtasks /change /TN "\Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector" /DISABLE
-schtasks /change /TN "\Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticResolver" /DISABLE
+schtasks /delete /f /TN "\Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector"
+schtasks /delete /f /TN "\Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticResolver"
 schtasks /change /TN "\Microsoft\Windows\DiskFootprint\Diagnostics"  /DISABLE
 rem schtasks /change /TN "\Microsoft\Windows\DiskFootprint\StorageSense"  /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Device Information\Device" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Device Setup\Metadata Refresh" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\DUSM\dusmtask" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\EDP\EDP App Launch Task" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\EDP\EDP Auth Task" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\EDP\EDP Inaccessible Credentials Task" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\EDP\StorageCardEncryption Task" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\ExploitGuard\ExploitGuard MDM policy Refresh" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\ErrorDetails\EnableErrorDetailsUpdate"  /DISABLE
 schtasks /change /TN "\Microsoft\Windows\ErrorDetails\ErrorDetailsUpdate"  /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Feedback\Siuf\DmClient" /DISABLE
@@ -89,19 +103,25 @@ schtasks /change /TN "\Microsoft\Windows\MemoryDiagnostic\CorruptionDetector" /D
 schtasks /change /TN "\Microsoft\Windows\MemoryDiagnostic\DecompressionFailureDetector" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Mobile Broadband Accounts\MNO Metadata Parser" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\NetCfg\BindingWorkItemQueueHandler" /Disable
-schtasks /change /TN "\Microsoft\Windows\NetTrace\GatherNetworkInfo" /DISABLE
+schtasks /delete /f /TN "\Microsoft\Windows\NetTrace\GatherNetworkInfo"
 schtasks /change /TN "\Microsoft\Windows\Offline Files\Background Synchronization" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Offline Files\Logon Synchronization" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\PLA\新的数据收集器集" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\PI\Sqm-Tasks" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\PI\Secure-Boot-Update
 schtasks /change /TN "\Microsoft\Windows\Power Efficiency Diagnostics\AnalyzeSystem" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\Plug and Play\Device Install Group Policy" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\Plug and Play\Device Install Reboot Required" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\Plug and Play\Sysprep Generalize Drivers" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\Printing\EduPrintProv" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\PushToInstall\Registration" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\RAC\RacTask" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Ras\MobilityManager" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\RecoveryEnvironment\VerifyWinRE" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\RemoteAssistance\RemoteAssistanceTask" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\RemovalTools\MRT_HB" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\RetailDemo\CleanupOfflineContent" /DISABLE
-rem schtasks /change /TN "\Microsoft\Windows\SettingSync\BackgroundUploadTask" /Disable | Out-Null
+rem schtasks /change /TN "\Microsoft\Windows\SettingSync\BackgroundUploadTask" /Disable
 rem schtasks /change /TN "\Microsoft\Windows\SettingSync\NetworkStateChangeTask" /Disable
 schtasks /change /TN "\Microsoft\Windows\Setup\SetupCleanupTask" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Shell\CreateObjectTask" /ENABLE
@@ -110,7 +130,7 @@ schtasks /change /TN "\Microsoft\Windows\Shell\FamilySafetyRefresh" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Shell\FamilySafetyUpload" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Shell\FamilySafetyRefreshTask" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Shell\IndexerAutomaticMaintenance" /DISABLE
-rem schtasks /change /TN "\Microsoft\Windows\SkyDrive\Idle Sync Maintenance Task" /Disable | Out-Null
+rem schtasks /change /TN "\Microsoft\Windows\SkyDrive\Idle Sync Maintenance Task" /Disable
 rem schtasks /change /TN "\Microsoft\Windows\SkyDrive\Routine Maintenance Task" /Disable
 schtasks /change /TN "\Microsoft\Windows\SoftwareProtectionPlatform\SvcRestartTaskNetwork" /Disable
 schtasks /change /TN "\Microsoft\Windows\SoftwareProtectionPlatform\SvcRestartTaskLogon" /Disable
@@ -124,22 +144,24 @@ schtasks /change /TN "\Microsoft\Windows\SystemRestore\SR" /DISABLE
 rem schtasks /change /TN "\Microsoft\Windows\TextServicesFramework\MsCtfMonitor" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\TPM\Tpm-HASCertRetr" /Disable
 schtasks /change /TN "\Microsoft\Windows\TPM\Tpm-Maintenance" /Disable
-schtasks /change /TN "\Microsoft\Windows\UpdateOrchestrator\Maintenance Install" /DISABLE
-schtasks /change /TN "\Microsoft\Windows\UpdateOrchestrator\Policy Install" /DISABLE
-schtasks /change /TN "\Microsoft\Windows\UpdateOrchestrator\Reboot" /DISABLE
-schtasks /change /TN "\Microsoft\Windows\UpdateOrchestrator\Resume On Boot" /DISABLE
-schtasks /change /TN "\Microsoft\Windows\UpdateOrchestrator\Schedule Scan" /DISABLE
-schtasks /change /TN "\Microsoft\Windows\UpdateOrchestrator\USO_UxBroker_Display" /DISABLE
-schtasks /change /TN "\Microsoft\Windows\UpdateOrchestrator\USO_UxBroker_ReadyToReboot" /DISABLE
-schtasks /change /TN "\Microsoft\Windows\UpdateOrchestrator\Reboot" /DISABLE
-schtasks /change /TN "\Microsoft\Windows\UpdateOrchestrator\Refresh Settings" /DISABLE
+schtasks /delete /f /TN "\Microsoft\Windows\UpdateOrchestrator\Maintenance Install"
+schtasks /delete /f /TN "\Microsoft\Windows\UpdateOrchestrator\Policy Install"
+schtasks /delete /f /TN "\Microsoft\Windows\UpdateOrchestrator\Reboot"
+schtasks /delete /f /TN "\Microsoft\Windows\UpdateOrchestrator\Resume On Boot"
+schtasks /delete /f /TN "\Microsoft\Windows\UpdateOrchestrator\Schedule Scan"
+schtasks /delete /f /TN "\Microsoft\Windows\UpdateOrchestrator\USO_Broker_Display"
+schtasks /delete /f /TN "\Microsoft\Windows\UpdateOrchestrator\USO_UxBroker_Display"
+schtasks /delete /f /TN "\Microsoft\Windows\UpdateOrchestrator\USO_UxBroker_ReadyToReboot"
+schtasks /delete /f /TN "\Microsoft\Windows\UpdateOrchestrator\Reboot"
+schtasks /delete /f /TN "\Microsoft\Windows\UpdateOrchestrator\Refresh Settings"
 schtasks /change /TN "\Microsoft\Windows\UPnP\UPnPHostConfig" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\User Profile Service\HiveUploadTask" /Disable
+schtasks /change /TN "\Microsoft\Windows\WaaSMedic\PerformRemediation" /Disable
 schtasks /change /TN "\Microsoft\Windows\WCM\WiFiTask" /Disable
 schtasks /change /TN "\Microsoft\Windows\WDI\ResolutionHost" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Wininet\CacheTask" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\WindowsBackup\ConfigNotification" /DISABLE
-schtasks /change /TN "\Microsoft\Windows\Windows Error Reporting\QueueReporting" /DISABLE
+schtasks /delete /f /TN "\Microsoft\Windows\Windows Error Reporting\QueueReporting"
 schtasks /change /TN "\Microsoft\Windows\Windows Media Sharing\UpdateLibrary" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Windows Filtering Platform\BfeOnServiceStartTypeChange" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\WOF\WIM-Hash-Management" /DISABLE
@@ -147,16 +169,16 @@ schtasks /change /TN "\Microsoft\Windows\WOF\WIM-Hash-Validation" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Work Folders\Work Folders Logon Synchronization" /Disable
 schtasks /change /TN "\Microsoft\Windows\Work Folders\Work Folders Maintenance Work" /Disable
 schtasks /change /TN "\Microsoft\Windows\Workplace Join\Automatic-Device-Join" /Disable
-schtasks /change /TN "\Microsoft\Windows\WindowsUpdate\Automatic App Update" /DISABLE
-schtasks /change /TN "\Microsoft\Windows\WindowsUpdate\Scheduled Start" /DISABLE
-schtasks /change /TN "\Microsoft\Windows\WindowsUpdate\sih" /DISABLE
-schtasks /change /TN "\Microsoft\Windows\WindowsUpdate\sihboot" /DISABLE
-schtasks /change /TN "\Microsoft\Windows\WindowsUpdate\Scheduled Start" /DISABLE
-schtasks /change /TN "\Microsoft\Windows Defender\MP Scheduled Scan" /DISABLE
-schtasks /change /TN "\Microsoft\Windows\Windows Defender\Windows Defender Cache Maintenance" /DISABLE
-schtasks /change /TN "\Microsoft\Windows\Windows Defender\Windows Defender Cleanup" /DISABLE
-schtasks /change /TN "\Microsoft\Windows\Windows Defender\Windows Defender Scheduled Scan" /DISABLE
-schtasks /change /TN "\Microsoft\Windows\Windows Defender\Windows Defender Verification" /DISABLE
+schtasks /delete /f /TN "\Microsoft\Windows\WindowsUpdate\Automatic App Update"
+schtasks /delete /f /TN "\Microsoft\Windows\WindowsUpdate\Scheduled Start"
+schtasks /delete /f /TN "\Microsoft\Windows\WindowsUpdate\sih"
+schtasks /delete /f /TN "\Microsoft\Windows\WindowsUpdate\sihboot"
+schtasks /delete /f /TN "\Microsoft\Windows\WindowsUpdate\Scheduled Start"
+schtasks /delete /f /TN "\Microsoft\Windows Defender\MP Scheduled Scan"
+schtasks /delete /f /TN "\Microsoft\Windows\Windows Defender\Windows Defender Cache Maintenance"
+schtasks /delete /f /TN "\Microsoft\Windows\Windows Defender\Windows Defender Cleanup"
+schtasks /delete /f /TN "\Microsoft\Windows\Windows Defender\Windows Defender Scheduled Scan"
+schtasks /delete /f /TN "\Microsoft\Windows\Windows Defender\Windows Defender Verification"
 schtasks /change /TN "\Microsoft\Windows\WS\Badge Update" /Disable
 schtasks /change /TN "\Microsoft\Windows\WS\Sync Licenses"
 schtasks /change /TN "\Microsoft\Windows\WS\WSRefreshBannedAppsListTask" /Disable

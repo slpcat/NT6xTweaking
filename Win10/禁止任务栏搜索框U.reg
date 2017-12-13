@@ -2,7 +2,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Search]
 "EnableProactive"=dword:00000000
-"SearchboxTaskbarMode"=dword:00000001
+"SearchboxTaskbarMode"=dword:00000000
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Search]
 "EnableProactive"=dword:00000000
-"SearchboxTaskbarMode"=dword:00000001
+"SearchboxTaskbarMode"=dword:00000000

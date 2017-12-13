@@ -14,3 +14,22 @@ Get-AppXPackage -User | Remove-AppxPackage
 Get-AppxPackage -AllUsers | Remove-AppxPackage
 4 重装商店
 Get-AppXPackage *WindowsStore* -AllUsers | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+Get-AppXPackage -AllUsers | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+
+修复商店 wsreset
+
+get-appxpackage *Microsoft.WindowsAlarms* | remove-appxpackage
+get-appxpackage *Microsoft.WindowsCalculator* | remove-appxpackage
+get-appxpackage *Microsoft.WindowsCamera* | remove-appxpackage
+get-appxpackage *Microsoft.ZuneMusic* | remove-appxpackage
+get-appxpackage *microsoft.windowscommunicationsapps* | remove-appxpackage
+get-appxpackage *Microsoft.WindowsMaps* | remove-appxpackage
+get-appxpackage *Microsoft.ZuneVideo* | remove-appxpackage
+get-appxpackage *Microsoft.Office.OneNote* | remove-appxpackage
+get-appxpackage *Microsoft.People* | remove-appxpackage
+get-appxpackage *Microsoft.Windows.Photos* | remove-appxpackage
+get-appxpackage *Microsoft.WindowsSoundRecorder * | remove-appxpackage
+get-appxpackage *Microsoft.XboxApp* | remove-appxpackage
+get-appxpackage *Microsoft.Windows.HolographicFirstRun* | remove-appxpackage
+get-appxpackage *Microsoft.Windows.SecHealthUI* | remove-appxpackage
+get-appxpackage *Microsoft.Windows.Cortana* | remove-appxpackage

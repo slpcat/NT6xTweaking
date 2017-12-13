@@ -782,7 +782,8 @@ sc config WdiSystemHost start= DISABLED
 rem SERVICE_NAME: WdNisSvc
 rem DISPLAY_NAME: Windows Defender Network Inspection Service
 
-sc config WdNisSvc start= DISABLED
+rem sc config WdNisSvc start= DISABLED
+sc delete WdNisSvc
 
 rem SERVICE_NAME: WebClient
 rem DISPLAY_NAME: WebClient
@@ -818,7 +819,8 @@ sc config WiaRpc start= DEMAND
 rem SERVICE_NAME: WinDefend
 rem DISPLAY_NAME: Windows Defender Service
 
-sc config WinDefend start= DISABLED
+rem sc config WinDefend start= DISABLED
+sc delete WinDefend
 
 rem SERVICE_NAME: WinHttpAutoProxySvc
 rem DISPLAY_NAME: WinHTTP Web Proxy Auto-Discovery Service
@@ -883,7 +885,7 @@ sc config WSearch start= AUTO
 rem SERVICE_NAME: WSService
 rem DISPLAY_NAME: Windows Store Service (WSService)
 
-sc config WSService start= DEMAND
+sc config WSService start= DISABLED
 
 rem SERVICE_NAME: wuauserv
 rem DISPLAY_NAME: Windows Update
@@ -922,7 +924,8 @@ sc config Sens start= AUTO
 
 rem SERVICE_NAME: Sense
 rem DISPLAY_NAME: Windows Defender Advanced Threat Protection Service
-sc config Sense start= DISABLED
+rem sc config Sense start= DISABLED
+sc delete Sense
 
 rem SERVICE_NAME: BaiduYunUtility
 rem DISPLAY_NAME: BaiduYunUtility
