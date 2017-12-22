@@ -250,7 +250,7 @@ sc config IKEEXT start= DISABLED
 rem SERVICE_NAME: iphlpsvc
 rem DISPLAY_NAME: IP Helper
 
-sc config iphlpsvc start= disalbed
+sc config iphlpsvc start= DEMAND
 
 
 rem SERVICE_NAME: KeyIso
@@ -307,7 +307,7 @@ sc config LSM start= auto
 rem SERVICE_NAME: MMCSS
 rem DISPLAY_NAME: Multimedia Class Scheduler
 
-sc config MMCSS start= disalbed
+sc config MMCSS start= DISABLED
 
 
 rem SERVICE_NAME: MpsSvc
@@ -475,8 +475,6 @@ rem SERVICE_NAME: RasMan
 rem DISPLAY_NAME: Remote Access Connection Manager
 
 sc config RasMan start= DEMAND
-
-sc config 
 
 rem SERVICE_NAME: RemoteAccess
 rem DISPLAY_NAME: Routing and Remote Access
@@ -967,6 +965,25 @@ sc config SecurityHealthService start= DISABLED
 
 sc config PolicyAgent start= DISABLED
 
-sc config iphlpsvc start= DISABLED
-
 sc config XboxNetApiSvc start= DISABLED
+
+rem SERVICE_NAME: WpnUserService_2e754
+rem DISPLAY_NAME: Windows 推送通知用户服务_2e754
+rem sc config WpnService start= DISABLED
+rem sc config WpnUserService start= DISABLED
+rem sc config CDPSvc start= DISABLED
+rem sc config CDPUserSvc start= DISABLED
+rem sc config UserDataSvc start= DISABLED
+rem sc config UnistoreSvc start= DISABLED
+rem sc config DevicesFlowUserSvc start= DISABLED
+rem sc config MessagingService start= DISABLED
+rem sc config PimIndexMaintenanceSvc start= DISABLED
+rem sc config PrintWorkflowUserSvc start= DISABLED
+
+rem    exclude_registry=\REGISTRY\MACHINE\SYSTEM\ControlSet001\services\CDPUserSvc_  
+rem    exclude_registry=\REGISTRY\MACHINE\SYSTEM\ControlSet001\services\MessagingService_  
+rem    exclude_registry=\REGISTRY\MACHINE\SYSTEM\ControlSet001\services\OneSyncSvc_  
+rem    exclude_registry=\REGISTRY\MACHINE\SYSTEM\ControlSet001\services\PimIndexMaintenanceSvc_  
+rem    exclude_registry=\REGISTRY\MACHINE\SYSTEM\ControlSet001\services\UnistoreSvc_  
+rem    exclude_registry=\REGISTRY\MACHINE\SYSTEM\ControlSet001\services\UserDataSvc_  
+rem    exclude_registry=\REGISTRY\MACHINE\SYSTEM\ControlSet001\services\WpnUserService_  

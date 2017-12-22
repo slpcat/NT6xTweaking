@@ -1,4 +1,4 @@
-锘縮chtasks /change /TN "\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319 64" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319 64 Critical" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319 Critical" /DISABLE
@@ -50,7 +50,7 @@ schtasks /change /TN "\Microsoft\Windows\DiskCleanup\SilentCleanup" /DISABLE
 schtasks /delete /f /TN "\Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector"
 schtasks /delete /f /TN "\Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticResolver"
 schtasks /change /TN "\Microsoft\Windows\DiskFootprint\Diagnostics"  /DISABLE
-rem schtasks /change /TN "\Microsoft\Windows\DiskFootprint\StorageSense"  /DISABLE
+schtasks /change /TN "\Microsoft\Windows\DiskFootprint\StorageSense"  /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Device Information\Device" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Device Setup\Metadata Refresh" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\DUSM\dusmtask" /DISABLE
@@ -106,7 +106,7 @@ schtasks /change /TN "\Microsoft\Windows\NetCfg\BindingWorkItemQueueHandler" /Di
 schtasks /delete /f /TN "\Microsoft\Windows\NetTrace\GatherNetworkInfo"
 schtasks /change /TN "\Microsoft\Windows\Offline Files\Background Synchronization" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Offline Files\Logon Synchronization" /DISABLE
-schtasks /change /TN "\Microsoft\Windows\PLA\鏂扮殑鏁版嵁鏀堕泦鍣ㄩ泦" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\PLA\新的数据收集器集" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\PI\Sqm-Tasks" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\PI\Secure-Boot-Update
 schtasks /change /TN "\Microsoft\Windows\Power Efficiency Diagnostics\AnalyzeSystem" /DISABLE
@@ -203,5 +203,3 @@ schtasks /change /TN "\Microsoft\XblGameSave\XblGameSaveTask" /DISABLE
 schtasks /change /TN "\Microsoft\XblGameSave\XblGameSaveTaskLogon" /DISABLE
 REM The stubborn task Microsoft\Windows\SettingSync\BackgroundUploadTask can be Disabled using a simple bit change.
 REM Please note that the key changes for each machine!! I have explained how to disable it in a later post.
-
-
