@@ -42,7 +42,7 @@ sc config AppReadiness start= DEMAND
 rem SERVICE_NAME: AppXSvc
 rem DISPLAY_NAME: AppX Deployment Service (AppXSVC)
 
-sc config AppXSvc start= DEMAND
+sc config AppXSvc start= AUTO
 
 rem SERVICE_NAME: AudioEndpointBuilder
 rem DISPLAY_NAME: Windows Audio Endpoint Builder
@@ -130,7 +130,7 @@ sc config defragsvc start= DEMAND
 rem SERVICE_NAME: DeviceAssociationService
 rem DISPLAY_NAME: Device Association Service
 
-sc config DeviceAssociationService start= DEMAND
+sc config DeviceAssociationService start= DISABLED
 
 rem SERVICE_NAME: DeviceInstall
 rem DISPLAY_NAME: Device Install Service
@@ -887,8 +887,9 @@ sc config WSService start= DISABLED
 
 rem SERVICE_NAME: wuauserv
 rem DISPLAY_NAME: Windows Update
+rem AppStore need running
 
-sc config wuauserv start= AUTO
+sc config wuauserv start= DISABLED
 
 rem SERVICE_NAME: wudfsvc
 rem DISPLAY_NAME: Windows Driver Foundation - User-mode Driver Framework
