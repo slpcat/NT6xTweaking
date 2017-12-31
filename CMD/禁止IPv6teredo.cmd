@@ -1,0 +1,1 @@
+netsh interface teredo set state disable
