@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+; Always format via format d: /u /fs:refs /i:enable! 
+; -> /i: switch is important because it enables Integrity Streams Recovering!
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MiniNT]
+"AllowRefsFormatOverNonmirrorVolume"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystemUtilities]
+"RefsFormatVersion"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\FileSystemUtilities]
+"RefsFormatVersion"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet002\Control\FileSystemUtilities]
+"RefsFormatVersion"=dword:00000002

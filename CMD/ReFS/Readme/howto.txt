@@ -1,0 +1,7 @@
+1. Go to directory \XXX_xXX corresponding with your configuration and copy its content to Windows directory as Administrator. (If you encounter the permission errors, it means the file is already there, so skip it.)
+2. In archive root (\) import REG file (b10XXX_xXX.reg) corresponding with your configuration to Windows registry. (If you encounter the permission errors, it means the seeting is already there, so just close error message.)
+3. Go to directory \Add and run as Administrator VBS scripts  there (Add_AutorecoverMOFsReFS_Only.vbs and Add_AutorecoverMOFsReFSv1_Only.vbs) made by Jan1.
+4. Reboot
+
+ReFS volume X: version info command:
+fsutil fsinfo refsinfo X:

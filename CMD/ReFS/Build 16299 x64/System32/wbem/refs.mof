@@ -1,0 +1,78 @@
+#pragma autorecover
+#pragma classflags("forceupdate")
+#pragma namespace("\\\\.\\root\\WMI")
+
+[Dynamic,
+ Description("RefsWppTrace"),
+ guid("{740f3c34-57df-4bad-8eea-72ac69ad5df5}"),
+ locale("MS\\0x409")]
+class RefsWppTrace : EventTrace
+{
+    [Description ("Enable Flags") : amended,
+        ValueDescriptions{
+             "FATAL Flag",
+             "ERROR Flag",
+             "WARNING Flag",
+             "READ Flag",
+             "WRITE Flag",
+             "NONCACHEDIO Flag",
+             "PAGETABLEWRITE Flag",
+             "FILEID Flag",
+             "STATUS Flag",
+             "MINSTORE Flag",
+             "SCRUB Flag",
+             "TREEUPDATE Flag",
+             "LOG Flag",
+             "READCACHE Flag",
+             "ACTIVITYID Flag"},
+        DefineValues{
+             "FATAL",
+             "ERROR",
+             "WARNING",
+             "READ",
+             "WRITE",
+             "NONCACHEDIO",
+             "PAGETABLEWRITE",
+             "FILEID",
+             "STATUS",
+             "MINSTORE",
+             "SCRUB",
+             "TREEUPDATE",
+             "LOG",
+             "READCACHE",
+             "ACTIVITYID"},
+        Values{
+             "FATAL",
+             "ERROR",
+             "WARNING",
+             "READ",
+             "WRITE",
+             "NONCACHEDIO",
+             "PAGETABLEWRITE",
+             "FILEID",
+             "STATUS",
+             "MINSTORE",
+             "SCRUB",
+             "TREEUPDATE",
+             "LOG",
+             "READCACHE",
+             "ACTIVITYID"},
+        ValueMap{
+             "0x00000001",
+             "0x00000002",
+             "0x00000004",
+             "0x00000008",
+             "0x00000010",
+             "0x00000020",
+             "0x00000040",
+             "0x00000080",
+             "0x00000100",
+             "0x00000200",
+             "0x00000400",
+             "0x00000800",
+             "0x00001000",
+             "0x00002000",
+             "0x00004000"}: amended
+    ]
+    uint32 Flags;
+};

@@ -1,0 +1,29 @@
+1. The key below isn't protected by OS:
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Wbem\CIMOM]
+Autorecover MOFs
+=
+%windir%\system32\wbem\refs.mof
+%windir%\system32\wbem\refsv1.mof
+
+2. The keys below are protected by OS:
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Perflib\009]
+and
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Perflib\CurrentLanguage]
+and
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows NT\CurrentVersion\Perflib\009]
+and
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows NT\CurrentVersion\Perflib\CurrentLanguage]
+Counter
+=
+6562
+ReFS
+6676
+Log fill percentage
+Help
+=
+6563
+Information on the ReFS file system performance counters.
+6677
+The fill percentage for the ReFS log.
