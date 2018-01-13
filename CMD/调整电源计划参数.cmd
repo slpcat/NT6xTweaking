@@ -41,6 +41,8 @@ powercfg -setacvalueindex scheme_current 54533251-82be-4824-96c1-47b60b740d00 89
 
 rem 最大处理器状态 100%
 powercfg -setacvalueindex scheme_current 54533251-82be-4824-96c1-47b60b740d00 bc5038f7-23e0-4960-96da-33abaf5935ec 100
+powercfg -setacvalueindex SCHEME_CURRENT SUB_PROCESSOR PROCTHROTTLEMAX 100
+powercfg -setdcvalueindex SCHEME_CURRENT SUB_PROCESSOR PROCTHROTTLEMAX 100
 
 rem 性能策略 低延迟低空载功耗
 powercfg -setacvalueindex scheme_current sub_processor PERFINCPOL 2
