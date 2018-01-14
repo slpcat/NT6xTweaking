@@ -1,4 +1,3 @@
-@echo off
 "%windir%\system32\lodctr.exe" /d:wsearchidxpi 
 "%windir%\system32\lodctr.exe" /d:wmiaprpl
 "%windir%\system32\lodctr.exe" /d:usbhub
@@ -47,7 +46,3 @@
 "%windir%\system32\lodctr.exe" /d:".NET Memory Cache 4.0"
 "%windir%\system32\lodctr.exe" /d:".NET Memory Cache 4.1"
 echo Done! 'Standard' performance counters disabled.
-echo.
-echo.
-echo Press any key to exit...
-pause >nul
