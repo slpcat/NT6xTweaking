@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; https://www.ghacks.net/2017/11/20/microsoft-security-faux-pas-aslr-implementation-issue-on-windows-8-and-10/
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\kernel]
+"MitigationOptions"=hex:00,01,01,00,00,00,00,00,00,00,00,00,00,00,00,00
