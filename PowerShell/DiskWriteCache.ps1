@@ -1,4 +1,4 @@
-﻿<#
+<#
             Note    : 2016-05-03
             Author  : Stanislav Galchonkov
             Website : http://wintech.sgal.info

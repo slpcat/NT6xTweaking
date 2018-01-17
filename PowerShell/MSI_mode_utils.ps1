@@ -1,4 +1,4 @@
-﻿<#
+<#
 .SYNOPSIS
 MSI-mode utility
 
