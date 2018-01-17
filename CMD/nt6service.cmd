@@ -814,6 +814,11 @@ rem DISPLAY_NAME: Still Image Acquisition Events
 
 sc config WiaRpc start= DEMAND
 
+rem SERVICE_NAME: LicenseManager
+rem DISPLAY_NAME: Windows 许可证管理器服务
+
+sc config LicenseManager start= auto
+
 rem SERVICE_NAME: WinDefend
 rem DISPLAY_NAME: Windows Defender Service
 
