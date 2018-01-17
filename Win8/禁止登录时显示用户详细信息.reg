@@ -2,5 +2,3 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
 "BlockUserFromShowingAccountDetailsOnSignin"=dword:00000001
-
-
