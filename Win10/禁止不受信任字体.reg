@@ -1,5 +1,4 @@
 Windows Registry Editor Version 5.00
 ;设置3审核放行，1阻止
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\MitigationOptions]
-"MitigationOptions_FontBocking"="1000000000000"
-
+"MitigationOptions_FontBlocking"="1000000000000"
