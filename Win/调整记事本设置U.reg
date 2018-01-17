@@ -1,9 +1,11 @@
 Windows Registry Editor Version 5.00
 
-;ÉèÖÃ¼ÇÊÂ±¾
+;è®¾ç½®è®°äº‹æœ¬
 [HKEY_USERS\.DEFAULT\Software\Microsoft\NotePad]
-"fwrap"=dword:00000001       ;×Ô¶¯»»ĞĞ
-"StatusBar"=dword:00000001   ;ÏÔÊ¾×´Ì¬À¸
+"fwrap"=dword:00000001       ;è‡ªåŠ¨æ¢è¡Œ
+"StatusBar"=dword:00000001   ;æ˜¾ç¤ºçŠ¶æ€æ 
 [HKEY_CURRENT_USER\Software\Microsoft\NotePad]
-"fwrap"=dword:00000001       ;×Ô¶¯»»ĞĞ
-"StatusBar"=dword:00000001   ;ÏÔÊ¾×´Ì¬À¸
+"fwrap"=dword:00000001       ;è‡ªåŠ¨æ¢è¡Œ
+"StatusBar"=dword:00000001   ;æ˜¾ç¤ºçŠ¶æ€æ 
+"fSavePageSettings"=dword:00000001
+"fSaveWindowPositions"=dword:00000001

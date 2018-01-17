@@ -1,22 +1,22 @@
 Get-AppxPackage -AllUsers
 remove-appxpackage PackageFullName
-1.Ğ¶µôµ±Ç°ÕË»§Ó¦ÓÃ£¬´´½¨ĞÂÓÃ»§Ê±²»»áÔÙÔ¤°²×°¡£
+1.å¸æ‰å½“å‰è´¦æˆ·åº”ç”¨ï¼Œåˆ›å»ºæ–°ç”¨æˆ·æ—¶ä¸ä¼šå†é¢„å®‰è£…ã€‚
 
 
 Get-AppXProvisionedPackage -online | Remove-AppxProvisionedPackage -online
-2.±£Áôwindows store
+2.ä¿ç•™windows store
 
 
 Get-AppXPackage -User | Remove-AppxPackage
-3.Ğ¶µôËùÓĞ£¨°üº¬windows store£©
+3.å¸æ‰æ‰€æœ‰ï¼ˆåŒ…å«windows storeï¼‰
 
 
 Get-AppxPackage -AllUsers | Remove-AppxPackage
-4 ÖØ×°ÉÌµê
+4 é‡è£…å•†åº—
 Get-AppXPackage *WindowsStore* -AllUsers | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
 Get-AppXPackage -AllUsers | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
 
-ĞŞ¸´ÉÌµê wsreset
+ä¿®å¤å•†åº— wsreset
 
 get-appxpackage *Microsoft.WindowsAlarms* | remove-appxpackage
 get-appxpackage *Microsoft.WindowsCalculator* | remove-appxpackage

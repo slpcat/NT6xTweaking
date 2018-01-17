@@ -1,7 +1,7 @@
 cls
-echo ¿ªÊ¼¹Ø±Õ135¶Ë¿Ú...
+echo å¼€å§‹å…³é—­135ç«¯å£...
 reg add HKLM\SOFTWARE\Microsoft\Ole /v EnableDCOM /d N /f
 reg add HKLM\SOFTWARE\Microsoft\Rpc /v "DCOM Protocols" /t REG_MULTI_SZ /d ncacn_spx\0ncacn_nb_nb\0ncacn_nb_ipx\0 /f
 sc config   MSDTC start= DISABLED
-echo ¹Ø±Õ135¶Ë¿Ú½áÊø,°´ÈÎÒâ¼ü·µ»Ø!
+echo å…³é—­135ç«¯å£ç»“æŸ,æŒ‰ä»»æ„é”®è¿”å›ž!
 pause >nul

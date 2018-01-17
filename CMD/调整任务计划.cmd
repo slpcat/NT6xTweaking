@@ -106,7 +106,7 @@ schtasks /change /TN "\Microsoft\Windows\NetCfg\BindingWorkItemQueueHandler" /Di
 schtasks /delete /f /TN "\Microsoft\Windows\NetTrace\GatherNetworkInfo"
 schtasks /change /TN "\Microsoft\Windows\Offline Files\Background Synchronization" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Offline Files\Logon Synchronization" /DISABLE
-schtasks /change /TN "\Microsoft\Windows\PLA\新的数据收集器集" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\PLA\鏂扮殑鏁版嵁鏀堕泦鍣ㄩ泦" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\PI\Sqm-Tasks" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\PI\Secure-Boot-Update
 schtasks /change /TN "\Microsoft\Windows\Power Efficiency Diagnostics\AnalyzeSystem" /DISABLE

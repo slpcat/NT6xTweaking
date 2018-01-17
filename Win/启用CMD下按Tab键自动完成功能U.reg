@@ -1,6 +1,6 @@
 Windows Registry Editor Version 5.00
 
-;¿ªÆô CMD ÏÂ°´ Tab ¼ü×Ô¶¯Íê³É¹¦ÄÜ 
+;å¼€å¯ CMD ä¸‹æŒ‰ Tab é”®è‡ªåŠ¨å®ŒæˆåŠŸèƒ½ 
 [HKEY_USERS\.DEFAULT\Software\Microsoft\Command Processor] 
 "CompletionChar"=dword:9 
 [HKEY_CURRENT_USER\Software\Microsoft\Command Processor] 

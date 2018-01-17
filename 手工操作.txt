@@ -1,2 +1,2 @@
-1.��ȫ��ά��������Ϣ
-2.�Ҽ�powershell
+1.安全与维护中心消息
+2.右键powershell

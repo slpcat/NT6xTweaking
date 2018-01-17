@@ -1,11 +1,11 @@
 Windows Registry Editor Version 5.00
 
-;ÉèÖÃ¡°ÏµÍ³Ê§°Ü¡±Ñ¡Ïî
+;è®¾ç½®â€œç³»ç»Ÿå¤±è´¥â€é€‰é¡¹
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CrashControl]
-"LogEvent"=dword:00000001           ;½«ÊÂ¼şĞ´ÈëÏµÍ³ÈÕÖ¾
-"SendAlert"=dword:00000000          ;²»·¢ËÍ¹ÜÀí¾¯±¨
-"AutoReboot"=dword:00000001         ;×Ô¶¯ÖØÆô¶¯
-"CrashDumpEnabled"=dword:00000001   ;Ğ´Èëµ÷ÊÔĞÅÏ¢
+"LogEvent"=dword:00000001           ;å°†äº‹ä»¶å†™å…¥ç³»ç»Ÿæ—¥å¿—
+"SendAlert"=dword:00000000          ;ä¸å‘é€ç®¡ç†è­¦æŠ¥
+"AutoReboot"=dword:00000001         ;è‡ªåŠ¨é‡å¯åŠ¨
+"CrashDumpEnabled"=dword:00000001   ;å†™å…¥è°ƒè¯•ä¿¡æ¯
 "Overwrite"=dword:00000001
 "DisplayParameters"=dword:00000001
 "AlwaysKeepMemoryDump"=dword:00000000

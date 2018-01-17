@@ -1,5 +1,5 @@
 Windows Registry Editor Version 5.00
 
-;文件没有关联的打开程序时，禁止从网络上去搜索打开类型
+;鏂囦欢娌℃湁鍏宠仈鐨勬墦寮�绋嬪簭鏃讹紝绂佹浠庣綉缁滀笂鍘绘悳绱㈡墦寮�绫诲瀷
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
 "NoInternetOpenWith"=dword:00000001

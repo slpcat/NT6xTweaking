@@ -1,5 +1,5 @@
 cls
-echo ¿ªÊ¼»Ö¸´445¶Ë¿Ú...
+echo å¼€å§‹æ¢å¤445ç«¯å£...
 reg add HKLM\SYSTEM\CurrentControlSet\Services\NetBT\Parameters /v SMBDeviceEnabled /t REG_DWORD /d 1 /f
-echo »Ö¸´4455¶Ë¿Ú½áÊø,°´ÈÎÒâ¼ü·µ»Ø!
+echo æ¢å¤4455ç«¯å£ç»“æŸ,æŒ‰ä»»æ„é”®è¿”å›ž!
 pause >nul

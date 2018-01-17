@@ -1,4 +1,4 @@
-; Copyright ?Microsoft Corp.
+; Copyright Microsoft Corp.
 
 [Theme]
 ; Windows - IDS_THEME_DISPLAYNAME_AERO
@@ -36,7 +36,7 @@ SizeNWSE=%SystemRoot%\cursors\aero_nwse.cur
 SizeWE=%SystemRoot%\cursors\aero_ew.cur
 UpArrow=%SystemRoot%\cursors\aero_up.cur
 Wait=%SystemRoot%\cursors\aero_busy.ani
-DefaultValue=Windows Ä¬ÈÏ
+DefaultValue=Windows é»˜è®¤
 
 [Control Panel\Desktop]
 Wallpaper=DesktopBackground\img0.jpg
@@ -63,7 +63,7 @@ MTSM=RJSPBS
 SchemeName=@mmres.dll,-800
 
 [Control Panel\Cursors.A]
-DefaultValue=Windows Ä¬ÈÏ
+DefaultValue=Windows é»˜è®¤
 [Control Panel\Cursors.W]
 DefaultValue=Windows +ntiLpA-
 [Theme.A]

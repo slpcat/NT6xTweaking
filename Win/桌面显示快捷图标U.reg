@@ -1,17 +1,17 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel]
-"{20D04FE0-3AEA-1069-A2D8-08002B30309D}"=dword:00000000  ;×ÀÃæÏÔÊ¾¼ÆËã»ú
-;"{5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0}"=dword:00000000  ;×ÀÃæÏÔÊ¾¿ØÖÆÃæ°å
-"{59031a47-3f72-44a7-89c5-5595fe6b30ee}"=dword:00000000  ;×ÀÃæÏÔÊ¾ÓÃ»§
-"{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}"=dword:00000000  ;×ÀÃæÏÔÊ¾ÍøÂç
+"{20D04FE0-3AEA-1069-A2D8-08002B30309D}"=dword:00000000  ;æ¡Œé¢æ˜¾ç¤ºè®¡ç®—æœº
+;"{5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0}"=dword:00000000  ;æ¡Œé¢æ˜¾ç¤ºæ§åˆ¶é¢æ¿
+"{59031a47-3f72-44a7-89c5-5595fe6b30ee}"=dword:00000000  ;æ¡Œé¢æ˜¾ç¤ºç”¨æˆ·
+"{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}"=dword:00000000  ;æ¡Œé¢æ˜¾ç¤ºç½‘ç»œ
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel]
-"{20D04FE0-3AEA-1069-A2D8-08002B30309D}"=dword:00000000  ;×ÀÃæÏÔÊ¾¼ÆËã»ú
-;"{5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0}"=dword:00000000  ;×ÀÃæÏÔÊ¾¿ØÖÆÃæ°å
-"{59031a47-3f72-44a7-89c5-5595fe6b30ee}"=dword:00000000  ;×ÀÃæÏÔÊ¾ÓÃ»§
-"{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}"=dword:00000000  ;×ÀÃæÏÔÊ¾ÍøÂç
+"{20D04FE0-3AEA-1069-A2D8-08002B30309D}"=dword:00000000  ;æ¡Œé¢æ˜¾ç¤ºè®¡ç®—æœº
+;"{5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0}"=dword:00000000  ;æ¡Œé¢æ˜¾ç¤ºæ§åˆ¶é¢æ¿
+"{59031a47-3f72-44a7-89c5-5595fe6b30ee}"=dword:00000000  ;æ¡Œé¢æ˜¾ç¤ºç”¨æˆ·
+"{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}"=dword:00000000  ;æ¡Œé¢æ˜¾ç¤ºç½‘ç»œ
 
-;×ÀÃæÏÔÊ¾IEä¯ÀÀÆ÷
+;æ¡Œé¢æ˜¾ç¤ºIEæµè§ˆå™¨
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{00000000-0000-0000-0000-100000000001}]
 @="Internet Explorer"
 [HKEY_CLASSES_ROOT\CLSID\{00000000-0000-0000-0000-100000000001}]
@@ -21,14 +21,14 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\CLSID\{00000000-0000-0000-0000-100000000001}\shell]
 @=""
 [HKEY_CLASSES_ROOT\CLSID\{00000000-0000-0000-0000-100000000001}\shell\NoAddOns]
-@="ÎŞ¼ÓÔØÏî(&N)"
+@="æ— åŠ è½½é¡¹(&N)"
 [HKEY_CLASSES_ROOT\CLSID\{00000000-0000-0000-0000-100000000001}\shell\NoAddOns\Command]
 @="\"C:\\Program Files\\Internet Explorer\\iexplore.exe\" -extoff"
 [HKEY_CLASSES_ROOT\CLSID\{00000000-0000-0000-0000-100000000001}\shell\Open]
-@="´ò¿ªÖ÷Ò³(&H)"
+@="æ‰“å¼€ä¸»é¡µ(&H)"
 [HKEY_CLASSES_ROOT\CLSID\{00000000-0000-0000-0000-100000000001}\shell\Open\Command]
 @="\"C:\\Program Files\\Internet Explorer\\iexplore.exe\""
 [HKEY_CLASSES_ROOT\CLSID\{00000000-0000-0000-0000-100000000001}\shell\Set]
-@="ÊôĞÔ(&R)"
+@="å±æ€§(&R)"
 [HKEY_CLASSES_ROOT\CLSID\{00000000-0000-0000-0000-100000000001}\shell\Set\Command]
 @="\"C:\\Windows\\System32\\rundll32.exe\" C:\\Windows\\System32\\shell32.dll,Control_RunDLL C:\\Windows\\System32\\inetcpl.cpl"

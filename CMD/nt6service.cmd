@@ -1,6 +1,6 @@
 cls
 
-rem WINDOWS NT6.x  ·şÎñÓÅ»¯Åú´¦ÀíÎÄ¼ş 
+rem WINDOWS NT6.x  æœåŠ¡ä¼˜åŒ–æ‰¹å¤„ç†æ–‡ä»¶ 
 rem @pause 
 
 rem auto|DEMAND|DISABLED|delayed-auto
@@ -698,7 +698,7 @@ rem DISPLAY_NAME: Virtual Disk
 sc config vds start= DEMAND
 
 rem SERVICE_NAME: vmicguestinterface
-rem DISPLAY_NAME: Hyper-V À´±ö·şÎñ½Ó¿Ú
+rem DISPLAY_NAME: Hyper-V æ¥å®¾æœåŠ¡æ¥å£
 
 sc config vmicguestinterface start= DEMAND
 
@@ -815,7 +815,7 @@ rem DISPLAY_NAME: Still Image Acquisition Events
 sc config WiaRpc start= DEMAND
 
 rem SERVICE_NAME: LicenseManager
-rem DISPLAY_NAME: Windows Ğí¿ÉÖ¤¹ÜÀíÆ÷·şÎñ
+rem DISPLAY_NAME: Windows è®¸å¯è¯ç®¡ç†å™¨æœåŠ¡
 
 sc config LicenseManager start= auto
 
@@ -907,7 +907,7 @@ rem DISPLAY_NAME: WWAN AutoConfig
 sc config WwanSvc start= DEMAND
 
 rem SERVICE_NAME: wcncsvc
-rem DISPLAY_NAME: Windows Connect Now ¨C Config Registrar
+rem DISPLAY_NAME: Windows Connect Now â€“ Config Registrar
 sc config wcncsvc start= AUTO
 
 rem third party service 
@@ -946,7 +946,7 @@ rem DISPLAY_NAME: Diagnostics Tracking Service
 
 sc config DiagTrack start= DISABLED
 
-rem IE F12¹¤¾ßÊ¹ÓÃ
+rem IE F12å·¥å…·ä½¿ç”¨
 sc config diagnosticshub.standardcollector.service start= DEMAND
 sc config dmwappushservice start= disabled
 
@@ -959,11 +959,11 @@ rem DISPLAY_NAME: SSH Server Proxy
 sc config SshProxy start= DISABLED
 
 rem SERVICE_NAME: wisvc
-rem DISPLAY_NAME: Windows Ô¤ÀÀÌåÑé·şÎñ
+rem DISPLAY_NAME: Windows é¢„è§ˆä½“éªŒæœåŠ¡
 sc config wisvc start= DISABLED
 
 rem SERVICE_NAME: RetailDemo
-rem DISPLAY_NAME: ÁãÊÛÑİÊ¾·şÎñ
+rem DISPLAY_NAME: é›¶å”®æ¼”ç¤ºæœåŠ¡
 
 sc config RetailDemo start= DISABLED
 
@@ -974,7 +974,7 @@ sc config PolicyAgent start= DISABLED
 sc config XboxNetApiSvc start= DISABLED
 
 rem SERVICE_NAME: WpnUserService_2e754
-rem DISPLAY_NAME: Windows ÍÆËÍÍ¨ÖªÓÃ»§·şÎñ_2e754
+rem DISPLAY_NAME: Windows æ¨é€é€šçŸ¥ç”¨æˆ·æœåŠ¡_2e754
 rem sc config WpnService start= DISABLED
 rem sc config WpnUserService start= DISABLED
 rem sc config CDPSvc start= DISABLED

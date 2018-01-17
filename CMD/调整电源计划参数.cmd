@@ -1,50 +1,50 @@
-rem win7²»Ö§³Ö„eÃû
+rem win7ä¸æ”¯æŒåˆ¥å
 
-rem ÆôÓÃµçÔ´¼Æ»®¡°Æ½ºâ¡±
+rem å¯ç”¨ç”µæºè®¡åˆ’â€œå¹³è¡¡â€
 powercfg.exe -setactive 381b4222-f694-41f0-9685-ff5bb260df2e
 
-rem AHCIÁ´Â·µçÔ´¹ÜÀí HIPM/DIPM ÎŞwin7
+rem AHCIé“¾è·¯ç”µæºç®¡ç† HIPM/DIPM æ— win7
 powercfg -setacvalueindex scheme_current sub_disk 0b2d69d7-a2a1-449c-9680-f91c70521c60 1
 
-rem ÔÚ´ËÊ±¼äºó¹Ø±ÕÓ²ÅÌ 5·ÖÖÓ
+rem åœ¨æ­¤æ—¶é—´åå…³é—­ç¡¬ç›˜ 5åˆ†é’Ÿ
 powercfg -setacvalueindex scheme_current sub_disk DISKIDLE 300
 powercfg -setdcvalueindex scheme_current sub_disk DISKIDLE 300
 powercfg -setacvalueindex scheme_current 0012ee47-9041-4b5d-9b77-535fba8b1442 6738e2c4-e8a5-4a42-b16a-e040e769756e 300
 powercfg -setdcvalueindex scheme_current 0012ee47-9041-4b5d-9b77-535fba8b1442 6738e2c4-e8a5-4a42-b16a-e040e769756e 300
 
-rem ÔÚ´ËÊ±¼äºóÏÔÊ¾Æ÷±ä°µ 3·ÖÖÓ
+rem åœ¨æ­¤æ—¶é—´åæ˜¾ç¤ºå™¨å˜æš— 3åˆ†é’Ÿ
 powercfg -setacvalueindex scheme_current 7516b95f-f776-4464-8c53-06167f40cc99 17aaa29b-8b43-4b94-aafe-35f64daaf1ee 180 
 
-rem ÔÚ´ËÊ±¼äºó¹Ø±ÕÏÔÊ¾Æ÷ 15·ÖÖÓ
+rem åœ¨æ­¤æ—¶é—´åå…³é—­æ˜¾ç¤ºå™¨ 15åˆ†é’Ÿ
 powercfg -setacvalueindex scheme_current 7516b95f-f776-4464-8c53-06167f40cc99 3c0bc021-c8a8-4e07-a973-6b14cbcb2b7e 900
 
-rem ÖĞ¶ÏÂ·ÓÉ¿ØÖÆÉèÖÃ ÈÎºÎ´¦ÀíÆ÷ Ÿowin7
+rem ä¸­æ–­è·¯ç”±æ§åˆ¶è®¾ç½® ä»»ä½•å¤„ç†å™¨ ç„¡win7
 powercfg -setacvalueindex scheme_current sub_intsteer MODE 1
 
-rem ÆôÓÃUSBÑ¡ÔñĞÔÔİÍ£ÉèÖÃ
+rem å¯ç”¨USBé€‰æ‹©æ€§æš‚åœè®¾ç½®
 powercfg -setacvalueindex scheme_current 2a737441-1930-4402-8d77-b2bebba308a3 48e6b7a6-50f5-4782-a5d4-53bb8f07e226 1
 
-rem PCIEµçÔ´¹ÜÀí ×î¸ßĞÔÄÜ
+rem PCIEç”µæºç®¡ç† æœ€é«˜æ€§èƒ½
 powercfg -setacvalueindex scheme_current sub_pciexpress ASPM 0
 powercfg -setacvalueindex scheme_current 501a4d13-42af-4429-9fd1-a8218c268e20 ee12f906-d277-404b-b6da-e5fa1a576df5 0
 
-rem ½ûÓÃcpuºËĞÄÍ£²´£¨core parking£©
+rem ç¦ç”¨cpuæ ¸å¿ƒåœæ³Šï¼ˆcore parkingï¼‰
 powercfg -setacvalueindex scheme_current sub_processor CPMINCORES 100
 powercfg -setacvalueindex scheme_current 54533251-82be-4824-96c1-47b60b740d00 0cc5b647-c1df-4637-891a-dec35c318583 100
 
-rem ½ûÓÃcpu½ÚÁ÷£¨throttle£©
+rem ç¦ç”¨cpuèŠ‚æµï¼ˆthrottleï¼‰
 powercfg -setacvalueindex scheme_current sub_processor THROTTLING 0
 powercfg -setacvalueindex scheme_current 54533251-82be-4824-96c1-47b60b740d00 3b04d4fd-1cc7-4f23-ab1c-d1337819c4bb 0
 
-rem ×îĞ¡´¦ÀíÆ÷×´Ì¬ 5%
+rem æœ€å°å¤„ç†å™¨çŠ¶æ€ 5%
 powercfg -setacvalueindex scheme_current 54533251-82be-4824-96c1-47b60b740d00 893dee8e-2bef-41e0-89c6-b55d0929964c 5
 
-rem ×î´ó´¦ÀíÆ÷×´Ì¬ 100%
+rem æœ€å¤§å¤„ç†å™¨çŠ¶æ€ 100%
 powercfg -setacvalueindex scheme_current 54533251-82be-4824-96c1-47b60b740d00 bc5038f7-23e0-4960-96da-33abaf5935ec 100
 powercfg -setacvalueindex SCHEME_CURRENT SUB_PROCESSOR PROCTHROTTLEMAX 100
 powercfg -setdcvalueindex SCHEME_CURRENT SUB_PROCESSOR PROCTHROTTLEMAX 100
 
-rem ĞÔÄÜ²ßÂÔ µÍÑÓ³ÙµÍ¿ÕÔØ¹¦ºÄ
+rem æ€§èƒ½ç­–ç•¥ ä½å»¶è¿Ÿä½ç©ºè½½åŠŸè€—
 powercfg -setacvalueindex scheme_current sub_processor PERFINCPOL 2
 powercfg -setacvalueindex scheme_current sub_processor PERFDECPOL 1
 powercfg -setacvalueindex scheme_current sub_processor PERFINCTHRESHOLD 10
@@ -53,15 +53,15 @@ powercfg -setacvalueindex scheme_current sub_processor PERFDECTHRESHOLD 8
 rem  disable utility distribution 
 powercfg -setacvalueindex scheme_current sub_processor DISTRIBUTEUTIL 0
 
-rem JavaScript¼ÆÊ±Æ÷ÆµÂÊ
+rem JavaScriptè®¡æ—¶å™¨é¢‘ç‡
 powercfg -setacvalueindex scheme_current b14a8f96-7b67-4e78-8192-b890b1a62b8a 4c793e7d-a264-42e1-87d3-7a0d2f523ccd 1
 powercfg -setacvalueindex scheme_current 02f815b5-a5cf-4c84-bf20-649d1f75d3d8 4c793e7d-a264-42e1-87d3-7a0d2f523ccd 1
 
-rem ÏµÍ³´Ó²»Ë¯Ãß
+rem ç³»ç»Ÿä»ä¸ç¡çœ 
 powercfg -setacvalueindex scheme_current 238c9fa8-0aad-41ed-83f4-97be242c8f20 29f6c1db-86da-48c5-9fdb-f2b67b1f44da 0
 
-rem ½ûÖ¹Ê¹ÓÃ»½ĞÑ¶¨Ê±Æ÷
+rem ç¦æ­¢ä½¿ç”¨å”¤é†’å®šæ—¶å™¨
 powercfg -setacvalueindex scheme_current 238c9fa8-0aad-41ed-83f4-97be242c8f20 bd3b718a-0680-4d9d-8ab2-e1d2b4ac806d 0
 
-rem ÉèÖÃÁ¢¿ÌÉúĞ§
+rem è®¾ç½®ç«‹åˆ»ç”Ÿæ•ˆ
 powercfg -setactive scheme_current  

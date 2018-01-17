@@ -104,13 +104,13 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Feeds]
 "AllowBasicAuthInClear"=dword:00000000
 
-;ÆôÓÃ·­Ò³
+;å¯ç”¨ç¿»é¡µ
 [HKEY_USERS\.DEFAULT\SOFTWARE\Microsoft\Internet Explorer\FlipAhead]
 "FPEnabled"=dword:00000001
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\FlipAhead]
 "FPEnabled"=dword:00000001
 
-;½ûÖ¹RSS¶©ÔÄ¸üĞÂ
+;ç¦æ­¢RSSè®¢é˜…æ›´æ–°
 [HKEY_USERS\.DEFAULT\Software\Microsoft\Internet Explorer\Feeds]
 "TurnOffOPV"=dword:00000001
 "AutoMarkAsReadOPV"=dword:00000000
@@ -144,9 +144,9 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Main]
 
-;½ûÖ¹IE×·×Ù
+;ç¦æ­¢IEè¿½è¸ª
 "DoNotTrack"=dword:00000001
-;½ûÖ¹IEÊ×´ÎÔËĞĞ×Ô¶¨ÒåÉèÖÃ
+;ç¦æ­¢IEé¦–æ¬¡è¿è¡Œè‡ªå®šä¹‰è®¾ç½®
 "RunOnceHasShown"=dword:00000001
 "RunOnceComplete"=dword:00000001
 "Anchor Underline"="yes"
@@ -407,14 +407,14 @@ Windows Registry Editor Version 5.00
 "ResetZoomOnStartup2"=dword:00000000
 "ZoomFactor"=dword:000186a0
 
-;½ûÖ¹IE´íÎó±¨¸æ
+;ç¦æ­¢IEé”™è¯¯æŠ¥å‘Š
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Main]
 "IEWatsonEnabled"=dword:00000000
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Main]
 "DisableFirstRunCustomize"=dword:00000001
 
 
-;½ûÖ¹IE½¨ÒéÍøÕ¾
+;ç¦æ­¢IEå»ºè®®ç½‘ç«™
 [HKEY_USERS\.DEFAULT\SOFTWARE\Microsoft\Internet Explorer\Suggested Sites]
 "DataStreamEnabledState"=dword:00000000
 "Enabled"=dword:00000000
@@ -422,13 +422,13 @@ Windows Registry Editor Version 5.00
 "DataStreamEnabledState"=dword:00000000
 "Enabled"=dword:00000000
 
-;½ûÖ¹°²È«¼ì²é
+;ç¦æ­¢å®‰å…¨æ£€æŸ¥
 [HKEY_USERS\.DEFAULT\SOFTWARE\Microsoft\Internet Explorer\Security]
 "DisableSecuritySettingsCheck"=dword:00000001
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Security]
 "DisableSecuritySettingsCheck"=dword:00000001
 
-;ÆôÓÃIE¶àÏß³Ì
+;å¯ç”¨IEå¤šçº¿ç¨‹
 [HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings]
 "MaxConnectionsPer1_0Server"=dword:00000020
 "MaxConnectionsPerServer"=dword:00000020

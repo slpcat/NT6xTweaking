@@ -1,7 +1,7 @@
 cls
-echo ¿ªÊ¼¹Ø±Õ445¶Ë¿Ú...
+echo å¼€å§‹å…³é—­445ç«¯å£...
 sc config lanmanserver start=disabled
 sc config lmhosts start=disabled
 reg add HKLM\SYSTEM\CurrentControlSet\Services\NetBT\Parameters /v SMBDeviceEnabled /t REG_DWORD /d 0 /f
-echo ¹Ø±Õ445¶Ë¿Ú½áÊø,°´ÈÎÒâ¼ü·µ»Ø!
+echo å…³é—­445ç«¯å£ç»“æŸ,æŒ‰ä»»æ„é”®è¿”å›ž!
 pause >nul
