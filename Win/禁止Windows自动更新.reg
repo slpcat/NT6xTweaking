@@ -14,13 +14,13 @@ Windows Registry Editor Version 5.00
 "FirmwareUpdatesNotDownloaded"=dword:00000000
 "FirmwareUpdatesNotInstalled"=dword:00000000
 
-;[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate]
-;"DeferUpgrade"=dword:00000001
-;"DeferUpgradePeriod"=dword:00000008
-;"DeferUpdatePeriod"=dword:00000004
-;"PauseDeferrals"=dword:00000000
-;"DoNotConnectToWindowsUpdateInternetLocations"=dword:00000001
-;"DisableWindowsUpdateAcces"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate]
+"DeferUpgrade"=dword:00000001
+"DeferUpgradePeriod"=dword:00000008
+"DeferUpdatePeriod"=dword:00000004
+"PauseDeferrals"=dword:00000000
+"DoNotConnectToWindowsUpdateInternetLocations"=dword:00000001
+"DisableWindowsUpdateAcces"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU]
 "NoAutoUpdate"=dword:00000001

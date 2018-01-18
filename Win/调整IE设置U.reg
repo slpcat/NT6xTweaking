@@ -450,4 +450,3 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_MAXCONNECTIONSPERSERVER]
 "explorer.exe"=dword:00000002
 "iexplore.exe"=dword:00000020
-

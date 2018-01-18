@@ -28,6 +28,8 @@ netsh int tcp set supplemental custom 20 10 dctcp enabled 10
 #win10
 netsh int tcp set supplemental internet congestionprovider=dctcp enablecwndrestart=enabled
 
+#禁止IPv6teredo
+netsh interface teredo set state disable
 #netsh int tcp set heuristics disabled
 netsh int tcp set global congestionProvider=ctcp
 netsh int tcp set global autotuninglevel=experimental
