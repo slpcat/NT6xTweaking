@@ -1,4 +1,5 @@
 Windows Registry Editor Version 5.00
+
 ; Change LogonUI and Startscreen Default Background Color 
 [HKEY_USERS\.DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Accent]
 "AccentPalette"=hex:dc,b3,ff,00,c5,80,ff,00,b4,59,ff,00,82,29,cc,00,54,00,99,\
@@ -10,7 +11,6 @@ Windows Registry Editor Version 5.00
 "AccentColor"=dword:ff791b39
 "StartColor"=dword:ffc70085
 "PhoneBackgroundTheme"=dword:00000001
-
 
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Accent]
 "AccentPalette"=hex:dc,b3,ff,00,c5,80,ff,00,b4,59,ff,00,82,29,cc,00,54,00,99,\
@@ -25,4 +25,3 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Accent]
 "DefaultStartColor"=dword:ffc70085
-

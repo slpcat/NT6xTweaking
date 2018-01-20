@@ -1,7 +1,5 @@
 Windows Registry Editor Version 5.00
 
 ;Created by Vishal Gupta for AskVG.com
-
 [HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Internet Explorer\Restrictions]
 "NoHelpItemSendFeedback"=dword:00000001
-

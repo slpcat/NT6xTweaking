@@ -2,6 +2,6 @@ Windows Registry Editor Version 5.00
 
 [HKEY_USERS\.DEFAULT\SOFTWARE\Microsoft\Input\TIPC]
 "Enabled"=dword:00000000
+
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Input\TIPC]
 "Enabled"=dword:00000000
-
