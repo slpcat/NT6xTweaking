@@ -1,6 +1,5 @@
 Windows Registry Editor Version 5.00
 
-
 [HKEY_USERS\.DEFAULT\Software\Policies\Microsoft\Office\Common]
 "DWNeverUpload"=dword:00000001
 "DWNoExternalURL"=dword:00000001
@@ -12,4 +11,3 @@ Windows Registry Editor Version 5.00
 "DWNoExternalURL"=dword:00000001
 "DWNoFileCollection"=dword:00000001
 "DWNoSecondLevelCollection"=dword:00000001
-

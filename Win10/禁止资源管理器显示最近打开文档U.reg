@@ -1,8 +1,9 @@
 Windows Registry Editor Version 5.00
+
 [HKEY_USERS\.DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
 "ShowRecent"=dword:00000000
 "ShowFrequent"=dword:00000000
+
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
 "ShowRecent"=dword:00000000
 "ShowFrequent"=dword:00000000
-

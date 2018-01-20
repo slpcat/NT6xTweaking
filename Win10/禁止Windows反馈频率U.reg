@@ -1,6 +1,7 @@
 Windows Registry Editor Version 5.00
+
 [HKEY_USERS\.DEFAULT\SOFTWARE\Microsoft\Siuf\Rules]
 "NumberOfSIUFInPeriod"=dword:00000000
+
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Siuf\Rules]
 "NumberOfSIUFInPeriod"=dword:00000000
-

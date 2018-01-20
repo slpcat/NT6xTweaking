@@ -1,7 +1,7 @@
 Windows Registry Editor Version 5.00
+
 [HKEY_USERS\.DEFAULT\SOFTWARE\Microsoft\Personalization\Settings]
 "AcceptedPrivacyPolicy"=dword:00000000
 
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Personalization\Settings]
 "AcceptedPrivacyPolicy"=dword:00000000
-

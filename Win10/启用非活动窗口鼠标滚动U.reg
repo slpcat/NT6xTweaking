@@ -1,5 +1,7 @@
 Windows Registry Editor Version 5.00
+
 [HKEY_USERS\.DEFAULT\Control Panel\Desktop]
 "MouseWheelRouting"=dword:00000002
+
 [HKEY_CURRENT_USER\Control Panel\Desktop]
 "MouseWheelRouting"=dword:00000002

@@ -1,4 +1,5 @@
 Windows Registry Editor Version 5.00
+
 [HKEY_USERS\.DEFAULT\Software\Microsoft\InputMethod\Settings\CHS]
 "Enable Auto Correction"=dword:00000001
 "Enable Cloud Candidate"=dword:00000000
