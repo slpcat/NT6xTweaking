@@ -557,7 +557,7 @@ sc config SharedAccess start= DISABLED
 rem SERVICE_NAME: ShellHWDetection
 rem DISPLAY_NAME: Shell Hardware Detection
 
-sc config ShellHWDetection start= AUTO
+sc config ShellHWDetection start= DISABLED
 
 
 rem SERVICE_NAME: smphost
