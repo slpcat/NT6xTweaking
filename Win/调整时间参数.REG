@@ -16,3 +16,6 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W32Time\TimeProviders\NtpClient]
 "Enabled"=dword:00000001
 "SpecialPollInterval"=dword:00000708
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\W32Time\TimeProviders\NtpServer]
+"Enabled"=dword:00000000
