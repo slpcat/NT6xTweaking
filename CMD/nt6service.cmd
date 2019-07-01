@@ -130,7 +130,7 @@ sc config defragsvc start= DEMAND
 rem SERVICE_NAME: DeviceAssociationService
 rem DISPLAY_NAME: Device Association Service
 
-sc config DeviceAssociationService start= DISABLED
+sc config DeviceAssociationService start= DEMAND
 
 rem SERVICE_NAME: DeviceInstall
 rem DISPLAY_NAME: Device Install Service
