@@ -1,5 +1,5 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\ImmersiveShell\Launcher]
-"DisableLightDismiss"=dword:00000001
+"DisableLightDismiss"=dword:00000000
 
