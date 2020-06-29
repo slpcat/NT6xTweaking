@@ -1,0 +1,5 @@
+DISM /Online /Enable-Feature /FeatureName:MicrosoftWindowsPowerShellRoot
+DISM /Online /Enable-Feature /FeatureName:NetFx4ServerFeatures
+DISM /Online /Enable-Feature /FeatureName:NetFx4
+DISM /Online /Enable-Feature /FeatureName:MicrosoftWindowsPowerShell
+Install-WindowsFeature Server-Gui-Shell –Restart
