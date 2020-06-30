@@ -21,6 +21,7 @@ Set-NetTCPSetting -SettingName DataCenterCustom -DelayedAckFreq 1
 
 #win7
 netsh interface tcp set global congestionprovider=ctcp
+ netsh int tcp set supplemental datacenter congestionprovider=dctcp
 #禁止IPv6teredo
 netsh interface teredo set state disable
 #netsh int tcp set heuristics disabled

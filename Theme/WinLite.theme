@@ -1,4 +1,4 @@
-; Copyright Microsoft Corp.
+﻿; Copyright Microsoft Corp.
 
 [Theme]
 ; Windows - IDS_THEME_DISPLAYNAME_AERO
@@ -48,7 +48,7 @@ PicturePosition=4
 Path=%SystemRoot%\resources\Themes\Aero\aerolite.msstyles
 ColorStyle=NormalColor
 Size=NormalSize
-AutoColorization=0
+AutoColorization=1
 ColorizationColor=0XAB6700C2
 VisualStyleVersion=10
 
