@@ -1,4 +1,4 @@
-cls
+﻿cls
 
 rem WINDOWS NT6.x  服务优化批处理文件 
 rem @pause 
@@ -575,7 +575,7 @@ sc config SNMPTRAP start= DISABLED
 rem SERVICE_NAME: Spooler
 rem DISPLAY_NAME: Print Spooler
 
-rem sc config Spooler start= DISABLED
+sc config Spooler start= DISABLED
 
 rem SERVICE_NAME: sppsvc
 rem DISPLAY_NAME: Software Protection
@@ -630,7 +630,7 @@ sc config SystemEventsBroker start= auto
 rem SERVICE_NAME: TabletInputService
 rem DISPLAY_NAME: Touch Keyboard and Handwriting Panel Service
 
-sc config TabletInputService start= DEMAND
+sc config TabletInputService start= DISABLED
 
 rem SERVICE_NAME: TapiSrv
 rem DISPLAY_NAME: Telephony
@@ -645,7 +645,7 @@ sc config TermService start= DEMAND
 rem SERVICE_NAME: Themes
 rem DISPLAY_NAME: Themes
 
-sc config Themes start= AUTO
+sc config Themes start= DISABLED
 
 rem SERVICE_NAME: THREADORDER
 rem DISPLAY_NAME: Thread Ordering Server
@@ -896,6 +896,8 @@ rem AppStore need running
 
 sc config wuauserv start= DISABLED
 
+sc config UsoSvc start= DISABLED
+
 rem SERVICE_NAME: wudfsvc
 rem DISPLAY_NAME: Windows Driver Foundation - User-mode Driver Framework
 
@@ -975,16 +977,16 @@ sc config XboxNetApiSvc start= DISABLED
 
 rem SERVICE_NAME: WpnUserService_2e754
 rem DISPLAY_NAME: Windows 推送通知用户服务_2e754
-rem sc config WpnService start= DISABLED
-rem sc config WpnUserService start= DISABLED
-rem sc config CDPSvc start= DISABLED
-rem sc config CDPUserSvc start= DISABLED
-rem sc config UserDataSvc start= DISABLED
-rem sc config UnistoreSvc start= DISABLED
-rem sc config DevicesFlowUserSvc start= DISABLED
-rem sc config MessagingService start= DISABLED
-rem sc config PimIndexMaintenanceSvc start= DISABLED
-rem sc config PrintWorkflowUserSvc start= DISABLED
+sc config WpnService start= DISABLED
+sc config WpnUserService start= DISABLED
+sc config CDPSvc start= DISABLED
+sc config CDPUserSvc start= DISABLED
+sc config UserDataSvc start= DISABLED
+sc config UnistoreSvc start= DISABLED
+sc config DevicesFlowUserSvc start= DISABLED
+sc config MessagingService start= DISABLED
+sc config PimIndexMaintenanceSvc start= DISABLED
+sc config PrintWorkflowUserSvc start= DISABLED
 
 rem    exclude_registry=\REGISTRY\MACHINE\SYSTEM\ControlSet001\services\CDPUserSvc_  
 rem    exclude_registry=\REGISTRY\MACHINE\SYSTEM\ControlSet001\services\MessagingService_  
