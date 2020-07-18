@@ -1,0 +1,6 @@
+﻿Windows Registry Editor Version 5.00
+
+; https://www.ghacks.net/2017/11/20/microsoft-security-faux-pas-aslr-implementation-issue-on-windows-8-and-10/
+;全局设置，慎重使用，会导致很多程序无法运行。
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\kernel]
+"MitigationOptions"=hex:22,22,22,00,00,02,00,00,00,02,00,00,00,00,00,00
