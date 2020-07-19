@@ -4,7 +4,7 @@ rem 启用电源计划“平衡”
 rem powercfg.exe -setactive 381b4222-f694-41f0-9685-ff5bb260df2e
 
 rem 启用电源计划“卓越性能”
-powercfg /DUPLICATESCHEME e9a42b02-d5df-448d-aa00-03f14749eb61
+powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
 
 rem AHCI链路电源管理 HIPM/DIPM 无win7
 powercfg -setacvalueindex scheme_current sub_disk 0b2d69d7-a2a1-449c-9680-f91c70521c60 1
