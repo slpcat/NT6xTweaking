@@ -618,8 +618,7 @@ sc config swprv start= DEMAND
 rem SERVICE_NAME: SysMain
 rem DISPLAY_NAME: Superfetch
 
-sc stop SysMain
-sc config SysMain start= DISABLED
+sc config SysMain start= AUTO
 
 
 rem SERVICE_NAME: SystemEventsBroker
