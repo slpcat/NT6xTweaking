@@ -19,14 +19,7 @@ Set-NetTCPSetting -SettingName DataCenterCustom -InitialCongestionWindow 10
 Set-NetTCPSetting -SettingName DataCenterCustom -DelayedAckTimeoutMs 10
 Set-NetTCPSetting -SettingName DataCenterCustom -DelayedAckFreq 1
 
-#win7
-netsh interface tcp set global congestionprovider=ctcp
-
-#禁止IPv6teredo
-netsh interface teredo set state disable
-#netsh int tcp set heuristics disabled
 netsh int tcp set global autotuninglevel=experimental
-netsh int tcp set global chimney=enabled
 netsh int tcp set global dca=enabled
 netsh int tcp set global ecncapability=enabled
 netsh int tcp set global netdma=disabled
@@ -38,10 +31,3 @@ netsh int tcp set global fastopen=enabled
 netsh int tcp set global pacingprofile=always
 netsh int tcp set heuristics wsh=enabled forcews=enabled
 netsh int tcp set security mpp=enabled startport=1024 numberofports=64500
-
-#win2012 
-netsh int tcp set supplemental custom 20 10 dctcp enabled 10
-
-#win10
-netsh int tcp set supplemental internet congestionprovider=dctcp
-netsh int tcp set supplemental datacenter congestionprovider=dctcp
