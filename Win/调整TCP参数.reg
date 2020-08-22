@@ -39,7 +39,7 @@ Windows Registry Editor Version 5.00
 "TcpTimedWaitDelay"=dword:00000014
 ;"EnablePMTUDiscovery"=dword:00000000
 ;"EnablePMTUBHDetect"=dword:00000001
-;"SackOpts"=dword:00000001
+"SackOpts"=dword:00000000
 "DefaultTTL"=dword:00000040
 "TcpMaxDupAcks"=dword:00000003
 ;"MTU"=dword:000005dc
