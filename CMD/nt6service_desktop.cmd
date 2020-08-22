@@ -882,7 +882,7 @@ sc config wscsvc start= AUTO
 rem SERVICE_NAME: WSearch
 rem DISPLAY_NAME: Windows Search
 
-sc config WSearch start= AUTO
+sc config WSearch start= DISABLED
 
 rem SERVICE_NAME: WSService
 rem DISPLAY_NAME: Windows Store Service (WSService)
