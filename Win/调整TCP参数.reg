@@ -1,8 +1,8 @@
 Windows Registry Editor Version 5.00
 
-;[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AFD\Parameters]
-;"DefaultReceiveWindow"=dword:00040000
-;"DefaultSendWindow"=dword:00040000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AFD\Parameters]
+"DefaultReceiveWindow"=dword:00040000
+"DefaultSendWindow"=dword:00040000
 ;"EnableDynamicBacklog"=dword:00000001
 ;"MinimumDynamicBacklog"=dword:00000100
 ;"MaximumDynamicBacklog"=dword:00004000
@@ -24,9 +24,9 @@ Windows Registry Editor Version 5.00
 ;"EnableTCPChimney"=dword:00000001
 "EnableConnectionRateLimiting"=dword:00000000
 ;"IPEnableRouter"=dword:00000000
-;"GlobalMaxTcpWindowSize"=dword:01000000
+"GlobalMaxTcpWindowSize"=dword:01000000
 ;"TcpAckFrequency"=dword:00000001
-;"TCPWindowSize"=dword:01000000
+"TCPWindowSize"=dword:01000000
 ;"TcpMaxSendFree"=dword:0000ffff
 "Tcp1323Opts"=dword:00000001
 ;"ForwardBufferMemory"=dword:00013880
