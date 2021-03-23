@@ -7,7 +7,19 @@ rem 启用电源计划“卓越性能”
 powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
 
 rem AHCI链路电源管理 HIPM/DIPM 无win7
-powercfg -setacvalueindex scheme_current sub_disk 0b2d69d7-a2a1-449c-9680-f91c70521c60 1
+
+powercfg -attributes 0012ee47-9041-4b5d-9b77-535fba8b1442 0b2d69d7-a2a1-449c-9680-f91c70521c60 -ATTRIB_HIDE
+powercfg -setacvalueindex scheme_current sub_disk 0b2d69d7-a2a1-449c-9680-f91c70521c60 4
+
+rem 增加了低功耗模式自适应选项，可以设置SSD空闲后进入休眠状态的时间，设置的短一些可以让硬盘有更多机会休眠，降低功耗和发热量，设置的长一些则可以让硬件减少休眠，让硬盘更多地处于工作状态，节省唤醒时间，可以提升一定的性能。
+powercfg -attributes 0012ee47-9041-4b5d-9b77-535fba8b1442 dab60367-53fe-4fbc-825e-521d069d2456 -ATTRIB_HIDE
+
+rem 添加Primary NVMe Idle Timeout项目，是设置NVMe固态硬盘空闲超过这个某个时长后，进入节能模式。
+powercfg -attributes 0012ee47-9041-4b5d-9b77-535fba8b1442 d639518a-e56d-4345-8af2-b9f32fb26109 -ATTRIB_HIDE
+
+rem 功耗状态切换的延迟容忍时间
+powercfg -attributes 0012ee47-9041-4b5d-9b77-535fba8b1442 fc95af4d-40e7-4b6d-835a-56d131dbc80e -ATTRIB_HIDE
+
 
 rem 在此时间后关闭硬盘 5分钟
 powercfg -setacvalueindex scheme_current sub_disk DISKIDLE 300

@@ -203,3 +203,7 @@ schtasks /change /TN "\Microsoft\XblGameSave\XblGameSaveTask" /DISABLE
 schtasks /change /TN "\Microsoft\XblGameSave\XblGameSaveTaskLogon" /DISABLE
 REM The stubborn task Microsoft\Windows\SettingSync\BackgroundUploadTask can be Disabled using a simple bit change.
 REM Please note that the key changes for each machine!! I have explained how to disable it in a later post.
+schtasks /change /TN "\Microsoft\Windows\Speech\SpeechModelDownloadTask" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\WindowsUpdate\Scheduled Start" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\Chkdsk\SyspartRepair" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\Diagnosis\RecommendedTroubleshootingScanner" /DISABLE

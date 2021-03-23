@@ -557,7 +557,7 @@ sc config SharedAccess start= DISABLED
 rem SERVICE_NAME: ShellHWDetection
 rem DISPLAY_NAME: Shell Hardware Detection
 
-sc config ShellHWDetection start= DISABLED
+sc config ShellHWDetection start= DEMAND
 
 
 rem SERVICE_NAME: smphost
@@ -893,7 +893,7 @@ rem SERVICE_NAME: wuauserv
 rem DISPLAY_NAME: Windows Update
 rem AppStore need running
 
-sc config wuauserv start= AUTO
+sc config wuauserv start= DISABLED
 
 rem SERVICE_NAME: wudfsvc
 rem DISPLAY_NAME: Windows Driver Foundation - User-mode Driver Framework
