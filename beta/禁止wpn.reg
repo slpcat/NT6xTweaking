@@ -1,5 +1,6 @@
 Windows Registry Editor Version 5.00
 
+;禁止后会导致操作中心无法打开
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WpnService]
 "Start"=dword:00000004
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WpnUserService]
