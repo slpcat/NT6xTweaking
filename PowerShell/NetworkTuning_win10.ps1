@@ -5,7 +5,7 @@ Set-NetTCPSetting -SettingName InternetCustom -ForceWS enabled
 Set-NetTCPSetting -SettingName InternetCustom -MemoryPressureProtection disabled
 
 Set-NetTCPSetting -SettingName DataCenterCustom -Timestamps disabled
-Set-NetTCPSetting -SettingName DataCenterCustom -InitialRto 1000
+Set-NetTCPSetting -SettingName DataCenterCustom -InitialRto 2000
 Set-NetTCPSetting -SettingName DataCenterCustom -ForceWS enabled
 Set-NetTCPSetting -SettingName DataCenterCustom -MemoryPressureProtection disabled
  
@@ -17,9 +17,9 @@ set-NetTCPSetting -SettingName InternetCustom -MinRto 300
 
 #禁止IPv6teredo
 netsh interface teredo set state disable
-netsh int tcp set heuristics disabled
-netsh int tcp set global chimney=disabled
-netsh int tcp set global autotuninglevel=normal
+#netsh int tcp set heuristics disabled
+#netsh int tcp set global chimney=disabled
+netsh int tcp set global autotuninglevel=experimental
 netsh int tcp set global dca=enabled
 netsh int tcp set global timestamps=disabled
 netsh int tcp set global ecncapability=disabled
