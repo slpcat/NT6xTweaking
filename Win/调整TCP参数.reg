@@ -16,8 +16,8 @@ Windows Registry Editor Version 5.00
 ;"EnableWsd"=dword:00000000
 ;"EnableFragmentChecking"=dword:00000001
 "EnableMulticastForwarding"=dword:00000000
-;"EnableAddrMaskReply"=dword:00000000
-;"DisableIPSourceRouting"=dword:00000002
+"EnableAddrMaskReply"=dword:00000000
+"DisableIPSourceRouting"=dword:00000002
 "DisableLargeMtu"=dword:00000000
 ;"EnableTCPA"=dword:00000001
 ;"EnableRSS"=dword:00000001
@@ -32,10 +32,10 @@ Windows Registry Editor Version 5.00
 ;"ForwardBufferMemory"=dword:00013880
 ;"NumForwardPackets"=dword:0000ea60
 "MaxHashTableSize"=dword:00010000
-"NumTcbTablePartitions"=dword:00000010
+"NumTcbTablePartitions"=dword:00000020
 ;"QualifyingDestinationThreshold"=dword:00010003
 "MaxUserPort"=dword:0000ffff
-"MaxFreeTcbs"=dword:ffffffff
+"MaxFreeTcbs"=dword:00004000
 "TcpTimedWaitDelay"=dword:00000014
 ;"EnablePMTUDiscovery"=dword:00000000
 ;"EnablePMTUBHDetect"=dword:00000001
@@ -46,15 +46,15 @@ Windows Registry Editor Version 5.00
 ;"MTU"=dword:000005dc
 ;"DisableTaskOffload"=dword:00000000
 "SynAttackProtect"=dword:00000000
-;"TcpMaxPortsExhausted"=dword:00000005
-;"TcpMaxHalfOpen"=dword:0000ffff
-;"TcpMaxHalfOpenRetried"=dword:00001000
-;"TcpMaxConnectResponseRetransmissions"=dword:00000002
-;"TcpMaxDataRetransmissions"=dword:00000003
+"TcpMaxPortsExhausted"=dword:00000005
+"TcpMaxHalfOpen"=dword:0000ffff
+"TcpMaxHalfOpenRetried"=dword:00001000
+"TcpMaxConnectResponseRetransmissions"=dword:00000001
+"TcpMaxDataRetransmissions"=dword:00000003
 "TcpNumConnections"=dword:00fffffe
 "KeepAliveTime"=dword:0036ee80
 "KeepAliveInterval"=dword:0000ea60
-;"NoNameReleaseOnDemand"=dword:00000001
+"NoNameReleaseOnDemand"=dword:00000001
 
 ;[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\<Interfaces>]
 
@@ -80,3 +80,9 @@ Windows Registry Editor Version 5.00
 "HostsPriority"=dword:00000005
 "LocalPriority"=dword:00000004
 "NetbtPriority"=dword:00000007
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NetBT\Parameters]
+;增大NetBT的连接块增加幅度。缺省为3，范围1-20，数值越大在连接越多时提升性能。每个连接块消耗87个字节。
+"BacklogIncrement"=dword:000000020
+;最大NetBT的连接快的数目。范围1-40000，这里设置为1000，数值越大在连接越多时允许更多连接。
+"MaxConnBackLog"=dword:000003e8

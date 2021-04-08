@@ -31,7 +31,7 @@ netsh int tcp set global maxsynretransmissions=2
 netsh int tcp set global rss=enabled
 netsh int tcp set global rsc=enabled
 netsh int tcp set global fastopen=enabled
-netsh int tcp set global pacingprofile=off
+netsh int tcp set global pacingprofile=always
 netsh int tcp set heuristics wsh=enabled forcews=enabled
 netsh int tcp set security mpp=enabled startport=1024 numberofports=64500
 
