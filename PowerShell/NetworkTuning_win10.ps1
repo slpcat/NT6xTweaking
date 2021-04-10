@@ -27,6 +27,8 @@ netsh int tcp set global netdma=disabled
 netsh int tcp set global nonsackrttresiliency=disabled
 netsh int tcp set global initialrto=2000
 netsh int tcp set global maxsynretransmissions=2
+netsh int tcp set global hystart=disabled
+netsh int tcp set global prr=disabled
 
 netsh int tcp set global rss=enabled
 netsh int tcp set global rsc=enabled
