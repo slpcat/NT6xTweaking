@@ -49,8 +49,8 @@ Windows Registry Editor Version 5.00
 "TcpMaxPortsExhausted"=dword:00000005
 "TcpMaxHalfOpen"=dword:0000ffff
 "TcpMaxHalfOpenRetried"=dword:00001000
-"TcpMaxConnectResponseRetransmissions"=dword:00000001
-"TcpMaxDataRetransmissions"=dword:00000002
+;"TcpMaxConnectResponseRetransmissions"=dword:00000001
+;"TcpMaxDataRetransmissions"=dword:00000002
 "TcpNumConnections"=dword:00fffffe
 "KeepAliveTime"=dword:0036ee80
 "KeepAliveInterval"=dword:0000ea60
