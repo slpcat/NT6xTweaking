@@ -1,0 +1,57 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations]
+"DWMFRAMEINTERVAL"=dword:0000000f
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\Console\RDP]
+"InteractiveDelay"=dword:00000016
+"OutBufDelay"=dword:00000032
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp]
+"DrawGdiplusSupportLevel"=dword:00000001
+"fAllowSecProtocolNegotiation"=dword:00000001
+"fAutoClientDrives"=dword:00000001
+"fAutoClientLpts"=dword:00000001
+"fDisableAudioCapture"=dword:00000000
+"fDisableCam"=dword:00000000
+"fDisableCcm"=dword:00000000
+"fDisableCdm"=dword:00000000
+"fDisableClip"=dword:00000000
+"fDisableCpm"=dword:00000000
+"fDisableEncryption"=dword:00000001
+"fDisableExe"=dword:00000000
+"fDisableLPT"=dword:00000000
+"fEnableWinStation"=dword:00000001
+"fForceClientLptDef"=dword:00000001
+"fHomeDirectoryMapRoot"=dword:00000000
+"fInheritAutoClient"=dword:00000001
+"fInheritAutoLogon"=dword:00000001
+"fInheritCallback"=dword:00000000
+"fInheritCallbackNumber"=dword:00000001
+"fInheritColorDepth"=dword:00000000
+"fInheritInitialProgram"=dword:00000001
+"fInheritMaxDisconnectionTime"=dword:00000001
+"fInheritMaxIdleTime"=dword:00000001
+"fInheritMaxSessionTime"=dword:00000001
+"fInheritReconnectSame"=dword:00000001
+"fInheritResetBroken"=dword:00000001
+"fInheritSecurity"=dword:00000000
+"fInheritShadow"=dword:00000001
+"fLogonDisabled"=dword:00000000
+"fPromptForPassword"=dword:00000000
+"fReconnectSame"=dword:00000000
+"fResetBroken"=dword:00000000
+"fUseDefaultGina"=dword:00000000
+"InputBufferLength"=dword:00000800
+"InteractiveDelay"=dword:00000016
+"KeepAliveTimeout"=dword:00000000
+"KeyboardLayout"=dword:00000000
+"LanAdapter"=dword:00000000
+"MaxConnectionTime"=dword:00000000
+"MaxDisconnectionTime"=dword:00000000
+"MaxIdleTime"=dword:00000000
+"MaxInstanceCount"=dword:ffffffff
+"MinEncryptionLevel"=dword:00000002
+"OutBufCount"=dword:00000006
+"OutBufDelay"=dword:00000032
+"OutBufLength"=dword:00000212
