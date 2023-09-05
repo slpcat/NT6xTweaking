@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services]
+"bEnumerateHWBeforeSW"=dword:00000001
+"fEnableVirtualizedGraphics"=dword:00000001
+"VGOptimization_CaptureFrameRate"=dword:00000002
+"VGOptimization_CompressionRatio"=dword:00000002
+"VisualExperiencePolicy"=dword:00000001
+"AVCHardwareEncodePreferred"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services\Client]
+"fUsbRedirectionEnableMode"=dword:00000001
