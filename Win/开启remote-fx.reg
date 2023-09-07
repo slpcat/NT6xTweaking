@@ -10,4 +10,3 @@
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services\Client]
 "fUsbRedirectionEnableMode"=dword:00000001
-
