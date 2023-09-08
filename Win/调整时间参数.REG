@@ -6,9 +6,6 @@ Windows Registry Editor Version 5.00
 "2"="tw.pool.ntp.org"
 "3"="stdtime.gov.hk"
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W32Time\Config]
-"AnnounceFlags"=dword:00000005
-
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W32Time\Parameters]
 "NtpServer"="cn.pool.ntp.org,0x9"
 "Type"="NTP"
@@ -19,3 +16,29 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\W32Time\TimeProviders\NtpServer]
 "Enabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\W32Time\Config]
+"FrequencyCorrectRate"=dword:00000004
+"HoldPeriod"=dword:00000005
+"LargePhaseOffset"=dword:02faf080
+"MaxAllowedPhaseOffset"=dword:0000012c
+"MaxNegPhaseCorrection"=dword:01e13380
+"MaxPosPhaseCorrection"=dword:01e13380
+"PhaseCorrectRate"=dword:00000001
+"PollAdjustFactor"=dword:00000005
+"SpikeWatchPeriod"=dword:00000384
+"UpdateInterval"=dword:00000064
+"AnnounceFlags"=dword:0000000a
+"EventLogFlags"=dword:00000002
+"LocalClockDispersion"=dword:0000000a
+"MaxPollInterval"=dword:0000000a
+"MinPollInterval"=dword:00000006
+"ClockHoldoverPeriod"=dword:00001e78
+"RequireSecureTimeSyncRequests"=dword:00000000
+"UtilizeSslTimeData"=dword:00000000
+"ClockAdjustmentAuditLimit"=dword:00000320
+"ChainEntryTimeout"=dword:00000010
+"ChainMaxEntries"=dword:00000080
+"ChainMaxHostEntries"=dword:00000004
+"ChainDisable"=dword:00000000
+"ChainLoggingRate"=dword:0000001e
