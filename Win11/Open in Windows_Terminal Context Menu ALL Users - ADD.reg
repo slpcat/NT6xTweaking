@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; MajorGeeks.Com
+; Add or Remove 'Open in Windows Terminal' in Windows 11
+; https://www.majorgeeks.com/content/page/open_in_windows_terminal.html
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked]
+"{9F156763-7844-4DC4-B2B1-901F640F5155}"=-
+
