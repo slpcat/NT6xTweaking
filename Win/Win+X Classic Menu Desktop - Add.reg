@@ -1,0 +1,125 @@
+Windows Registry Editor Version 5.00
+
+; MajorGeeks.Com
+; Add Win+X Classic Menu to Desktop Context Menu
+; https://www.majorgeeks.com/content/page/add_winx_classic_menu.html
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu]
+"icon"="bootux.dll,-1034"
+"MUIVerb"="Win+X Classic Menu"
+"Position"="Bottom"
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\001flyout]
+"MUIVerb"="Programs and Features"
+"Icon"="appwiz.cpl,-1500"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\001flyout\command]
+@="control appwiz.cpl"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\002flyout]
+"MUIVerb"="Power Options"
+"Icon"="powercfg.cpl,-202"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\002flyout\command]
+@="control powercfg.cpl"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\003flyout]
+"MUIVerb"="Event Viewer"
+"Icon"="eventvwr.exe,-101"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\003flyout\command]
+@="eventvwr.exe"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\004flyout]
+"MUIVerb"="System"
+"Icon"="sysdm.cpl,-1"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\004flyout\command]
+@="control sysdm.cpl"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\005flyout]
+"MUIVerb"="Device Manager"
+"Icon"="devmgr.dll,-201"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\005flyout\command]
+@="mmc devmgmt.msc"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\006flyout]
+"MUIVerb"="Network Connections"
+"Icon"="ncpa.cpl,-1001"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\006flyout\command]
+@="control ncpa.cpl"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\007flyout]
+"MUIVerb"="Disk Management"
+"Icon"="dmdskres.dll,-344"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\007flyout\command]
+@="mmc diskmgmt.msc"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\008flyout]
+"MUIVerb"="Computer Management"
+"Icon"="CompMgmtLauncher.exe,-500"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\008flyout\command]
+@="mmc compmgmt.msc"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\009flyout]
+"MUIVerb"="Command Prompt"
+"Icon"="cmd.exe"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\009flyout\command]
+@="cmd.exe"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\010flyout]
+"MUIVerb"="Command Prompt (Admin)"
+"Icon"="imageres.dll,-5324"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\010flyout\command]
+@="PowerShell -windowstyle hidden -Command \"Start-Process cmd -Verb RunAs\""
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\011flyout]
+"MUIVerb"="Task Manager"
+"Icon"="taskmgr.exe,-30651"
+"CommandFlags"=dword:00000020
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\011flyout\command]
+@="taskmgr.exe"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\012flyout]
+"MUIVerb"="Control Panel"
+"Icon"="control.exe,-101"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\012flyout\command]
+@="control.exe"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\013flyout]
+"MUIVerb"="File Explorer"
+"Icon"="explorer.exe"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\013flyout\command]
+@="explorer.exe"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\014flyout]
+"MUIVerb"="Search"
+"Icon"="searchfolder.dll,-323"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\014flyout\command]
+@="explorer.exe search-ms:"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\015flyout]
+"MUIVerb"="Run"
+"Icon"="imageres.dll,-100"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\015flyout\command]
+@="explorer.exe shell:::{2559a1f3-21d7-11d4-bdaf-00c04f60b9f0}"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\016flyout]
+"MUIVerb"="Desktop"
+"Icon"="imageres.dll,-110"
+"CommandFlags"=dword:00000020
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WinXclassicMenu\shell\016flyout\command]
+@="explorer.exe shell:::{3080F90D-D7AD-11D9-BD98-0000947B0257}"
