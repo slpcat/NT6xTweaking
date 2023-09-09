@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+; MajorGeeks.Com
+; How to Enable or Disable Screen Edge Swipe in Windows 10 & 11
+; https://www.majorgeeks.com/content/page/enable_disable_screen_edge_swipe.html
+
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\EdgeUI]
+"AllowEdgeSwipe"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\EdgeUI]
+"AllowEdgeSwipe"=dword:00000000
+

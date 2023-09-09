@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; MajorGeeks.Com
+; Enable or Disable Shared Experiences in Windows 10
+; https://www.majorgeeks.com/content/page/how_to_enable_or_disable_shared_experiences_in_windows_10.html
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"EnableCdp"=dword:00000000
+

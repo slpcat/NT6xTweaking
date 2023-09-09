@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; MajorGeeks.Com
+; How to Disable App Launch Tracking in Windows 10
+; https://www.majorgeeks.com/content/page/how_to_disable_app_launch_tracking_in_windows_10.html
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerSettings\0012ee47-9041-4b5d-9b77-535fba8b1442\d639518a-e56d-4345-8af2-b9f32fb26109]
+"Attributes"=dword:00000000

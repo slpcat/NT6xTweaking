@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+; MajorGeeks.Com
+; How to Disable App Launch Tracking in Windows 10
+; https://www.majorgeeks.com/content/page/how_to_disable_app_launch_tracking_in_windows_10.html
+
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\EdgeUI]
+"DisableMFUTracking"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\EdgeUI]
+"DisableMFUTracking"=dword:00000001
+

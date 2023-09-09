@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+; https://www.majorgeeks.com/content/page/how_to_turn_on_or_off_game_mode_in_windows_10.html
+
+
+[HKEY_CURRENT_USER\Software\Microsoft\GameBar]
+"AllowAutoGameMode"=dword:00000001
+"AutoGameModeEnabled"=dword:00000001
+
+

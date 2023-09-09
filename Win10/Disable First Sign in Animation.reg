@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+; MajorGeeks.Com
+; How to Turn First Sign-in Animation in Window 10
+; https://www.majorgeeks.com/content/page/how_to_turn_first_sign_in_animation_in_window_10.html
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"EnableFirstLogonAnimation"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon]
+"EnableFirstLogonAnimation"=dword:00000000
+
+

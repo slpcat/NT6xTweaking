@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+; MajorGeeks.Com
+; Turn Optimizations for Windowed Games On or Off in Windows 11
+; https://www.majorgeeks.com/files/details/windowed_games_on_or_off.html
+
+[HKEY_CURRENT_USER\Software\Microsoft\DirectX\GraphicsSettings]
+"SwapEffectUpgradeCache"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\DirectX\UserGpuPreferences]
+"DirectXUserGlobalSettings"="SwapEffectUpgradeEnable=1;"
+

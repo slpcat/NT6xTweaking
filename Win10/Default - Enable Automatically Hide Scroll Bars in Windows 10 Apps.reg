@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; MajorGeeks.Com
+; Disable or Enable Automatically Hide Scroll Bars in Windows 10 Apps
+; https://www.majorgeeks.com/content/page/disable_or_enable_automatically_hide_scroll_bars_in_windows_10_apps.html
+
+[HKEY_CURRENT_USER\Control Panel\Accessibility]
+"DynamicScrollbars"=dword:00000001

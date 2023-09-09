@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; MajorGeeks.Com
+; How to Turn Core Isolation Memory Integrity On or Off in Windows 10
+; https://www.majorgeeks.com/content/page/how_to_turn_core_isolation_memory_integrity_on_or_off_in_windows_10.html
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity]
+"Enabled"=dword:00000000
+

@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+; MajorGeeks.Com
+; How to Add or Remove Linux From the File Explorer Navigation Pane
+; https://www.majorgeeks.com/content/page/linux_navigation_file_explorer.html
+
+[HKEY_CURRENT_USER\Software\Classes\CLSID\{B2B4A4D1-2754-4140-A2EB-9A76D9D7CDC6}]
+"System.IsPinnedToNameSpaceTree"=-
+
+

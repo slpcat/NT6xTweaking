@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+; Created by: Shawn Brink
+; Created on: August 4, 2021
+; Tutorial: https://www.elevenforum.com/t/turn-on-or-off-hardware-accelerated-gpu-scheduling-in-windows-11.852/
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers]
+"HwSchMode"=dword:00000002
+
