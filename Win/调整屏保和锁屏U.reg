@@ -1,0 +1,30 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_USERS\.DEFAULT\Control Panel\Desktop]
+"ScreenSaveActive"="0"
+"LockScreenAutoLockActive"="1"
+"ScreenSaveTimeOut"="300"
+"ScreenSaverIsSecure"="1"
+
+
+
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"ScreenSaveActive"="0"
+"LockScreenAutoLockActive"="1"
+"ScreenSaveTimeOut"="300"
+"ScreenSaverIsSecure"="1"
+
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Control Panel\Desktop]
+"ScreenSaveActive"="0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon]
+"DisableLockWorkstation"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Personalization]
+"NoLockScreen"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"InactivityTimeoutSecs"=dword:00000078
+
+
+
