@@ -95,6 +95,8 @@ rem DISPLAY_NAME: Bluetooth Support Service
 
 sc config bthserv start= DEMAND
 sc config BthHFSrv start= DEMAND
+sc config BcastDVRUserService start= DISABLED
+sc config BcastDVRUserService_5385b start= DISABLED
 
 rem SERVICE_NAME: CertPropSvc
 rem DISPLAY_NAME: Certificate Propagation
@@ -927,8 +929,10 @@ sc config Sens start= AUTO
 
 rem SERVICE_NAME: Sense
 rem DISPLAY_NAME: Windows Defender Advanced Threat Protection Service
-rem sc config Sense start= DISABLED
+sc config Sense start= DISABLED
 sc delete Sense
+
+sc config SgrmBroker start= DEMAND
 
 rem SERVICE_NAME: BaiduYunUtility
 rem DISPLAY_NAME: BaiduYunUtility
