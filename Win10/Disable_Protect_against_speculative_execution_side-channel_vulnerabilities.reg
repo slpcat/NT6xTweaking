@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; https://support.microsoft.com/en-us/help/4072698/windows-server-guidance-to-protect-against-the-speculative-execution#switch
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"FeatureSettingsOverride"=dword:00000003
+"FeatureSettingsOverrideMask"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Virtualization]
+"MinVmVersionForCpuBasedMitigations"="1.0"
