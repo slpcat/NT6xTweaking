@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_USERS\.DEFAULT\Control Panel\Desktop]
+"ScreenSaveActive"="1"
+"LockScreenAutoLockActive"="0"
+"ScreenSaveTimeOut"="300"
+"ScreenSaverIsSecure"="1"
+
+
+
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"ScreenSaveActive"="1"
+"LockScreenAutoLockActive"="0"
+"ScreenSaveTimeOut"="300"
+"ScreenSaverIsSecure"="1"
+
+
