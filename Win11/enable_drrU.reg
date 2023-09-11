@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+;Enable Variable Refresh Rate for Games in Windows 11
+[HKEY_USERS\.DEFAULT\Software\Microsoft\DirectX\UserGpuPreferences​]
+"DirectXUserGlobalSettings"="VRROptimizeEnable=1;AutoHDREnable=1;SwapEffectUpgradeEnable=1;"
+
+[HKEY_CURRENT_USER\Software\Microsoft\DirectX\UserGpuPreferences​]
+"DirectXUserGlobalSettings"="VRROptimizeEnable=1;AutoHDREnable=1;SwapEffectUpgradeEnable=1;"
