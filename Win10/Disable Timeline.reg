@@ -1,9 +1,0 @@
-Windows Registry Editor Version 5.00
-
-; MajorGeeks.Com
-; How to Disable or Enable Timeline in Windows 10
-; https://www.majorgeeks.com/content/page/how_to_disable_or_enable_timeline_in_windows_10.html
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
-"EnableActivityFeed"=dword:00000000
-
