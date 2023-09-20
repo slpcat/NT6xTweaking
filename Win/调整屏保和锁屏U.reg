@@ -6,8 +6,6 @@ Windows Registry Editor Version 5.00
 "ScreenSaveTimeOut"="300"
 "ScreenSaverIsSecure"="1"
 
-
-
 [HKEY_CURRENT_USER\Control Panel\Desktop]
 "ScreenSaveActive"="0"
 "LockScreenAutoLockActive"="1"
@@ -25,6 +23,36 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
 "InactivityTimeoutSecs"=dword:0000012c
+
+[HKEY_USERS\.DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Lock Screen]
+"TileMigrated"=dword:0000000b
+"SlideshowEnabled"=dword:00000000
+
+[HKEY_USERS\.DEFAULT\Microsoft\Windows\CurrentVersion\Lock Screen\Creative]
+"LockImageFlags"=dword:00000000
+"LockScreenOptions"=dword:00000000
+
+[HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
+"RotatingLockScreenEnabled"=dword:00000000 ; This sets lock screen fixed to a single image instead of spotlight or slideshow.
+"RotatingLockScreenOverlayEnabled"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Lock Screen]
+"TileMigrated"=dword:0000000b
+"SlideshowEnabled"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Lock Screen\Creative]
+"LockImageFlags"=dword:00000000
+"LockScreenOptions"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
+"RotatingLockScreenEnabled"=dword:00000000 ; This sets lock screen fixed to a single image instead of spotlight or slideshow.
+"RotatingLockScreenOverlayEnabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"DisableLogonBackgroundImage"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"DontDisplayNetworkSelectionUI"=dword:00000001
 
 
 
