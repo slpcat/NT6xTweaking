@@ -29,7 +29,7 @@ netsh int tcp set global autotuninglevel=experimental
 netsh int tcp set global dca=enabled
 
 #启用网络适配器上的校验和
-Enable-NetAdapterChecksumOffload -Name *
+#Enable-NetAdapterChecksumOffload -Name *
 
 netsh int tcp set global timestamps=disabled
 netsh int tcp set global ecncapability=disabled
@@ -51,7 +51,7 @@ netsh int tcp set global rsc=disabled
 Set-NetOffloadGlobalSetting -PacketCoalescingFilter disabled
 
 #Large Send Offload 
-Disable-NetAdapterLso -Name *
+#Disable-NetAdapterLso -Name *
 netsh int tcp set global fastopen=enabled
 netsh int tcp set global pacingprofile=always
 
