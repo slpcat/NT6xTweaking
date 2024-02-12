@@ -18,3 +18,6 @@ Windows Registry Editor Version 5.00
 "RdWrNfsDeferredWritesFlushDelay "=dword:00000300
 "CacheAddFromCreateAndMkDir"=dword:00000001
 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ClientForNFS\CurrentVersion\Default]
+"AnonymousUid"=hex(b):00,00,00,00,00,00,00,00
+"AnonymousGid"=hex(b):00,00,00,00,00,00,00,00
