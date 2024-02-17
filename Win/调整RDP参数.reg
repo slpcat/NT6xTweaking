@@ -56,5 +56,11 @@ Windows Registry Editor Version 5.00
 "OutBufDelay"=dword:00000032
 "OutBufLength"=dword:00000212
 
-
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services]
+"fEnableVirtualizedGraphics"=dword:00000001
+"VGOptimization_CaptureFrameRate"=dword:00000002
+"VGOptimization_CompressionRatio"=dword:00000002
+"VisualExperiencePolicy"=dword:00000001
+"AVCHardwareEncodePreferred"=dword:00000001
+"bEnumerateHWBeforeSW"=dword:00000001
 
