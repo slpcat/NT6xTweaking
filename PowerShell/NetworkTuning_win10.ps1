@@ -68,3 +68,4 @@ netsh int tcp set supplemental datacenter congestionprovider=dctcp
 #Set-NetTCPSetting -SettingName Custom -InitialCongestionWindow 10 -CongestionProvider DCTCP
 
 netsh winsock set autotuning on
+Set-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Services\AFD\Parameters\ -Name "DoNotHoldNicBuffers" -Value "1" -Force
