@@ -16,6 +16,9 @@ Set-NetTCPSetting -SettingName DataCenterCustom -InitialCongestionWindow 10
 Set-NetTCPSetting -SettingName DataCenterCustom -DelayedAckTimeoutMs 10
 set-NetTCPSetting -SettingName InternetCustom -MinRto 300
 
+netsh int tcp set supplemental template=custom icw=10
+netsh int tcp set supplemental template=InternetCustom icw=10
+
 #禁止IPv6teredo
 netsh interface teredo set state disable
 #Disable Windows Scaling heuristics
@@ -56,8 +59,12 @@ netsh int tcp set global fastopen=enabled
 netsh int tcp set global pacingprofile=default
 
 netsh int tcp set security mpp=disabled startport=1024 numberofports=64500
+netsh int tcp set security mpp=disabled
+netsh int tcp set security profiles=disabled
 
 #win10
 netsh int tcp set supplemental internet congestionprovider=dctcp
 netsh int tcp set supplemental datacenter congestionprovider=dctcp
 #Set-NetTCPSetting -SettingName Custom -InitialCongestionWindow 10 -CongestionProvider DCTCP
+
+netsh winsock set autotuning on
