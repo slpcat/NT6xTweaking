@@ -34,7 +34,7 @@ Windows Registry Editor Version 5.00
 ;"autodisconnect"=dword:ffffffff
 ;"enableforcedlogoff"=dword:00000001
 "enablesecuritysignature"=dword:00000000
-"IRPStackSize"=dword:00000030
+"IRPStackSize"=dword:00000032
 "requiresecuritysignature"=dword:00000000
 "restrictnullsessaccess"=dword:00000001
 "AdjustedNullSessionPipes"=dword:00000003
