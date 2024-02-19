@@ -38,7 +38,7 @@ netsh int tcp set global timestamps=disabled
 netsh int tcp set global ecncapability=enabled
 netsh int tcp set global netdma=enabled
 # RTT resiliency for non SACK clients.
-netsh int tcp set global nonsackrttresiliency=disabled
+netsh int tcp set global nonsackrttresiliency=enabled
 netsh int tcp set global initialrto=2000
 netsh int tcp set global maxsynretransmissions=2
 #tcp慢启动
@@ -60,7 +60,7 @@ netsh int tcp set global pacingprofile=default
 
 netsh int tcp set security mpp=disabled startport=1024 numberofports=64500
 netsh int tcp set security mpp=disabled
-netsh int tcp set security profiles=disabled
+netsh int tcp set security profiles=always
 
 #win10
 netsh int tcp set supplemental internet congestionprovider=dctcp
