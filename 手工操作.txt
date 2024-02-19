@@ -4,3 +4,5 @@
 https://github.com/ShadowWhisperer/Remove-MS-Edge/
 4.DefenderRemover
 https://github.com/ionuttbara/windows-defender-remover/releases
+5.win10反间谍
+https://www.getblackbird.net/download/
