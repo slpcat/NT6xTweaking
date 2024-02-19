@@ -53,6 +53,7 @@ schtasks /change /TN "\Microsoft\Windows\DiskFootprint\Diagnostics"  /DISABLE
 schtasks /change /TN "\Microsoft\Windows\DiskFootprint\StorageSense"  /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Device Information\Device" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Device Setup\Metadata Refresh" /DISABLE
+schtasks /delete /f /TN "\Microsoft\Windows\Device Setup\Metadata Refresh"
 schtasks /change /TN "\Microsoft\Windows\DUSM\dusmtask" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\EDP\EDP App Launch Task" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\EDP\EDP Auth Task" /DISABLE
@@ -148,12 +149,16 @@ rem schtasks /delete /f /TN "\Microsoft\Windows\UpdateOrchestrator\Maintenance I
 rem schtasks /delete /f /TN "\Microsoft\Windows\UpdateOrchestrator\Policy Install"
 rem schtasks /delete /f /TN "\Microsoft\Windows\UpdateOrchestrator\Reboot"
 rem schtasks /delete /f /TN "\Microsoft\Windows\UpdateOrchestrator\Resume On Boot"
-rem schtasks /delete /f /TN "\Microsoft\Windows\UpdateOrchestrator\Schedule Scan"
+schtasks /delete /f /TN "\Microsoft\Windows\UpdateOrchestrator\Schedule Scan"
+schtasks /delete /f /TN "\Microsoft\Windows\UpdateOrchestrator\Schedule Scan Static Task"
 rem schtasks /delete /f /TN "\Microsoft\Windows\UpdateOrchestrator\USO_Broker_Display"
 rem schtasks /delete /f /TN "\Microsoft\Windows\UpdateOrchestrator\USO_UxBroker_Display"
 rem schtasks /delete /f /TN "\Microsoft\Windows\UpdateOrchestrator\USO_UxBroker_ReadyToReboot"
 rem schtasks /delete /f /TN "\Microsoft\Windows\UpdateOrchestrator\Reboot"
 rem schtasks /delete /f /TN "\Microsoft\Windows\UpdateOrchestrator\Refresh Settings"
+schtasks /delete /f /TN "\Microsoft\Windows\UpdateOrchestrator\Report policies"
+schtasks /delete /f /TN "\Microsoft\Windows\UpdateOrchestrator\USO_UxBroker"
+schtasks /delete /f /TN "\Microsoft\Windows\WaaSMedic\PerformRemediation"
 schtasks /change /TN "\Microsoft\Windows\UPnP\UPnPHostConfig" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\User Profile Service\HiveUploadTask" /Disable
 schtasks /change /TN "\Microsoft\Windows\WaaSMedic\PerformRemediation" /Disable
