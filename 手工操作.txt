@@ -2,3 +2,5 @@
 2.右键powershell
 3.卸载edge浏览器
 https://github.com/ShadowWhisperer/Remove-MS-Edge/
+4.DefenderRemover
+https://github.com/ionuttbara/windows-defender-remover/releases
