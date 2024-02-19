@@ -29,6 +29,7 @@ netsh int tcp set heuristics wsh=enabled forcews=enabled
 #netsh int tcp set global chimney=disabled
 
 netsh int tcp set global autotuninglevel=experimental
+
 netsh int tcp set global dca=enabled
 
 #启用网络适配器上的校验和
@@ -42,8 +43,8 @@ netsh int tcp set global nonsackrttresiliency=enabled
 netsh int tcp set global initialrto=2000
 netsh int tcp set global maxsynretransmissions=2
 #tcp慢启动
-netsh int tcp set global hystart=disabled
-netsh int tcp set global prr=disabled
+netsh int tcp set global hystart=enabled
+netsh int tcp set global prr=enabled
 
 #允许在多个处理器上并行处理接收的数据包，同时避免数据包重新排序。
 netsh int tcp set global rss=enabled
@@ -56,11 +57,11 @@ Set-NetOffloadGlobalSetting -PacketCoalescingFilter enabled
 #Large Send Offload 
 Enable-NetAdapterLso -Name *
 netsh int tcp set global fastopen=enabled
-netsh int tcp set global pacingprofile=default
+netsh int tcp set global pacingprofile=always
 
 netsh int tcp set security mpp=disabled startport=1024 numberofports=64500
 netsh int tcp set security mpp=disabled
-netsh int tcp set security profiles=always
+netsh int tcp set security profiles=disabled
 
 #win10
 netsh int tcp set supplemental internet congestionprovider=dctcp
