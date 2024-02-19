@@ -63,4 +63,9 @@ Windows Registry Editor Version 5.00
 "VisualExperiencePolicy"=dword:00000001
 "AVCHardwareEncodePreferred"=dword:00000001
 "bEnumerateHWBeforeSW"=dword:00000001
+"SecurityLayer"=dword:00000000
+"UserAuthentication"=dword:00000000
 
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\CredSSP\Parameters]
+"AllowEncryptionOracle"=dword:00000002
