@@ -1,13 +1,14 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AFD\Parameters]
-"DefaultReceiveWindow"=dword:00040000
-"DefaultSendWindow"=dword:00040000
+;"DefaultReceiveWindow"=dword:00100000
+;"DefaultSendWindow"=dword:0010000
 ;抵御 SYN 攻击
 "EnableDynamicBacklog"=dword:00000000
 "MinimumDynamicBacklog"=dword:00000014
 "MaximumDynamicBacklog"=dword:00004e20
 "DynamicBacklogGrowthDelta"=dword:0000000a
+"DynamicSendBufferDisable"=dword:00000000
 
 
 
@@ -65,7 +66,7 @@ Windows Registry Editor Version 5.00
 "TcpMaxHalfOpen"=dword:00008000
 "TcpMaxHalfOpenRetried"=dword:00000400
 "TcpMaxConnectResponseRetransmissions"=dword:00000002
-"TcpMaxDataRetransmissions"=dword:00000003
+"TcpMaxDataRetransmissions"=dword:00000005
 "TcpNumConnections"=dword:00fffffe
 "KeepAliveTime"=dword:0036ee80
 "KeepAliveInterval"=dword:0000ea60
