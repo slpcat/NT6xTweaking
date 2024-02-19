@@ -207,3 +207,5 @@ schtasks /change /TN "\Microsoft\Windows\Speech\SpeechModelDownloadTask" /DISABL
 schtasks /change /TN "\Microsoft\Windows\WindowsUpdate\Scheduled Start" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Chkdsk\SyspartRepair" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Diagnosis\RecommendedTroubleshootingScanner" /DISABLE
+schtasks /change /TN "\MicrosoftEdgeUpdateTaskMachineCore" /DISABLE      
+schtasks /change /TN "\MicrosoftEdgeUpdateTaskMachineUA" /DISABLE    
