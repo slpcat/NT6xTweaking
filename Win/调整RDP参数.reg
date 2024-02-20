@@ -3,10 +3,6 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations]
 "DWMFRAMEINTERVAL"=dword:0000000f
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\Console\RDP]
-"InteractiveDelay"=dword:00000016
-"OutBufDelay"=dword:00000032
-
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp]
 "DrawGdiplusSupportLevel"=dword:00000001
 "fAllowSecProtocolNegotiation"=dword:00000001
@@ -47,9 +43,6 @@ Windows Registry Editor Version 5.00
 "MaxIdleTime"=dword:00000000
 "MaxInstanceCount"=dword:ffffffff
 "MinEncryptionLevel"=dword:00000002
-"OutBufCount"=dword:00000006
-"OutBufDelay"=dword:00000032
-"OutBufLength"=dword:00000212
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services]
 "fEnableVirtualizedGraphics"=dword:00000001
