@@ -1,14 +1,14 @@
 Windows Registry Editor Version 5.00
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager]
-"HeapDecommitFreeBlockThreshold"=dword:0x00040000
+;[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager]
+;"HeapDecommitFreeBlockThreshold"=dword:0x00040000
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
 "ClearPageFileAtShutdown"=dword:00000000
 "LargeSystemCache"=dword:00000001
-"IOPageLockLimit"=dword:FFFFFFFF
-"PagedPoolSize"=dword:FFFFFFFF
+;"IOPageLockLimit"=dword:FFFFFFFF
+;"PagedPoolSize"=dword:FFFFFFFF
 "PoolUsageMaximum"=dword:00000050
 "DontVerifyRandomDrivers"=dword:00000001
 ;http://support.microsoft.com/kb/920739
-"SystemCacheDirtyPageThreshold"=dword:00000080
+;"SystemCacheDirtyPageThreshold"=dword:00000080
