@@ -29,7 +29,6 @@ netsh int tcp set heuristics wsh=enabled forcews=enabled
 #netsh int tcp set global chimney=disabled
 
 netsh int tcp set global autotuninglevel=experimental
-
 netsh int tcp set global dca=enabled
 
 #启用网络适配器上的校验和
@@ -43,8 +42,8 @@ netsh int tcp set global nonsackrttresiliency=enabled
 netsh int tcp set global initialrto=2000
 netsh int tcp set global maxsynretransmissions=2
 #tcp慢启动
-netsh int tcp set global hystart=enabled
-netsh int tcp set global prr=enabled
+netsh int tcp set global hystart=disabled
+netsh int tcp set global prr=disabled
 
 #允许在多个处理器上并行处理接收的数据包，同时避免数据包重新排序。
 netsh int tcp set global rss=enabled
@@ -68,6 +67,6 @@ netsh int tcp set supplemental internet congestionprovider=dctcp
 netsh int tcp set supplemental datacenter congestionprovider=dctcp
 #Set-NetTCPSetting -SettingName Custom -InitialCongestionWindow 10 -CongestionProvider DCTCP
 
-netsh winsock set autotuning on
+#netsh winsock set autotuning on
 
 #Set-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Services\AFD\Parameters\ -Name "DoNotHoldNicBuffers" -Value "1" -Force
