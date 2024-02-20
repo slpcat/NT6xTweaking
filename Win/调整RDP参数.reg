@@ -44,11 +44,6 @@ Windows Registry Editor Version 5.00
 "fUseDefaultGina"=dword:00000000
 "InputBufferLength"=dword:00000800
 "InteractiveDelay"=dword:00000016
-"KeepAliveTimeout"=dword:00000000
-"KeyboardLayout"=dword:00000000
-"LanAdapter"=dword:00000000
-"MaxConnectionTime"=dword:00000000
-"MaxDisconnectionTime"=dword:00000000
 "MaxIdleTime"=dword:00000000
 "MaxInstanceCount"=dword:ffffffff
 "MinEncryptionLevel"=dword:00000002
