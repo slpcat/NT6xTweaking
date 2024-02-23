@@ -14,7 +14,7 @@ Windows Registry Editor Version 5.00
 "Enabled"=dword:00000001
 "SpecialPollInterval"=dword:00000708
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\W32Time\TimeProviders\NtpServer]
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\W32Time\TimeProviders\NtpServer]
 "Enabled"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\W32Time\Config]
@@ -28,7 +28,7 @@ Windows Registry Editor Version 5.00
 "PollAdjustFactor"=dword:00000005
 "SpikeWatchPeriod"=dword:00000384
 "UpdateInterval"=dword:00000064
-"AnnounceFlags"=dword:0000000a
+"AnnounceFlags"=dword:00000000
 "EventLogFlags"=dword:00000002
 "LocalClockDispersion"=dword:0000000a
 "MaxPollInterval"=dword:0000000a
