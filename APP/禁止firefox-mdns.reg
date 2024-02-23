@@ -1,0 +1,4 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Mozilla\Firefox\Preferences]
+"media.peerconnection.ice.obfuscate_host_addresses.blocklist"="*.ecdn.microsoft.com, *.ecdn.teams.microsoft.com, https://teams.microsoft.com"
