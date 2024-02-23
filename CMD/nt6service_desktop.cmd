@@ -577,7 +577,7 @@ sc config SNMPTRAP start= DISABLED
 rem SERVICE_NAME: Spooler
 rem DISPLAY_NAME: Print Spooler
 
-rem sc config Spooler start= AUTO
+rem sc config Spooler start= DISABLED
 
 rem SERVICE_NAME: sppsvc
 rem DISPLAY_NAME: Software Protection
