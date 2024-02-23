@@ -275,7 +275,7 @@ sc config KtmRm start= DEMAND
 rem SERVICE_NAME: LanmanServer
 rem DISPLAY_NAME: Server
 
-sc config LanmanServer start= auto
+sc config LanmanServer start= DISABLED
 
 
 rem SERVICE_NAME: LanmanWorkstation
@@ -297,7 +297,7 @@ sc config lltdsvc start= DEMAND
 rem SERVICE_NAME: lmhosts
 rem DISPLAY_NAME: TCP/IP NetBIOS Helper
 
-sc config lmhosts start= auto
+sc config lmhosts start= DISABLED
 
 
 rem SERVICE_NAME: LSM
@@ -321,7 +321,7 @@ sc config MpsSvc start= AUTO
 rem SERVICE_NAME: MSDTC
 rem DISPLAY_NAME: Distributed Transaction Coordinator
 
-sc config MSDTC start= DEMAND
+sc config MSDTC start= DISABLED
 
 rem SERVICE_NAME: MSiSCSI
 rem DISPLAY_NAME: Microsoft iSCSI Initiator Service
