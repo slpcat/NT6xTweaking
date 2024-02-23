@@ -9,5 +9,7 @@ Windows Registry Editor Version 5.00
 [HKLM\System\CurrentControlSet\Control]
 "DisableRPCOverTCP"=dword:00000001
 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Rpc\Internet]
+
 ;HKLM\Software\Microsoft\Rpc\Internet
 ;HKLM\Software\Microsoft\Rpc\Internet\UseInternetPorts="N"
