@@ -4,3 +4,4 @@ Windows Registry Editor Version 5.00
 "MaxCacheTtl"=dword:000004b0
 "MaxNegativeCacheTtl"=dword:0000012c
 "PrioritizeRecordData"=dword:00000001
+"EnableMDNS"=dword:00000000
