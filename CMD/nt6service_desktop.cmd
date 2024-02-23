@@ -588,7 +588,7 @@ sc config sppsvc start= delayed-auto
 rem SERVICE_NAME: SSDPSRV
 rem DISPLAY_NAME: SSDP Discovery
 
-sc config SSDPSRV start= AUTO
+sc config SSDPSRV start= DISABLED
 
 
 rem SERVICE_NAME: SstpSvc
@@ -686,7 +686,7 @@ sc config UmRdpService start= DEMAND
 rem SERVICE_NAME: upnphost
 rem DISPLAY_NAME: UPnP Device Host
 
-sc config upnphost start= AUTO
+sc config upnphost start= DISABLED
 
 rem SERVICE_NAME: VaultSvc
 rem DISPLAY_NAME: Credential Manager
