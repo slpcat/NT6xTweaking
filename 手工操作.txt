@@ -7,3 +7,5 @@ https://github.com/ionuttbara/windows-defender-remover/releases
 5.win10/win11反间谍
 https://www.getblackbird.net/download/
 https://pxc-coding.com/donotspy11/
+6.rdp多用户登录
+https://github.com/sebaxakerhtc/rdpwrap/releases
