@@ -14,17 +14,17 @@ Windows Registry Editor Version 5.00
 "fDisableCdm"=dword:00000000
 "fDisableClip"=dword:00000000
 "fDisableCpm"=dword:00000000
-"fDisableEncryption"=dword:00000001
+;"fDisableEncryption"=dword:00000001
 "fDisableExe"=dword:00000000
 "fDisableLPT"=dword:00000000
 "fEnableWinStation"=dword:00000001
 "fForceClientLptDef"=dword:00000001
-"fHomeDirectoryMapRoot"=dword:00000000
+;"fHomeDirectoryMapRoot"=dword:00000000
 "fInheritAutoClient"=dword:00000001
 "fInheritAutoLogon"=dword:00000001
-"fInheritCallback"=dword:00000000
+"fInheritCallback"=dword:00000001
 "fInheritCallbackNumber"=dword:00000001
-"fInheritColorDepth"=dword:00000000
+"fInheritColorDepth"=dword:00000001
 "fInheritInitialProgram"=dword:00000001
 "fInheritMaxDisconnectionTime"=dword:00000001
 "fInheritMaxIdleTime"=dword:00000001
@@ -35,13 +35,13 @@ Windows Registry Editor Version 5.00
 "fInheritShadow"=dword:00000001
 "fLogonDisabled"=dword:00000000
 "fPromptForPassword"=dword:00000000
-"fReconnectSame"=dword:00000000
+"fReconnectSame"=dword:00000001
 "fResetBroken"=dword:00000000
-"fUseDefaultGina"=dword:00000000
-"InputBufferLength"=dword:00000800
+"fUseDefaultGina"=dword:00000001
+;"InputBufferLength"=dword:00000800
 "InteractiveDelay"=dword:00000016
 "MaxIdleTime"=dword:00000000
-"MaxInstanceCount"=dword:ffffffff
+;"MaxInstanceCount"=dword:ffffffff
 "MinEncryptionLevel"=dword:00000002
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services]
@@ -55,5 +55,5 @@ Windows Registry Editor Version 5.00
 ;"UserAuthentication"=dword:00000000
 
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\CredSSP\Parameters]
-"AllowEncryptionOracle"=dword:00000002
+;[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\CredSSP\Parameters]
+;"AllowEncryptionOracle"=dword:00000002
