@@ -992,22 +992,12 @@ rem sc config PrintWorkflowUserSvc start= DISABLED
 
 rem DELETE SPY-SERVICES Win10
 sc delete DiagTrack
-sc delete CDPUserSvc_21fcd
-sc delete MessagingService_21fcd
 sc delete XblAuthManager
 sc delete MapsBroker
-sc delete DcpSvc
 sc delete XboxNetApiSvc
-sc delete OneSyncSvc_21fcd
 sc delete RetailDemo
-sc delete UserDataSvc_21fcd
-sc delete PimIndexMaintenanceSvc_21fcd
-sc delete wisvc
-sc delete UnistoreSvc_21fcd
 sc delete XblGameSave
 sc delete diagnosticshub.standardcollector.service
-sc delete OneSyncSvc_1c128
-sc delete CDPUserSvc_1c128
 sc delete WMPNetworkSvc
 sc delete OneSyncSvc
 
