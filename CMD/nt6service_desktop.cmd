@@ -990,6 +990,37 @@ rem sc config MessagingService start= DISABLED
 rem sc config PimIndexMaintenanceSvc start= DISABLED
 rem sc config PrintWorkflowUserSvc start= DISABLED
 
+rem DELETE SPY-SERVICES Win10
+sc delete DiagTrack
+sc delete SensrSvc
+sc delete CDPUserSvc_21fcd
+sc delete MessagingService_21fcd
+sc delete XblAuthManager
+sc delete MapsBroker
+sc delete DcpSvc
+sc delete Wecsvc
+sc delete XboxNetApiSvc
+sc delete OneSyncSvc_21fcd
+sc delete lfsvc
+sc delete SensorService
+sc delete SensorDataService
+sc delete RetailDemo
+sc delete UserDataSvc_21fcd
+sc delete PimIndexMaintenanceSvc_21fcd
+sc delete wisvc
+sc delete WerSvc
+sc delete UnistoreSvc_21fcd
+sc delete XblGameSave
+sc delete diagnosticshub.standardcollector.service
+sc delete OneSyncSvc_1c128
+sc delete CDPUserSvc_1c128
+sc delete WbioSrvc
+sc delete dmwappushservice
+sc delete NetTcpPortSharing
+sc delete RemoteAccess
+sc delete WMPNetworkSvc
+sc delete OneSyncSvc
+
 rem    exclude_registry=\REGISTRY\MACHINE\SYSTEM\ControlSet001\services\CDPUserSvc_  
 rem    exclude_registry=\REGISTRY\MACHINE\SYSTEM\ControlSet001\services\MessagingService_  
 rem    exclude_registry=\REGISTRY\MACHINE\SYSTEM\ControlSet001\services\OneSyncSvc_  
