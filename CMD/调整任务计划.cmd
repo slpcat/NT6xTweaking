@@ -264,7 +264,7 @@ REM Delete telemetry SCHTASKS
   SCHTASKS /Delete /TN "\Microsoft\Windows\Shell\FamilySafetyMonitor" /F
   SCHTASKS /Delete /TN "\Microsoft\Windows\Shell\FamilySafetyRefresh" /F
   SCHTASKS /Delete /TN "\Microsoft\Windows\Shell\FamilySafetyUpload" /F
-  SCHTASKS /Delete /TN "\Microsoft\Windows\PI\Sqm-Tasks" /F
+rem  SCHTASKS /Delete /TN "\Microsoft\Windows\PI\Sqm-Tasks" /F
   SCHTASKS /Delete /TN "\Microsoft\Windows\ApplicationExperience\Microsoft Compatibility Appraiser" /F
   SCHTASKS /Delete /TN "\Microsoft\Windows\ApplicationExperience\ProgramDataUpdater" /F
   SCHTASKS /Delete /TN "\Microsoft\Windows\ApplicationExperience\StartupAppTask" /F
