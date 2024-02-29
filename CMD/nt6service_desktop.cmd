@@ -991,12 +991,12 @@ rem sc config PimIndexMaintenanceSvc start= DISABLED
 rem sc config PrintWorkflowUserSvc start= DISABLED
 
 rem DELETE SPY-SERVICES Win10
-sc delete DiagTrack
-sc delete MapsBroker
-sc delete RetailDemo
-sc delete diagnosticshub.standardcollector.service
-sc delete WMPNetworkSvc
-sc delete OneSyncSvc
+rem sc delete DiagTrack
+rem sc delete MapsBroker
+rem sc delete RetailDemo
+rem sc delete diagnosticshub.standardcollector.service
+rem sc delete WMPNetworkSvc
+rem sc delete OneSyncSvc
 
 rem    exclude_registry=\REGISTRY\MACHINE\SYSTEM\ControlSet001\services\CDPUserSvc_  
 rem    exclude_registry=\REGISTRY\MACHINE\SYSTEM\ControlSet001\services\MessagingService_  
