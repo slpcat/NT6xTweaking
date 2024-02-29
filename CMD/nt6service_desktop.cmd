@@ -1008,7 +1008,6 @@ sc delete XblGameSave
 sc delete diagnosticshub.standardcollector.service
 sc delete OneSyncSvc_1c128
 sc delete CDPUserSvc_1c128
-sc delete NetTcpPortSharing
 sc delete WMPNetworkSvc
 sc delete OneSyncSvc
 
