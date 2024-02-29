@@ -212,5 +212,66 @@ schtasks /change /TN "\Microsoft\Windows\Speech\SpeechModelDownloadTask" /DISABL
 schtasks /change /TN "\Microsoft\Windows\WindowsUpdate\Scheduled Start" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Chkdsk\SyspartRepair" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Diagnosis\RecommendedTroubleshootingScanner" /DISABLE
-schtasks /change /TN "\MicrosoftEdgeUpdateTaskMachineCore" /DISABLE      
-schtasks /change /TN "\MicrosoftEdgeUpdateTaskMachineUA" /DISABLE    
+schtasks /change /TN "\MicrosoftEdgeUpdateTaskMachineCore" /DISABLE
+schtasks /change /TN "\MicrosoftEdgeUpdateTaskMachineUA" /DISABLE
+
+REM Delete telemetry SCHTASKS
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Windows Error Reporting\QueueReporting" /F
+  SCHTASKS /Delete /TN "\Microsoft\Office\Office 15 Subscription Heartbeat" /F
+  SCHTASKS /Delete /TN "\Microsoft\Office\Office ClickToRun Service Monitor" /F
+  SCHTASKS /Delete /TN "\Microsoft\Office\OfficeTelemetry\AgentFallBack2016" /F
+  SCHTASKS /Delete /TN "\Microsoft\Office\OfficeTelemetry\OfficeTelemetryAgentLogOn2016" /F
+  SCHTASKS /Delete /TN "\Microsoft\Office\OfficeTelemetry\OfficeTelemetryAgentLogOn2016" /F
+  SCHTASKS /Delete /TN "\Microsoft\Office\OfficeTelemetryAgentFallBack2016" /F
+  SCHTASKS /Delete /TN "\Microsoft\Office\OfficeTelemetryAgentLogOn" /F
+  SCHTASKS /Delete /TN "\Microsoft\Office\OfficeTelemetryAgentLogOn2016" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\AppID\SmartScreenSpecific" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Application Experience\AitAgent" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Application Experience\ProgramDataUpdater" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Application Experience\StartupAppTask" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Autochk\Proxy" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\CloudExperienceHost\CreateObjectTask" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Customer Experience Improvement Program\BthSQM" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Customer Experience Improvement Program\Consolidator" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Customer Experience Improvement Program\KernelCeipTask" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Customer Experience Improvement Program\Uploader" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Customer Experience Improvement Program\Uploader" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\DiskFootprint\Diagnostics" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\FileHistory\File History (maintenance mode)" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Maintenance\WinSAT" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Media Center\ActivateWindowsSearch" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Media Center\ConfigureInternetTimeService" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Media Center\DispatchRecoveryTasks" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Media Center\ehDRMInit" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Media Center\InstallPlayReady" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Media Center\mcupdate" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Media Center\MediaCenterRecoveryTask" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Media Center\ObjectStoreRecoveryTask" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Media Center\OCURActivate" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Media Center\OCURDiscovery" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Media Center\PBDADiscovery" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Media Center\PBDADiscoveryW1" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Media Center\PBDADiscoveryW2" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Media Center\PvrRecoveryTask" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Media Center\RegisterSearch" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Media Center\PvrScheduleTask" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Media Center\ReindexSearchRoot" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Media Center\SqlLiteRecoveryTask" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Media Center\UpdateRecordPath" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Power Efficiency Diagnostics\AnalyzeSystem" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Shell\FamilySafetyMonitor" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Shell\FamilySafetyRefresh" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Shell\FamilySafetyUpload" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\PI\Sqm-Tasks" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\ApplicationExperience\Microsoft Compatibility Appraiser" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\ApplicationExperience\ProgramDataUpdater" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\ApplicationExperience\StartupAppTask" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Customer Experience Improvement\Consolidator" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Customer Experience Improvement\KernelCeipTask" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Customer Experience Improvement\UsbCeip" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Location\Notifications" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Location\WindowsActionDialog" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Maps\MapsToastTask" /F
+  SCHTASKS /Delete /TN "\Microsoft\Windows\Maps\MapsUpdateTask" /F
