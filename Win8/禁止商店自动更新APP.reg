@@ -1,11 +1,11 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsStore\WindowsUpdate]
-;0 在下载更新前通知用户 5 关闭自动更新
-"AutoDownload"=dword:00000005
+;将其值改为【1】启用应用自动更新，【2】禁用应用自动更新，【3】只自动下载，但不安装
+"AutoDownload"=dword:00000002
 "DisableOSUpgrade"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsStore]
 "DisableOSUpgrade"=dword:00000001
-"AutoDownload"=dword:00000005
+"AutoDownload"=dword:00000002
 
