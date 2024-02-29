@@ -1,11 +1,11 @@
 1.安全与维护中心消息
 2.右键powershell
 3.卸载edge浏览器
-https://github.com/ShadowWhisperer/Remove-MS-Edge/
+https://github.com/ShadowWhisperer/Remove-MS-Edge/ 缺陷：卸载webview会导致app store无法下载安装
 4.DefenderRemover
 https://github.com/ionuttbara/windows-defender-remover/releases
 5.win10/win11反间谍
-https://www.getblackbird.net/download/
+https://www.getblackbird.net/download/ 缺陷：会导致win11无法更新
 https://pxc-coding.com/donotspy11/
 6.rdp多用户登录
 https://github.com/sebaxakerhtc/rdpwrap/releases
