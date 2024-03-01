@@ -1,7 +1,7 @@
 1.安全与维护中心消息
 2.右键powershell
 3.卸载edge浏览器
-https://github.com/ShadowWhisperer/Remove-MS-Edge/ 缺陷：卸载webview会导致app store无法下载安装
+https://github.com/ShadowWhisperer/Remove-MS-Edge/
 4.DefenderRemover
 https://github.com/ionuttbara/windows-defender-remover/releases
 5.win10/win11反间谍
