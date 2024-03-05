@@ -1,8 +1,8 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AFD\Parameters]
-;"DefaultReceiveWindow"=dword:00040000
-;"DefaultSendWindow"=dword:00040000
+"DefaultReceiveWindow"=dword:0800000
+"DefaultSendWindow"=dword:0800000
 ;抵御 SYN 攻击
 "EnableDynamicBacklog"=dword:00000000
 "MinimumDynamicBacklog"=dword:00000014
@@ -42,7 +42,7 @@ Windows Registry Editor Version 5.00
 "TcpAckFrequency"=dword:00000004
 ;"TCPWindowSize"=dword:01000000
 "TcpWindowSize"=dword:3FFFC000
-;"TcpMaxSendFree"=dword:0000ffff
+"TcpMaxSendFree"=dword:0000ffff
 "Tcp1323Opts"=dword:00000001
 "ForwardBufferMemory"=dword:00013880
 ;"NumForwardPackets"=dword:0000ea60
@@ -56,14 +56,14 @@ Windows Registry Editor Version 5.00
 ;"EnablePMTUBHDetect"=dword:00000001
 ;sack保持原状
 ;"SackOpts"=dword:0000000
-;"TcpDelAckTicks"=dword:00000000
+"TcpDelAckTicks"=dword:00000000
 "DefaultTTL"=dword:00000040
 "TcpMaxDupAcks"=dword:00000002
 ;"MTU"=dword:000005dc
 
 "SynAttackProtect"=dword:00000000
-"TcpMaxPortsExhausted"=dword:00000005
-"TcpMaxHalfOpen"=dword:00008000
+"TcpMaxPortsExhausted"=dword:0000FFFF
+"TcpMaxHalfOpen"=dword:0000FFFF
 "TcpMaxHalfOpenRetried"=dword:00000400
 "TcpMaxConnectResponseRetransmissions"=dword:00000002
 "TcpMaxDataRetransmissions"=dword:00000003
@@ -83,7 +83,7 @@ Windows Registry Editor Version 5.00
 "MaxConcurrentConnectionsPerIp"=dword:00008000
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NDIS\Parameters]
-"MaxNumRssCpus"=dword:00000008
+"MaxNumRssCpus"=dword:00000020
 
 [HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Tcpip\QoS]
 "Do not use NLA"="1"
