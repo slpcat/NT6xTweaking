@@ -5,7 +5,7 @@ https://github.com/ShadowWhisperer/Remove-MS-Edge/
 4.DefenderRemover
 https://github.com/ionuttbara/windows-defender-remover/releases  缺陷：会导致app store无法下载安装app
 5.win10/win11反间谍
-https://www.getblackbird.net/download/ 缺陷：会导致win11无法更新
+https://www.getblackbird.net/download/ 缺陷：会导致win11无法更新，改成离线更新包打补丁，同理 驱动也是离线安装。
 https://pxc-coding.com/donotspy11/
 6.rdp多用户登录
 https://github.com/sebaxakerhtc/rdpwrap/releases
