@@ -1,7 +1,8 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations]
-"DWMFRAMEINTERVAL"=dword:0000000f
+；60HZ F ，125HZ 8，250HZ 4
+"DWMFRAMEINTERVAL"=dword:00000004
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp]
 "DrawGdiplusSupportLevel"=dword:00000001
