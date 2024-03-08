@@ -9,3 +9,8 @@ https://www.getblackbird.net/download/ 缺陷：会导致win11无法更新
 https://pxc-coding.com/donotspy11/
 6.rdp多用户登录
 https://github.com/sebaxakerhtc/rdpwrap/releases
+
+推荐安装方式第三方winpe安装，解压完毕重启前，直接删除windows defender，在C:\ProgramFiles和ProgramFiles（x86）下找到3个Windows Defender相关的文件夹。
+dism++ 配置禁止windows defender ，禁止windows update
+
+安装部署完毕用TrustedInstaller权限禁止无用服务，禁止zipfolder
