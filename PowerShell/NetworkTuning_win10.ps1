@@ -22,8 +22,8 @@ netsh int tcp set supplemental template=InternetCustom icw=10
 #禁止IPv6teredo
 netsh interface teredo set state disable
 #Disable Windows Scaling heuristics
-#netsh int tcp set heuristics disabled
-netsh int tcp set heuristics wsh=enabled forcews=enabled
+netsh int tcp set heuristics disabled
+#netsh int tcp set heuristics wsh=enabled forcews=enabled
 #TCP Chimney Offload在每个连接的基础上启动的，它减少了与网络相关的CPU开销
 #Set-NetOffloadGlobalSetting -Chimney enabled
 #netsh int tcp set global chimney=disabled
