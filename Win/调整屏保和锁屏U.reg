@@ -12,17 +12,17 @@ Windows Registry Editor Version 5.00
 "ScreenSaveTimeOut"="300"
 "ScreenSaverIsSecure"="1"
 
-[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Control Panel\Desktop]
-"ScreenSaveActive"="0"
+;[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Control Panel\Desktop]
+;"ScreenSaveActive"="0"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon]
 "DisableLockWorkstation"=dword:00000000
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Personalization]
-"NoLockScreen"=dword:00000000
+;[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Personalization]
+;"NoLockScreen"=dword:00000000
 
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
-"InactivityTimeoutSecs"=dword:0000012c
+;[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+;"InactivityTimeoutSecs"=dword:0000012c
 
 [HKEY_USERS\.DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Lock Screen]
 "TileMigrated"=dword:0000000b
@@ -53,6 +53,3 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
 "DontDisplayNetworkSelectionUI"=dword:00000001
-
-
-
