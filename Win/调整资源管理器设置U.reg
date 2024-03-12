@@ -1,5 +1,11 @@
 Windows Registry Editor Version 5.00
 
+;加快文件资源管理器上大文件夹的浏览速度
+[HKEY_USERS\.DEFAULT\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\AllFolders\Shell]
+"FolderType"="NotSpecified"
+[HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\AllFolders\Shell]
+"FolderType"="NotSpecified"
+
 [HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
 "Start_SearchFiles"=dword:00000002
 "ServerAdminUI"=dword:00000000
