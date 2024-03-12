@@ -7,13 +7,9 @@ Windows Registry Editor Version 5.00
 "RdWrNfsHandleLifeTime"=dword:0000003c
 "RdWrThreadSleepTime"=dword:0000003c
 "SecureHandleLevel"=dword:00000000
-"NfsHandlesCacheSizeLowWatermark"=dword:003d08ce
-"NfsHandlesCacheSizeMax"=dword:003d0900
-"NtfsHandlesCacheSizeLowWatermark"=dword:000249be
-"NtfsHandlesCacheSizeMax"=dword:000249f0
-"FileHandleCacheSizeInMB"=dword:00000400
+"FileHandleCacheSizeInMB"=dword:00000100
 "LockFileHandleCacheInMemory"=dword:00000001
-"MaxIcbNfsReadHandlesCacheSize"=dword:000003e8
+"MaxIcbNfsReadHandlesCacheSize"=dword:00000200
 "HandleSigningEnabled"=dword:00000000
 "RdWrNfsDeferredWritesFlushDelay "=dword:00000258
 "CacheAddFromCreateAndMkDir"=dword:00000001
@@ -30,3 +26,9 @@ Windows Registry Editor Version 5.00
 "Retransmissions"=dword:00000003
 "Timeout"=dword:0000001e
 "UseReservedPorts"=dword:00000001
+"MaxCacheSize"=dword:000007d0
+"MaxDirCacheSize"=dword:08000000
+"AttributeTimeDelta"=dword:0000005a
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ClientForNFS\CurrentVersion\Users\Default\Cache]
+"FileAttributeCache"=dword:00000001
