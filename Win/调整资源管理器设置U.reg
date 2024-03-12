@@ -28,7 +28,7 @@ Windows Registry Editor Version 5.00
 "ShowSuperHidden"=dword:00000000
 "SeparateProcess"=dword:00000000
 "AutoCheckSelect"=dword:00000000
-"IconsOnly"=dword:00000000
+"IconsOnly"=dword:00000001
 "ShowTypeOverlay"=dword:00000001
 "ShowStatusBar"=dword:00000001
 "ListviewAlphaSelect"=dword:00000000
@@ -68,7 +68,7 @@ Windows Registry Editor Version 5.00
 "ShowSuperHidden"=dword:00000000
 "SeparateProcess"=dword:00000000
 "AutoCheckSelect"=dword:00000000
-"IconsOnly"=dword:00000000
+"IconsOnly"=dword:00000001
 "ShowTypeOverlay"=dword:00000001
 "ShowStatusBar"=dword:00000001
 "ListviewAlphaSelect"=dword:00000000
