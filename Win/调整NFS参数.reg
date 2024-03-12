@@ -11,11 +11,11 @@ Windows Registry Editor Version 5.00
 "NfsHandlesCacheSizeMax"=dword:003d0900
 "NtfsHandlesCacheSizeLowWatermark"=dword:000249be
 "NtfsHandlesCacheSizeMax"=dword:000249f0
-"FileHandleCacheSizeInMB"=dword:06666666
+"FileHandleCacheSizeInMB"=dword:00000400
 "LockFileHandleCacheInMemory"=dword:00000001
-"MaxIcbNfsReadHandlesCacheSize"=dword:00001f40
+"MaxIcbNfsReadHandlesCacheSize"=dword:000003e8
 "HandleSigningEnabled"=dword:00000000
-"RdWrNfsDeferredWritesFlushDelay "=dword:00000300
+"RdWrNfsDeferredWritesFlushDelay "=dword:00000258
 "CacheAddFromCreateAndMkDir"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ClientForNFS\CurrentVersion\Default]
