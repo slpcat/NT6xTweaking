@@ -43,7 +43,7 @@ Windows Registry Editor Version 5.00
 ;"TCPWindowSize"=dword:01000000
 "TcpWindowSize"=dword:3FFFC000
 "TcpMaxSendFree"=dword:0000ffff
-"Tcp1323Opts"=dword:00000001
+"Tcp1323Opts"=dword:00000003
 "ForwardBufferMemory"=dword:00013880
 ;"NumForwardPackets"=dword:0000ea60
 ;"MaxHashTableSize"=dword:00010000
