@@ -1,11 +1,11 @@
 #https://www.speedguide.net/articles/windows-8-10-2012-server-tcpip-tweaks-5077
 #Set-NetTCPSetting : Only the custom templates InternetCustom and DatacenterCustom can be modified under Windows 8 and older Windows 10 versions.
-Set-NetTCPSetting -SettingName InternetCustom -Timestamps disabled
+Set-NetTCPSetting -SettingName InternetCustom -Timestamps enabled
 Set-NetTCPSetting -SettingName InternetCustom -InitialRto 2000
 Set-NetTCPSetting -SettingName InternetCustom -ForceWS enabled
 Set-NetTCPSetting -SettingName InternetCustom -MemoryPressureProtection disabled
 
-Set-NetTCPSetting -SettingName DataCenterCustom -Timestamps disabled
+Set-NetTCPSetting -SettingName DataCenterCustom -Timestamps enabled
 Set-NetTCPSetting -SettingName DataCenterCustom -InitialRto 2000
 Set-NetTCPSetting -SettingName DataCenterCustom -ForceWS enabled
 Set-NetTCPSetting -SettingName DataCenterCustom -MemoryPressureProtection disabled
@@ -34,7 +34,7 @@ netsh int tcp set global dca=enabled
 #启用网络适配器上的校验和
 Enable-NetAdapterChecksumOffload -Name *
 
-netsh int tcp set global timestamps=disabled
+netsh int tcp set global timestamps=enabled
 netsh int tcp set global ecncapability=enabled
 netsh int tcp set global netdma=enabled
 # RTT resiliency for non SACK clients.
