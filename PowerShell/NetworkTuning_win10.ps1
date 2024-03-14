@@ -72,3 +72,5 @@ netsh int tcp set supplemental datacenter enablecwndrestart=enabled
 netsh winsock set autotuning on
 
 #Set-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Services\AFD\Parameters\ -Name "DoNotHoldNicBuffers" -Value "1" -Force
+
+Get-NetTCPSetting
