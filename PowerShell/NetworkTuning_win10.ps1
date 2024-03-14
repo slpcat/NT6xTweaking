@@ -65,6 +65,8 @@ netsh int tcp set security profiles=disabled
 #win10
 netsh int tcp set supplemental internet congestionprovider=dctcp
 netsh int tcp set supplemental datacenter congestionprovider=dctcp
+netsh int tcp set supplemental internet enablecwndrestart=enabled
+netsh int tcp set supplemental datacenter enablecwndrestart=enabled
 #Set-NetTCPSetting -SettingName Custom -InitialCongestionWindow 10 -CongestionProvider DCTCP
 
 netsh winsock set autotuning on
