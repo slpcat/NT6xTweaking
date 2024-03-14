@@ -48,7 +48,7 @@ netsh int tcp set global prr=disabled
 #允许在多个处理器上并行处理接收的数据包，同时避免数据包重新排序。
 netsh int tcp set global rss=enabled
 #RSC能够收集在同一个中断周期内接收到的数据包，并将它们放在一起，以便更有效地将它们传递到网络堆栈。
-netsh int tcp set global rsc=disabled
+netsh int tcp set global rsc=enabled
 
 #网络数据包分组，以限制接收中断的数量并减少所需处理的数量。
 Set-NetOffloadGlobalSetting -PacketCoalescingFilter enabled
