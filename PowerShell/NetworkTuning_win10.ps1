@@ -28,6 +28,7 @@ netsh int tcp set heuristics disabled
 #Set-NetOffloadGlobalSetting -Chimney enabled
 #netsh int tcp set global chimney=disabled
 
+netsh winsock set autotuning on
 netsh int tcp set global autotuninglevel=experimental
 netsh int tcp set global dca=enabled
 
@@ -69,7 +70,8 @@ netsh int tcp set supplemental internet enablecwndrestart=enabled
 netsh int tcp set supplemental datacenter enablecwndrestart=enabled
 #Set-NetTCPSetting -SettingName Custom -InitialCongestionWindow 10 -CongestionProvider DCTCP
 
-netsh winsock set autotuning on
+#win11
+netsh int tcp set supplemental internet congestionprovider=bbr2
 
 #Set-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Services\AFD\Parameters\ -Name "DoNotHoldNicBuffers" -Value "1" -Force
 
