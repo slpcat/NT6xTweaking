@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_USERS\.DEFAULT\Software\Microsoft\Narrator\NoRoam]
+"RunningState"=dword:00000000
+"DetailedFeedback"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Narrator\NoRoam]
+"RunningState"=dword:00000000
+"DetailedFeedback"=dword:00000000
