@@ -8,6 +8,7 @@ Windows Registry Editor Version 5.00
 "MinimumDynamicBacklog"=dword:00000014
 "MaximumDynamicBacklog"=dword:00004e20
 "DynamicBacklogGrowthDelta"=dword:0000000a
+"DoNotHoldNicBuffers"=dword:00000001
 
 
 
