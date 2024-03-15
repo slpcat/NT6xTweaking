@@ -71,7 +71,7 @@ netsh int tcp set supplemental datacenter enablecwndrestart=enabled
 #Set-NetTCPSetting -SettingName Custom -InitialCongestionWindow 10 -CongestionProvider DCTCP
 
 #win11
-netsh int tcp set supplemental internet congestionprovider=bbr2
+#netsh int tcp set supplemental internet congestionprovider=bbr2
 
 #Set-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Services\AFD\Parameters\ -Name "DoNotHoldNicBuffers" -Value "1" -Force
 
