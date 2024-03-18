@@ -16,3 +16,5 @@ dism++ 配置禁止windows defender ，禁止windows update
 安装部署完毕用TrustedInstaller权限禁止无用服务，禁止zipfolder
 7.nfs client
 https://github.com/kofemann/ms-nfs41-client
+8. mac 驱动下载工具
+https://github.com/timsutton/brigadier
