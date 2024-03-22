@@ -976,6 +976,8 @@ sc config PolicyAgent start= DISABLED
 
 sc config XboxNetApiSvc start= DISABLED
 
+sc config TextInputManagementService start= DISABLED
+
 rem SERVICE_NAME: WpnUserService_2e754
 rem DISPLAY_NAME: Windows 推送通知用户服务_2e754
 rem sc config WpnService start= DISABLED
@@ -989,6 +991,7 @@ rem sc config DevicesFlowUserSvc start= AUTO
 rem sc config MessagingService start= DISABLED
 rem sc config PimIndexMaintenanceSvc start= DISABLED
 rem sc config PrintWorkflowUserSvc start= DISABLED
+
 
 rem DELETE SPY-SERVICES Win10
 sc delete DiagTrack
