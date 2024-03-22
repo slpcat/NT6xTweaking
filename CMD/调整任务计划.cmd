@@ -142,7 +142,7 @@ schtasks /change /TN "\Microsoft\Windows\Subscription\EnableLicenseAcquisition" 
 schtasks /change /TN "\Microsoft\Windows\Sysmain\ResPriStaticDbSync" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Sysmain\WsSwapAssessmentTask" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\SystemRestore\SR" /DISABLE
-rem schtasks /change /TN "\Microsoft\Windows\TextServicesFramework\MsCtfMonitor" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\TextServicesFramework\MsCtfMonitor" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\TPM\Tpm-HASCertRetr" /Disable
 schtasks /change /TN "\Microsoft\Windows\TPM\Tpm-Maintenance" /Disable
 rem schtasks /delete /f /TN "\Microsoft\Windows\UpdateOrchestrator\Maintenance Install"
