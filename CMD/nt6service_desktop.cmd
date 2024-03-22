@@ -997,6 +997,8 @@ sc delete RetailDemo
 rem sc delete diagnosticshub.standardcollector.service
 sc delete WMPNetworkSvc
 sc delete OneSyncSvc
+sc delete edgeupdate
+sc delete edgeupdatem
 
 rem    exclude_registry=\REGISTRY\MACHINE\SYSTEM\ControlSet001\services\CDPUserSvc_  
 rem    exclude_registry=\REGISTRY\MACHINE\SYSTEM\ControlSet001\services\MessagingService_  
