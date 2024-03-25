@@ -161,7 +161,7 @@ rem sc config SDRSVC start= DISABLED
 rem SERVICE_NAME: DPS
 rem DISPLAY_NAME: Diagnostic Policy Service
 
-sc config DPS start= AUTO
+sc config DPS start= DISABLED
 
 rem SERVICE_NAME: DsmSvc
 rem DISPLAY_NAME: Device Setup Manager
@@ -252,7 +252,7 @@ sc config IKEEXT start= DISABLED
 rem SERVICE_NAME: iphlpsvc
 rem DISPLAY_NAME: IP Helper
 
-sc config iphlpsvc start= DEMAND
+sc config iphlpsvc start= DISABLED
 
 
 rem SERVICE_NAME: KeyIso
@@ -383,7 +383,7 @@ sc config netprofm start= AUTO
 rem SERVICE_NAME: NetTcpPortSharing
 rem DISPLAY_NAME: Net.Tcp Port Sharing Service
 
-rem sc config NetTcpPortSharing start= DEMAND
+rem sc config NetTcpPortSharing start= DISABLED
 
 
 rem SERVICE_NAME: NlaSvc
