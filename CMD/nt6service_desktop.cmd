@@ -293,7 +293,6 @@ rem DISPLAY_NAME: Link-Layer Topology Discovery Mapper
 
 sc config lltdsvc start= DEMAND
 
-
 rem SERVICE_NAME: lmhosts
 rem DISPLAY_NAME: TCP/IP NetBIOS Helper
 
