@@ -10,6 +10,7 @@ schtasks /change /TN "\Microsoft\Windows\Application Experience\AitAgent" /DISAB
 schtasks /change /TN "\Microsoft\Windows\Application Experience\ProgramDataUpdater" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Application Experience\StartupAppTask" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\Application Experience\MareBackup" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\ApplicationData\appuriverifierdaily" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\ApplicationData\appuriverifierinstall" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\ApplicationData\CleanupTemporaryState" /DISABLE
