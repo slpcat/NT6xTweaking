@@ -594,7 +594,7 @@ sc config SSDPSRV start= DISABLED
 rem SERVICE_NAME: SstpSvc
 rem DISPLAY_NAME: Secure Socket Tunneling Protocol Service
 
-sc config SstpSvc start= DEMAND
+sc config SstpSvc start= DISABLED
 
 
 rem SERVICE_NAME: StiSvc
