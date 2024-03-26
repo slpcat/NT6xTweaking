@@ -1,6 +1,5 @@
 sc config wuauserv start= DISABLED
 sc config BITS start= DISABLED
-sc config BrokerInfrastructure start= DISABLED
 sc config DoSvc start= DISABLED
 sc config uhssvc start= DISABLED
 sc config UsoSvc start= DISABLED
