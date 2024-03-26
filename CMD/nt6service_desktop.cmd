@@ -895,6 +895,7 @@ rem DISPLAY_NAME: Windows Update
 rem AppStore need running
 
 sc config wuauserv start= DISABLED
+sc config uhssvc start= DISABLED
 
 rem SERVICE_NAME: wudfsvc
 rem DISPLAY_NAME: Windows Driver Foundation - User-mode Driver Framework
