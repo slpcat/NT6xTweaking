@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa]
+
+"LmCompatibilityLevel"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa\MSV1_0]
+"RestrictReceivingNTLMTraffic"=dword:00000000
+"RestrictSendingNTLMTraffic"=dword:00000000
