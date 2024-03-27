@@ -102,3 +102,6 @@ Windows Registry Editor Version 5.00
 "NoResolveSearch"=dword:00000001
 "NoLowDiskSpaceChecks"=dword:00000001
 "NoInternetOpenWith"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
+"MaxCachedIcons"="4096"
