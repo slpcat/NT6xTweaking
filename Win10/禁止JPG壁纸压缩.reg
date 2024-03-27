@@ -1,4 +1,7 @@
 Windows Registry Editor Version 5.00
 
+[HKEY_USERS\.DEFAULT\Control Panel\Desktop]
+"JPEGImportQuality"=dword:00000064
+
 [HKEY_CURRENT_USER\Control Panel\Desktop]
 "JPEGImportQuality"=dword:00000064
