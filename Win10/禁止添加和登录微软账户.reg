@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; Created by: Shawn Brink
+; Created on: March 25, 2024
+; Tutorial: https://www.elevenforum.com/t/enable-or-disable-microsoft-accounts-in-windows-11.23799/
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"NoConnectedUser"=dword:00000003
