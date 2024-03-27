@@ -18,3 +18,6 @@ dism++ 配置禁止windows defender ，禁止windows update
 https://github.com/kofemann/ms-nfs41-client
 8. mac 驱动下载工具
 https://github.com/timsutton/brigadier
+9.文件搜索 Everything
+基于名称快速定位文件和文件夹
+https://www.voidtools.com/zh-cn/downloads/
