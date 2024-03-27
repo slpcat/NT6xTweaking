@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; Created by: Shawn Brink
+; Created on: October 29, 2023
+; Tutorial: https://www.elevenforum.com/t/enable-or-disable-facial-recognition-sign-in-option-in-windows-11.19299/
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\{8AF662BF-65A0-4D0A-A540-A338A999D36F}]
+"Disabled"=dword:00000001
