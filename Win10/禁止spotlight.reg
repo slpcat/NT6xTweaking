@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+; Created by: Shawn Brink
+; Created on: September 25, 2023
+; Tutorial: https://www.elevenforum.com/t/enable-or-disable-windows-spotlight-on-desktop-background-in-windows-11.18246/
+
+[HKEY_USERS\.DEFAULT\Software\Policies\Microsoft\Windows\CloudContent]
+"DisableSpotlightCollectionOnDesktop"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\CloudContent]
+"DisableSpotlightCollectionOnDesktop"=dword:00000001
