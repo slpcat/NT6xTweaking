@@ -4,7 +4,7 @@ Windows Registry Editor Version 5.00
 "AccentColorInactive"=dword:ff3e0020
 "Composition"=dword:00000001
 "ColorizationOpaqueBlend"=dword:00000000
-"EnableAeroPeek"=dword:00000001
+"EnableAeroPeek"=dword:00000000
 "CompositionPolicy"=dword:00000002
 "AlwaysHibernateThumbnails"=dword:00000000
 "EnableWindowColorization"=dword:00000001
@@ -31,7 +31,7 @@ Windows Registry Editor Version 5.00
 "AccentColorInactive"=dword:ff3e0020
 "Composition"=dword:00000001
 "ColorizationOpaqueBlend"=dword:00000000
-"EnableAeroPeek"=dword:00000001
+"EnableAeroPeek"=dword:00000000
 "CompositionPolicy"=dword:00000002
 "AlwaysHibernateThumbnails"=dword:00000000
 "EnableWindowColorization"=dword:00000001
