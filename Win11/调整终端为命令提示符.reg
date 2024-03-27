@@ -1,11 +1,14 @@
 Windows Registry Editor Version 5.00
 
-Windows Registry Editor Version 5.00
-
 [HKEY_USERS\.DEFAULT\Console\%%Startup]
 "DelegationConsole"="{2EACA947-7F5F-4CFA-BA87-8F7FBEEFBE69}"
 "DelegationTerminal"="{E12CFF52-A866-4C77-9A90-F570A7AA2C6B}"
 
 [HKEY_CURRENT_USER\Console\%%Startup]
+;Windows 控制台主机 (旧版) 
+;"DelegationConsole"="{B23D10C0-E52E-411E-9D5B-C09FDF709C7D}"
+;"DelegationTerminal"="{B23D10C0-E52E-411E-9D5B-C09FDF709C7D}"
+
+;Windows 终端
 "DelegationConsole"="{2EACA947-7F5F-4CFA-BA87-8F7FBEEFBE69}"
 "DelegationTerminal"="{E12CFF52-A866-4C77-9A90-F570A7AA2C6B}"
