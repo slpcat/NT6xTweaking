@@ -1,7 +1,6 @@
 cls
 
 rem WINDOWS NT6.x  服务优化批处理文件 
-rem @pause 
 
 rem auto|DEMAND|DISABLED|delayed-auto
 rem SERVICE_NAME: AeLookupSvc
