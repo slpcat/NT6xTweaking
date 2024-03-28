@@ -992,6 +992,8 @@ rem sc config MessagingService start= DISABLED
 rem sc config PimIndexMaintenanceSvc start= DISABLED
 rem sc config PrintWorkflowUserSvc start= DISABLED
 
+sc config CloudBackupRestoreSvc_46907 start= DISABLED
+sc config NPSMSvc_46907 start= DISABLED
 
 rem DELETE SPY-SERVICES Win10
 sc delete DiagTrack
