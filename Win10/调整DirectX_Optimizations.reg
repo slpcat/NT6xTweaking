@@ -11,7 +11,8 @@ Windows Registry Editor Version 5.00
 "SwapEffectUpgradeCache"=dword:00000001
 
 [HKEY_USERS\.DEFAULT\Software\Microsoft\DirectX\UserGpuPreferences]
-"DirectXUserGlobalSettings"="SwapEffectUpgradeEnable=1;"
+;Automatic Super Resolution 
+"DirectXUserGlobalSettings"="DXGIEffects=1028;VRROptimizeEnable=1;AutoHDREnable=48;SwapEffectUpgradeEnable=1;"
 [HKEY_CURRENT_USER\Software\Microsoft\DirectX\UserGpuPreferences]
-"DirectXUserGlobalSettings"="SwapEffectUpgradeEnable=1;"
 
+"DirectXUserGlobalSettings"="DXGIEffects=1028;VRROptimizeEnable=1;AutoHDREnable=48;SwapEffectUpgradeEnable=1;"
