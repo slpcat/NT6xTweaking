@@ -286,7 +286,7 @@ sc config LanmanWorkstation start= auto
 rem SERVICE_NAME: lfsvc
 rem DISPLAY_NAME: Windows Location Framework Service
 
-sc config lfsvc start= DEMAND
+sc config lfsvc start= DISABLED
 
 rem SERVICE_NAME: lltdsvc
 rem DISPLAY_NAME: Link-Layer Topology Discovery Mapper
@@ -994,6 +994,11 @@ rem sc config PrintWorkflowUserSvc start= DISABLED
 
 sc config CloudBackupRestoreSvc_46907 start= DISABLED
 sc config NPSMSvc_46907 start= DISABLED
+sc config NPSMSvc_457fd start= DISABLED
+
+sc config RmSvc start= DISABLED
+sc config DispBrokerDesktopSvc start= DISABLED
+sc config DisplayEnhancementService start= DISABLED
 
 rem DELETE SPY-SERVICES Win10
 sc delete DiagTrack
