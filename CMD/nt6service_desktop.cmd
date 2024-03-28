@@ -379,8 +379,7 @@ rem sc config NetTcpPortSharing start= DISABLED
 rem SERVICE_NAME: NlaSvc
 rem DISPLAY_NAME: Network Location Awareness
 
-sc config NlaSvc start= DISABLED
-
+sc config NlaSvc start= auto
 
 rem SERVICE_NAME: nsi
 rem DISPLAY_NAME: Network Store Interface Service
