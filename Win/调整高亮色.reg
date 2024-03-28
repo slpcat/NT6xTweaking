@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_USERS\.DEFAULT\Control Panel\Colors]
+"Hilight"="57 16 123"
+
+[HKEY_CURRENT_USER\Control Panel\Colors]
+"Hilight"="57 16 123"
