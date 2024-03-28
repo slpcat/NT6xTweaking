@@ -236,24 +236,20 @@ rem DISPLAY_NAME: HomeGroup Provider
 
 sc config HomeGroupProvider start= DISABLED
 
-
 rem SERVICE_NAME: IEEtwCollectorService
 rem DISPLAY_NAME: Internet Explorer ETW Collector Service
 
 rem sc config IEEtwCollectorService start= DEMAND
-
 
 rem SERVICE_NAME: IKEEXT
 rem DISPLAY_NAME: IKE and AuthIP IPsec Keying Modules
 
 sc config IKEEXT start= DISABLED
 
-
 rem SERVICE_NAME: iphlpsvc
 rem DISPLAY_NAME: IP Helper
 
 sc config iphlpsvc start= DISABLED
-
 
 rem SERVICE_NAME: KeyIso
 rem DISPLAY_NAME: CNG Key Isolation
@@ -265,7 +261,6 @@ rem SERVICE_NAME: KMSServerService
 rem DISPLAY_NAME: HEU_KMS_Service
 
 sc config  KMS start= auto
-
 
 rem SERVICE_NAME: KtmRm
 rem DISPLAY_NAME: KtmRm for Distributed Transaction Coordinator
@@ -298,18 +293,15 @@ rem DISPLAY_NAME: TCP/IP NetBIOS Helper
 
 sc config lmhosts start= DISABLED
 
-
 rem SERVICE_NAME: LSM
 rem DISPLAY_NAME: Local Session Manager
 
 sc config LSM start= auto
 
-
 rem SERVICE_NAME: MMCSS
 rem DISPLAY_NAME: Multimedia Class Scheduler
 
 sc config MMCSS start= DISABLED
-
 
 rem SERVICE_NAME: MpsSvc
 rem DISPLAY_NAME: Windows Firewall
