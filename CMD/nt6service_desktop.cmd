@@ -983,8 +983,10 @@ rem sc config PimIndexMaintenanceSvc start= DISABLED
 rem sc config PrintWorkflowUserSvc start= DISABLED
 
 sc config CloudBackupRestoreSvc_46907 start= DISABLED
+sc config NPSMSvc start= DISABLED
 sc config NPSMSvc_46907 start= DISABLED
 sc config NPSMSvc_457fd start= DISABLED
+sc config NPSMSvc_407f4 start= DISABLED
 
 sc config RmSvc start= DISABLED
 sc config DispBrokerDesktopSvc start= DISABLED
