@@ -21,7 +21,7 @@ Windows Registry Editor Version 5.00
 ; Tutorial: https://www.elevenforum.com/t/remove-recommended-section-from-start-menu-in-windows-11.21508/
 
 [HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Explorer]
-"HideRecommendedSection"=-
+"HideRecommendedSection"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer]
 "HideRecommendedSection"=dword:00000001
