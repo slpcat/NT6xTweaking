@@ -895,7 +895,7 @@ sc config wudfsvc start= auto
 rem SERVICE_NAME: WwanSvc
 rem DISPLAY_NAME: WWAN AutoConfig
 
-sc config WwanSvc start= DEMAND
+sc config WwanSvc start= DISABLED
 
 rem SERVICE_NAME: wcncsvc
 rem DISPLAY_NAME: Windows Connect Now – Config Registrar
@@ -991,6 +991,10 @@ sc config NPSMSvc_407f4 start= DISABLED
 sc config RmSvc start= DISABLED
 sc config DispBrokerDesktopSvc start= DISABLED
 sc config DisplayEnhancementService start= DISABLED
+
+sc config XblAuthManager start= DISABLED
+sc config XblGameSave start= DISABLED
+sc config XboxGipSvc start= DISABLED
 
 rem DELETE SPY-SERVICES Win10
 sc delete DiagTrack
