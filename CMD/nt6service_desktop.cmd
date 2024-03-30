@@ -973,20 +973,27 @@ rem DISPLAY_NAME: Windows 推送通知用户服务_2e754
 rem sc config WpnService start= DISABLED
 rem sc config WpnUserService start= DISABLED
 rem sc config CDPSvc start= DISABLED
-rem sc config CDPUserSvc start= DISABLED
-rem sc config UserDataSvc start= DISABLED
-rem sc config UnistoreSvc start= DISABLED
+sc config CDPUserSvc start= DISABLED
+sc config UserDataSvc start= DISABLED
+sc config UnistoreSvc start= DISABLED
 rem sc config DevicesFlow  start= AUTO
 rem sc config DevicesFlowUserSvc start= AUTO
-rem sc config MessagingService start= DISABLED
-rem sc config PimIndexMaintenanceSvc start= DISABLED
+
+rem 支持短信及相关功能的服务
+sc config MessagingService start= DISABLED
+sc config PimIndexMaintenanceSvc start= DISABLED
 rem sc config PrintWorkflowUserSvc start= DISABLED
 
-sc config CloudBackupRestoreSvc_46907 start= DISABLED
+sc config CloudBackupRestoreSvc start= DISABLED
 sc config NPSMSvc start= DISABLED
-sc config NPSMSvc_46907 start= DISABLED
-sc config NPSMSvc_457fd start= DISABLED
-sc config NPSMSvc_407f4 start= DISABLED
+
+sc config AarSvc start= DEMAND
+sc config CaptureService start= DEMAND
+sc config cbdhsvc start= DEMAND
+sc config ConsentUxUserSvc start= DEMAND
+rem 手写笔服务
+sc config PenService start= DEMAND
+sc config UdkUserSvc start= DEMAND
 
 sc config RmSvc start= DISABLED
 sc config DispBrokerDesktopSvc start= DISABLED
