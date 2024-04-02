@@ -1002,6 +1002,7 @@ sc config DisplayEnhancementService start= DISABLED
 sc config XblAuthManager start= DISABLED
 sc config XblGameSave start= DISABLED
 sc config XboxGipSvc start= DISABLED
+sc config GamingServicesNet start= DISABLED
 
 rem DELETE SPY-SERVICES Win10
 sc delete DiagTrack
