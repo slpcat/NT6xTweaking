@@ -992,8 +992,8 @@ sc config CaptureService start= DEMAND
 sc config cbdhsvc start= DEMAND
 sc config ConsentUxUserSvc start= DEMAND
 rem 手写笔服务
-sc config PenService start= DEMAND
-sc config UdkUserSvc start= DEMAND
+sc config PenService start= DISABLED
+sc config UdkUserSvc start= DISABLED
 
 sc config RmSvc start= DISABLED
 sc config DispBrokerDesktopSvc start= DISABLED
