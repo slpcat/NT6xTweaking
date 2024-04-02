@@ -148,7 +148,7 @@ rem DISPLAY_NAME: DNS Client
 
 sc config Dnscache start= AUTO
 
-sc config DoSvc start= DEMAND
+sc config DoSvc start= AUTO
 
 rem SERVICE_NAME: dot3svc
 rem DISPLAY_NAME: Wired AutoConfig
