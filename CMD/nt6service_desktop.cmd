@@ -248,7 +248,7 @@ sc config IKEEXT start= DISABLED
 rem SERVICE_NAME: iphlpsvc
 rem DISPLAY_NAME: IP Helper
 
-sc config iphlpsvc start= DISABLED
+sc config iphlpsvc start= DEMAND
 
 rem SERVICE_NAME: KeyIso
 rem DISPLAY_NAME: CNG Key Isolation
