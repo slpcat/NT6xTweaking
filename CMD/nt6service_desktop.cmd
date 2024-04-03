@@ -159,8 +159,9 @@ sc config dot3svc start= DEMAND
 rem sc config SDRSVC start= DISABLED
 rem SERVICE_NAME: DPS
 rem DISPLAY_NAME: Diagnostic Policy Service
+rem 应用历史记录和网卡流量记录需要
 
-sc config DPS start= DISABLED
+sc config DPS start= AUTO
 
 rem SERVICE_NAME: DsmSvc
 rem DISPLAY_NAME: Device Setup Manager
