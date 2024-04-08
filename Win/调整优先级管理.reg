@@ -12,7 +12,9 @@ Windows Registry Editor Version 5.00
 "TimeStampInterval"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Psched] 
-"NonBestEffortLimit"=dword:00000000 
+"NonBestEffortLimit"=dword:00000000
+"TimerResolution"=dword:00000000
+"MaxOutstandingSends"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Audio]
 "Scheduling Category"="High"
