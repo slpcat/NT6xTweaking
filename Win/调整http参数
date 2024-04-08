@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\HTTP\Parameters]
+"EnableHttp2TIs"=dword:00000001
+"EnableHttp2Cleartext "=dword:00000001
+"Http2MaxClientResetsPerMinute"=dword:0000ea60
+"Http2MaxClientResetsGoaway"=dword:00000000
