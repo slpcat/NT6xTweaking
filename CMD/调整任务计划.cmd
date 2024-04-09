@@ -11,6 +11,9 @@ schtasks /change /TN "\Microsoft\Windows\Application Experience\ProgramDataUpdat
 schtasks /change /TN "\Microsoft\Windows\Application Experience\StartupAppTask" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Application Experience\MareBackup" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser Exp" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\Application Experience\PcaPatchDbTask" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\Application Experience\SdbinstMergeDbTask" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\ApplicationData\appuriverifierdaily" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\ApplicationData\appuriverifierinstall" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\ApplicationData\CleanupTemporaryState" /DISABLE
@@ -47,6 +50,7 @@ schtasks /change /TN "\Microsoft\Windows\DeviceDirectoryClient\RegisterDevicePro
 schtasks /change /TN "\Microsoft\Windows\DeviceDirectoryClient\RegisterDeviceSettingChange" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\DeviceDirectoryClient\RegisterUserDevice" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\Diagnosis\Scheduled" /DISABLE
+schtasks /change /TN "\Microsoft\Windows\Diagnosis\UnexpectedCodepath" /DISABLE
 schtasks /change /TN "\Microsoft\Windows\DiskCleanup\SilentCleanup" /DISABLE
 schtasks /delete /f /TN "\Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector"
 schtasks /delete /f /TN "\Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticResolver"
