@@ -1004,6 +1004,7 @@ sc config XblAuthManager start= DISABLED
 sc config XblGameSave start= DISABLED
 sc config XboxGipSvc start= DISABLED
 sc config GamingServicesNet start= DISABLED
+sc config GameInputSvc start= DISABLED
 
 rem DELETE SPY-SERVICES Win10
 sc delete DiagTrack
