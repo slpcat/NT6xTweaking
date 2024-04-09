@@ -1,3 +1,3 @@
-sc delete  gupdate
-sc delete  gupdatem
-sc delete  GoogleChromeElevationService
+sc delete gupdate
+sc delete gupdatem
+sc delete GoogleChromeElevationService
