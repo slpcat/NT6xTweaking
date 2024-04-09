@@ -990,7 +990,7 @@ sc config NPSMSvc start= DISABLED
 
 sc config AarSvc start= DEMAND
 sc config CaptureService start= DEMAND
-sc config cbdhsvc start= DEMAND
+sc config cbdhsvc start= DISABLED
 sc config ConsentUxUserSvc start= DEMAND
 rem 手写笔服务
 sc config PenService start= DISABLED
