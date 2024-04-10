@@ -41,7 +41,7 @@ Windows Registry Editor Version 5.00
 "fUseDefaultGina"=dword:00000001
 ;"InputBufferLength"=dword:00000800
 ; Removes the artificial latency delay for RDP.
-"InteractiveDelay"=dword:00000014
+"InteractiveDelay"=dword:0000000a
 "MaxIdleTime"=dword:00000000
 ;"MaxInstanceCount"=dword:ffffffff
 "MinEncryptionLevel"=dword:00000002
