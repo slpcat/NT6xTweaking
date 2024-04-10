@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+; MajorGeeks.Com
+; How to Enable or Disable Pop Up Descriptions for Folder and Desktop Items in Windows 10 & 11
+; https://www.majorgeeks.com/content/page/enable_disable_pop_up_descriptions.html
+
+[HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"ShowInfoTip"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"ShowInfoTip"=dword:00000000
