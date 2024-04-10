@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome]
+"MaxConnectionsPerProxy"=dword:00000080
+"DownloadRestrictions"=dword:00000000
+"QuicAllowed"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome\Recommended]
+"SafeBrowsingProtectionLevel"=dword:00000000
