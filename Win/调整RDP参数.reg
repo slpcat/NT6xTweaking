@@ -70,3 +70,10 @@ Windows Registry Editor Version 5.00
 
 ;[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\CredSSP\Parameters]
 ;"AllowEncryptionOracle"=dword:00000002
+
+;多媒体重定向（客户端）
+[HKEY_USERS\.DEFAULT\Software\Microsoft\MMR]
+"AllowCallRedirectionAllSites"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\MMR]
+"AllowCallRedirectionAllSites"=dword:00000001
