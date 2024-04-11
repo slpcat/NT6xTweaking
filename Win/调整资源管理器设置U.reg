@@ -51,6 +51,7 @@ Windows Registry Editor Version 5.00
 "ShowPreviewHandlers"=dword:00000000
 ;Automatically search for network folders and printers
 "NoNetCrawling"=dword:00000001
+"TaskbarMn"=dword:00000000
 
 [[HKEY_USERS\.DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
 "DesktopProcess"=dword:00000001
@@ -99,6 +100,7 @@ Windows Registry Editor Version 5.00
 "ShowPreviewHandlers"=dword:00000000
 ;Automatically search for network folders and printers
 "NoNetCrawling"=dword:00000001
+"TaskbarMn"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
 "NoResolveTrack"=dword:00000001
