@@ -41,13 +41,14 @@ Windows Registry Editor Version 5.00
 "fUseDefaultGina"=dword:00000001
 ;"InputBufferLength"=dword:00000800
 ; Removes the artificial latency delay for RDP.
-"InteractiveDelay"=dword:0000000a
+"InteractiveDelay"=dword:00000002
 "MaxIdleTime"=dword:00000000
 ;"MaxInstanceCount"=dword:ffffffff
 "MinEncryptionLevel"=dword:00000002
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services]
 ;"SelectTransport"=dword:00000000
+"fEnableWddmDriver"=dword:00000001
 "fEnableVirtualizedGraphics"=dword:00000001
 "VGOptimization_CaptureFrameRate"=dword:00000002
 "VGOptimization_CompressionRatio"=dword:00000002
