@@ -4,6 +4,8 @@
 ; Created on: October 24, 2022
 ; Tutorial: https://www.elevenforum.com/t/enable-or-disable-show-flashing-on-taskbar-apps-in-windows-11.9968/
 
+[HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"TaskbarFlashing"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
 "TaskbarFlashing"=dword:00000000
