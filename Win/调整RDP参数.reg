@@ -50,7 +50,8 @@ Windows Registry Editor Version 5.00
 ;"SelectTransport"=dword:00000000
 "fEnableWddmDriver"=dword:00000001
 "fEnableVirtualizedGraphics"=dword:00000001
-"VGOptimization_CaptureFrameRate"=dword:00000002
+"fEnableRemoteFXAdvancedRemoteApp"=dword:00000001
+"VGOptimization_CaptureFrameRate"=dword:0000003c
 "VGOptimization_CompressionRatio"=dword:00000002
 "VisualExperiencePolicy"=dword:00000001
 "AVCHardwareEncodePreferred"=dword:00000001
@@ -59,6 +60,8 @@ Windows Registry Editor Version 5.00
 ;"UserAuthentication"=dword:00000000
 "AVC444ModePreferred"=dword:00000001
 ;"MaxCompressionLevel"=dword:00000000
+"MaxCompressionLevel"=dword:00000002
+"GraphicsProfile"=dword:00000002
 "ImageQuality"=dword:00000002
 "ColorDepth"=dword:000003e7
 "MaxInstanceCount"=dword:000f423f
