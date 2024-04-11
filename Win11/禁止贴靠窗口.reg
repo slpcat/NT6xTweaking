@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+; Created by: Shawn Brink
+; Created on: April 28, 2022
+; Tutorial: https://www.elevenforum.com/t/enable-or-disable-snap-layouts-on-top-of-screen-in-windows-11.6142/
+
+[HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"EnableSnapBar"=dword:00000000
+"EnableSnapAssistFlyout"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"EnableSnapBar"=dword:00000000
+"EnableSnapAssistFlyout"=dword:00000000
