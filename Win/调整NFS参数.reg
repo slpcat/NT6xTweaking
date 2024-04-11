@@ -1,7 +1,7 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\NfsServer\Parameters]
-"OptimalReads"=dword:00000001
+"OptimalReads"=dword:00000000
 "RdWrHandleLifeTime"=dword:0000000a
 "RdWrNfsReadHandlesLifeTime"=dword:0000000a
 "RdWrNfsHandleLifeTime"=dword:0000003c
