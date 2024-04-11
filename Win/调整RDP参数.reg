@@ -60,6 +60,7 @@ Windows Registry Editor Version 5.00
 "AVC444ModePreferred"=dword:00000001
 ;"MaxCompressionLevel"=dword:00000000
 "ImageQuality"=dword:00000002
+"ColorDepth"=dword:000003e7
 
 ; Sets the flow control for Display vs Channel Bandwidth (aka RemoteFX devices, including controllers.)
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TermDD]
