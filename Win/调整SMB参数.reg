@@ -25,7 +25,6 @@ Windows Registry Editor Version 5.00
 "DirectoryCacheEntriesMax"=dword:00002000
 ;"ScavengerTimeLimit"=dword:0000003c
 
-
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Lanmanserver\Parameters]
 "SMB1"=dword:00000000
 "SMB2"=dword:00000001
@@ -52,6 +51,8 @@ Windows Registry Editor Version 5.00
 "MaxThreadsPerQueue"=dword:00000040
 "TreatHostAsStableStorage"=dword:00000001
 "SizReqBuf"=dword:00006300
+"NullSessionPipes"=hex(7):00,00,00,00
+"NullSessionShares"=hex(7):00,00,00,00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\mrxsmb10]
 "Start"=dword:00000004
