@@ -64,6 +64,8 @@ Windows Registry Editor Version 5.00
 "GraphicsProfile"=dword:00000002
 ;画质设置: 1无损, 2高,无损需要千兆网络
 "ImageQuality"=dword:00000002
+;音质设置：7无压缩 3 压缩 1动态
+"AllowedAudioQualityMode"=dword:00000003
 "ColorDepth"=dword:000003e7
 "MaxInstanceCount"=dword:000f423f
 
