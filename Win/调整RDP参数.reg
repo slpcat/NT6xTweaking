@@ -41,7 +41,7 @@ Windows Registry Editor Version 5.00
 "fUseDefaultGina"=dword:00000001
 ;"InputBufferLength"=dword:00000800
 ; Removes the artificial latency delay for RDP.
-"InteractiveDelay"=dword:00000002
+"InteractiveDelay"=dword:00000000
 "MaxIdleTime"=dword:00000000
 ;"MaxInstanceCount"=dword:ffffffff
 "MinEncryptionLevel"=dword:00000002
@@ -68,7 +68,7 @@ Windows Registry Editor Version 5.00
 
 ; Sets the flow control for Display vs Channel Bandwidth (aka RemoteFX devices, including controllers.)
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TermDD]
-"FlowControlDisable"=dword:00000001
+"FlowControlDisable"=dword:00000000
 "FlowControlDisplayBandwidth"=dword:0000010
 "FlowControlChannelBandwidth"=dword:0000090
 "FlowControlChargePostCompression"=dword:00000000
