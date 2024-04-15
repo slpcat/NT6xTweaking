@@ -21,3 +21,5 @@ https://github.com/timsutton/brigadier
 9.文件搜索 Everything
 基于名称快速定位文件和文件夹
 https://www.voidtools.com/zh-cn/downloads/
+10.虚拟屏幕 4k@240hz
+https://github.com/nomi-san/parsec-vdd
