@@ -72,9 +72,9 @@ Windows Registry Editor Version 5.00
 ; Sets the flow control for Display vs Channel Bandwidth (aka RemoteFX devices, including controllers.)
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\TermDD]
 "FlowControlDisable"=dword:00000000
-"FlowControlDisplayBandwidth"=dword:0000010
-"FlowControlChannelBandwidth"=dword:0000090
-"FlowControlChargePostCompression"=dword:00000000
+"FlowControlDisplayBandwidth"=dword:000000a
+"FlowControlChannelBandwidth"=dword:000005a
+"FlowControlChargePostCompression"=dword:00000001
 
 ;[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\CredSSP\Parameters]
 ;"AllowEncryptionOracle"=dword:00000002
