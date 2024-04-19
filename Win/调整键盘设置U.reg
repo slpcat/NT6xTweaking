@@ -1,9 +1,9 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_USERS\.DEFAULT\Control Panel\Keyboard]
-"KeyboardSpeed"="31"
+"KeyboardSpeed"="50"
 "KeyboardDelay"="0"
 
 [HKEY_CURRENT_USER\Control Panel\Keyboard]
-"KeyboardSpeed"="31"
+"KeyboardSpeed"="50"
 "KeyboardDelay"="0"
