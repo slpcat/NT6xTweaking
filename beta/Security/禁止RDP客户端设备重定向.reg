@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Terminal Server Client]
+;音频输入
+;音频输出
+;相机
+;剪贴板重定向
+"DisableClipboardRedirection"=dword:00000001
+;COM 端口
+;驱动器重定向
+"DisableDriveRedirection"=dword:00000001
+;位置
+;打印机重定向
+"DisablePrinterRedirection"=dword:00000001
+;智能卡
+;USB驱动器
+
