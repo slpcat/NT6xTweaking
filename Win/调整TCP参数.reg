@@ -53,8 +53,10 @@ Windows Registry Editor Version 5.00
 "MaxUserPort"=dword:0000ffff
 ;"MaxFreeTcbs"=dword:00004000
 "TcpTimedWaitDelay"=dword:00000014
-;"EnablePMTUDiscovery"=dword:00000000
-;"EnablePMTUBHDetect"=dword:00000001
+;启用 PMTU 发现
+"EnablePMTUDiscovery"=dword:00000001
+;启用 PMTU 黑洞路由器检测
+"EnablePMTUBHDetect"=dword:00000001
 ;sack保持原状
 ;"SackOpts"=dword:0000000
 "TcpDelAckTicks"=dword:00000000
