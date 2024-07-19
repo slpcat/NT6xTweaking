@@ -1,8 +1,8 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AFD\Parameters]
-"DefaultReceiveWindow"=dword:0800000
-"DefaultSendWindow"=dword:0800000
+"DefaultReceiveWindow"=dword:0080000
+"DefaultSendWindow"=dword:0040000
 ;抵御 SYN 攻击
 "EnableDynamicBacklog"=dword:00000000
 "MinimumDynamicBacklog"=dword:00000014
