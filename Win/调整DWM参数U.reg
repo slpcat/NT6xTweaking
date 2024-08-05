@@ -54,7 +54,7 @@ Windows Registry Editor Version 5.00
 "ColorizationBlurBalance"=dword:00000032
 "ColorizationGlassReflectionIntensity"=dword:00000000
 
-[HKLM\Software\Microsoft\Windows\DWM]
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\DWM]
 ;关闭显示模式更改动画
 "ForceDisableModeChangeAnimation"=dword:00000001
 
