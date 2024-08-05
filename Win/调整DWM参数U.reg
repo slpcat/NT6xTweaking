@@ -1,6 +1,6 @@
 Windows Registry Editor Version 5.00
 
-[HHKEY_USERS\.DEFAULT\Software\Microsoft\Windows\DWM]
+[HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\DWM]
 "AccentColorInactive"=dword:ff3e0020
 "Composition"=dword:00000001
 "ColorizationOpaqueBlend"=dword:00000000
@@ -53,3 +53,8 @@ Windows Registry Editor Version 5.00
 ;"ColorizationAfterglowBalance"=dword:0000000a
 "ColorizationBlurBalance"=dword:00000032
 "ColorizationGlassReflectionIntensity"=dword:00000000
+
+[HKLM\Software\Microsoft\Windows\DWM]
+;关闭显示模式更改动画
+"ForceDisableModeChangeAnimation"=dword:00000001
+
