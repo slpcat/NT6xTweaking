@@ -4,6 +4,10 @@
 ; How to Turn Visual Feedback on or Off
 ; https://www.majorgeeks.com/content/page/visual_feedback.html
 
+[HKEY_USERS\.DEFAULT\Control Panel\Cursors]
+"ContactVisualization"=dword:00000000
+"GestureVisualization"=dword:00000000
+
 [HKEY_CURRENT_USER\Control Panel\Cursors]
 "ContactVisualization"=dword:00000000
 "GestureVisualization"=dword:00000000
