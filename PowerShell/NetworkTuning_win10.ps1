@@ -21,6 +21,18 @@ netsh int tcp set supplemental template=InternetCustom icw=10
 
 #禁止IPv6teredo
 netsh interface teredo set state disable
+
+#纯IPv4环境，需要访问IPv6网站，可以使用Teredo协议
+
+#netsh interface teredo set state enterpriseclient server=default
+
+#配置设置teredo服务
+#win1910.ipv6.microsoft.com win10.ipv6.microsoft.com
+#netsh interface teredo set state server=teredo.iks-jena.de
+#配置设置teredo端口（根据需要设置，可以不设置）
+#netsh interface teredo set state natawareclient clientport=60409
+#验证是否可用 ping 6.ipw.cn
+
 #Disable Windows Scaling heuristics
 netsh int tcp set heuristics disabled
 #netsh int tcp set heuristics wsh=enabled forcews=enabled
