@@ -21,11 +21,11 @@ rem 功耗状态切换的延迟容忍时间
 powercfg -attributes 0012ee47-9041-4b5d-9b77-535fba8b1442 fc95af4d-40e7-4b6d-835a-56d131dbc80e -ATTRIB_HIDE
 
 
-rem 在此时间后关闭硬盘 5分钟
-powercfg -setacvalueindex scheme_current sub_disk DISKIDLE 300
-powercfg -setdcvalueindex scheme_current sub_disk DISKIDLE 300
-powercfg -setacvalueindex scheme_current 0012ee47-9041-4b5d-9b77-535fba8b1442 6738e2c4-e8a5-4a42-b16a-e040e769756e 300
-powercfg -setdcvalueindex scheme_current 0012ee47-9041-4b5d-9b77-535fba8b1442 6738e2c4-e8a5-4a42-b16a-e040e769756e 300
+rem 在此时间后关闭硬盘 20分钟
+powercfg -setacvalueindex scheme_current sub_disk DISKIDLE 1200
+powercfg -setdcvalueindex scheme_current sub_disk DISKIDLE 1200
+powercfg -setacvalueindex scheme_current 0012ee47-9041-4b5d-9b77-535fba8b1442 6738e2c4-e8a5-4a42-b16a-e040e769756e 1200
+powercfg -setdcvalueindex scheme_current 0012ee47-9041-4b5d-9b77-535fba8b1442 6738e2c4-e8a5-4a42-b16a-e040e769756e 1200
 
 rem 在此时间后显示器变暗 3分钟
 powercfg -setacvalueindex scheme_current 7516b95f-f776-4464-8c53-06167f40cc99 17aaa29b-8b43-4b94-aafe-35f64daaf1ee 180 
@@ -51,8 +51,8 @@ rem 禁用cpu节流（throttle）
 powercfg -setacvalueindex scheme_current sub_processor THROTTLING 0
 powercfg -setacvalueindex scheme_current 54533251-82be-4824-96c1-47b60b740d00 3b04d4fd-1cc7-4f23-ab1c-d1337819c4bb 0
 
-rem 最小处理器状态 5%
-powercfg -setacvalueindex scheme_current 54533251-82be-4824-96c1-47b60b740d00 893dee8e-2bef-41e0-89c6-b55d0929964c 5
+rem 最小处理器状态 10%
+powercfg -setacvalueindex scheme_current 54533251-82be-4824-96c1-47b60b740d00 893dee8e-2bef-41e0-89c6-b55d0929964c 10
 
 rem 最大处理器状态 100%
 powercfg -setacvalueindex scheme_current 54533251-82be-4824-96c1-47b60b740d00 bc5038f7-23e0-4960-96da-33abaf5935ec 100
