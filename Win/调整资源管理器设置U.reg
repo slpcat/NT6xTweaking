@@ -26,7 +26,7 @@ Windows Registry Editor Version 5.00
 "WebView"=dword:00000000
 "Filter"=dword:00000000
 "ShowSuperHidden"=dword:00000000
-"SeparateProcess"=dword:00000000
+"SeparateProcess"=dword:00000001
 "AutoCheckSelect"=dword:00000000
 "IconsOnly"=dword:00000001
 "ShowTypeOverlay"=dword:00000001
@@ -75,7 +75,7 @@ Windows Registry Editor Version 5.00
 "WebView"=dword:00000000
 "Filter"=dword:00000000
 "ShowSuperHidden"=dword:00000000
-"SeparateProcess"=dword:00000000
+"SeparateProcess"=dword:00000001
 "AutoCheckSelect"=dword:00000000
 "IconsOnly"=dword:00000001
 "ShowTypeOverlay"=dword:00000001
