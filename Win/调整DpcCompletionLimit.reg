@@ -1,5 +1,5 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\StorPort]
-"DpcCompletionLimit"=dword:00000200
+"DpcCompletionLimit"=dword:00000100
 ;默认128
