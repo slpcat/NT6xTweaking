@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; value: 0 - 50
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon]
+"CachedLogonsCount"="0"
