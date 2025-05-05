@@ -1,1 +1,1 @@
-Enable-MMAgent -PageCombining 
+Enable-MMAgent -MemoryCompression
