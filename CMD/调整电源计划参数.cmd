@@ -44,8 +44,8 @@ rem powercfg -setacvalueindex scheme_current sub_pciexpress ASPM 0
 rem powercfg -setacvalueindex scheme_current 501a4d13-42af-4429-9fd1-a8218c268e20 ee12f906-d277-404b-b6da-e5fa1a576df5 0
 
 rem 禁用cpu核心停泊（core parking）
-rem powercfg -setacvalueindex scheme_current sub_processor CPMINCORES 100
-rem powercfg -setacvalueindex scheme_current 54533251-82be-4824-96c1-47b60b740d00 0cc5b647-c1df-4637-891a-dec35c318583 100
+powercfg -setacvalueindex scheme_current sub_processor CPMINCORES 100
+powercfg -setacvalueindex scheme_current 54533251-82be-4824-96c1-47b60b740d00 0cc5b647-c1df-4637-891a-dec35c318583 100
 
 rem 禁用cpu节流（throttle）
 rem powercfg -setacvalueindex scheme_current sub_processor THROTTLING 0
