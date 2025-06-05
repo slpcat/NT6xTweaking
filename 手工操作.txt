@@ -25,5 +25,5 @@ https://www.voidtools.com/zh-cn/downloads/
 10.虚拟屏幕 4k@240hz
 https://github.com/nomi-san/parsec-vdd
 
-11.高级电源管理
-PowerSettingsExplorer
+11.高级电源管理 PowerSettingsExplorer
+https://github.com/kafuuchino-nene/PowerSettingsExplorer
