@@ -4,7 +4,7 @@ rem 启用电源计划“平衡”
 rem powercfg.exe -setactive 381b4222-f694-41f0-9685-ff5bb260df2e
 
 rem 启用电源计划“卓越性能”
-powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
+rem powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
 
 rem AHCI链路电源管理 HIPM/DIPM 无win7
 
@@ -19,6 +19,11 @@ powercfg -attributes 0012ee47-9041-4b5d-9b77-535fba8b1442 d639518a-e56d-4345-8af
 
 rem 功耗状态切换的延迟容忍时间
 powercfg -attributes 0012ee47-9041-4b5d-9b77-535fba8b1442 fc95af4d-40e7-4b6d-835a-56d131dbc80e -ATTRIB_HIDE
+
+rem 电源模式的异类策略设置
+powercfg -attributes SUB_PROCESSOR 7f2f5cfa-f10c-4823-b5e1-e93ae85f46b5 -ATTRIB_HIDE
+powercfg -attributes SUB_PROCESSOR 93b8b6dc-0698-4d1c-9ee4-0644e900c85d -ATTRIB_HIDE
+powercfg -attributes SUB_PROCESSOR bae08b81-2d5e-4688-ad6a-13243356654b -ATTRIB_HIDE
 
 
 rem 在此时间后关闭硬盘 20分钟
