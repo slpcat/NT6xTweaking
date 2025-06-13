@@ -42,6 +42,9 @@ rem PCIE电源管理 最高性能
 powercfg -setacvalueindex scheme_current sub_pciexpress ASPM 0
 powercfg -setacvalueindex scheme_current 501a4d13-42af-4429-9fd1-a8218c268e20 ee12f906-d277-404b-b6da-e5fa1a576df5 0
 
+rem 启用处理器最大频率（近似值）
+powercfg -attributes SUB_PROCESSOR 75b0ae3f-bce0-45a7-8c89-c9611c25e100 -ATTRIB_HIDE
+
 rem 电源模式的异类策略设置/大小核调度调整
 rem 开启处理器电源管理：延迟敏感度提示处理器性能
 powercfg -attributes SUB_PROCESSOR 619b7505-003b-4e82-b7a6-4dd29c300971 -ATTRIB_HIDE
