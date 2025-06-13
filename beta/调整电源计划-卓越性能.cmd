@@ -4,7 +4,7 @@ rem 启用电源计划“平衡”
 rem powercfg.exe -setactive 381b4222-f694-41f0-9685-ff5bb260df2e
 
 rem 启用电源计划“卓越性能”
-rem powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
+rem powercfg -setactive e9a42b02-d5df-448d-aa00-03f14749eb61
 
 rem AHCI链路电源管理 HIPM/DIPM 无win7
 
@@ -27,13 +27,13 @@ powercfg -attributes SUB_PROCESSOR bae08b81-2d5e-4688-ad6a-13243356654b -ATTRIB_
 
 
 rem 在此时间后关闭硬盘 20分钟
-powercfg -setacvalueindex scheme_current sub_disk DISKIDLE 1200
-powercfg -setdcvalueindex scheme_current sub_disk DISKIDLE 1200
-powercfg -setacvalueindex scheme_current 0012ee47-9041-4b5d-9b77-535fba8b1442 6738e2c4-e8a5-4a42-b16a-e040e769756e 1200
-powercfg -setdcvalueindex scheme_current 0012ee47-9041-4b5d-9b77-535fba8b1442 6738e2c4-e8a5-4a42-b16a-e040e769756e 1200
+rem powercfg -setacvalueindex scheme_current sub_disk DISKIDLE 1200
+rem powercfg -setdcvalueindex scheme_current sub_disk DISKIDLE 1200
+rem powercfg -setacvalueindex scheme_current 0012ee47-9041-4b5d-9b77-535fba8b1442 6738e2c4-e8a5-4a42-b16a-e040e769756e 1200
+rem powercfg -setdcvalueindex scheme_current 0012ee47-9041-4b5d-9b77-535fba8b1442 6738e2c4-e8a5-4a42-b16a-e040e769756e 1200
 
 rem 在此时间后显示器变暗 3分钟
-powercfg -setacvalueindex scheme_current 7516b95f-f776-4464-8c53-06167f40cc99 17aaa29b-8b43-4b94-aafe-35f64daaf1ee 180 
+rem powercfg -setacvalueindex scheme_current 7516b95f-f776-4464-8c53-06167f40cc99 17aaa29b-8b43-4b94-aafe-35f64daaf1ee 180 
 
 rem 在此时间后关闭显示器 15分钟
 powercfg -setacvalueindex scheme_current 7516b95f-f776-4464-8c53-06167f40cc99 3c0bc021-c8a8-4e07-a973-6b14cbcb2b7e 900
@@ -42,7 +42,7 @@ rem 中断路由控制设置 任何处理器 無win7
 powercfg -setacvalueindex scheme_current sub_intsteer MODE 1
 
 rem 启用USB选择性暂停设置
-powercfg -setacvalueindex scheme_current 2a737441-1930-4402-8d77-b2bebba308a3 48e6b7a6-50f5-4782-a5d4-53bb8f07e226 1
+rem powercfg -setacvalueindex scheme_current 2a737441-1930-4402-8d77-b2bebba308a3 48e6b7a6-50f5-4782-a5d4-53bb8f07e226 1
 
 rem PCIE电源管理 最高性能
 powercfg -setacvalueindex scheme_current sub_pciexpress ASPM 0
@@ -56,8 +56,8 @@ rem 禁用cpu节流（throttle）
 powercfg -setacvalueindex scheme_current sub_processor THROTTLING 0
 powercfg -setacvalueindex scheme_current 54533251-82be-4824-96c1-47b60b740d00 3b04d4fd-1cc7-4f23-ab1c-d1337819c4bb 0
 
-rem 最小处理器状态 10%
-powercfg -setacvalueindex scheme_current 54533251-82be-4824-96c1-47b60b740d00 893dee8e-2bef-41e0-89c6-b55d0929964c 10
+rem 最小处理器状态 100%
+powercfg -setacvalueindex scheme_current 54533251-82be-4824-96c1-47b60b740d00 893dee8e-2bef-41e0-89c6-b55d0929964c 100
 
 rem 最大处理器状态 100%
 powercfg -setacvalueindex scheme_current 54533251-82be-4824-96c1-47b60b740d00 bc5038f7-23e0-4960-96da-33abaf5935ec 100
