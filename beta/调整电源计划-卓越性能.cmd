@@ -20,12 +20,6 @@ powercfg -attributes 0012ee47-9041-4b5d-9b77-535fba8b1442 d639518a-e56d-4345-8af
 rem 功耗状态切换的延迟容忍时间
 powercfg -attributes 0012ee47-9041-4b5d-9b77-535fba8b1442 fc95af4d-40e7-4b6d-835a-56d131dbc80e -ATTRIB_HIDE
 
-rem 电源模式的异类策略设置
-powercfg -attributes SUB_PROCESSOR 7f2f5cfa-f10c-4823-b5e1-e93ae85f46b5 -ATTRIB_HIDE
-powercfg -attributes SUB_PROCESSOR 93b8b6dc-0698-4d1c-9ee4-0644e900c85d -ATTRIB_HIDE
-powercfg -attributes SUB_PROCESSOR bae08b81-2d5e-4688-ad6a-13243356654b -ATTRIB_HIDE
-
-
 rem 在此时间后关闭硬盘 20分钟
 rem powercfg -setacvalueindex scheme_current sub_disk DISKIDLE 1200
 rem powercfg -setdcvalueindex scheme_current sub_disk DISKIDLE 1200
@@ -47,6 +41,28 @@ rem powercfg -setacvalueindex scheme_current 2a737441-1930-4402-8d77-b2bebba308a
 rem PCIE电源管理 最高性能
 powercfg -setacvalueindex scheme_current sub_pciexpress ASPM 0
 powercfg -setacvalueindex scheme_current 501a4d13-42af-4429-9fd1-a8218c268e20 ee12f906-d277-404b-b6da-e5fa1a576df5 0
+
+rem 电源模式的异类策略设置/大小核调度调整
+rem 开启处理器电源管理：延迟敏感度提示处理器性能
+powercfg -attributes SUB_PROCESSOR 619b7505-003b-4e82-b7a6-4dd29c300971 -ATTRIB_HIDE
+powercfg -setacvalueindex scheme_current 54533251-82be-4824-96c1-47b60b740d00 619b7505-003b-4e82-b7a6-4dd29c300971 100
+
+rem 开启处理器电源管理：针对第 1 类处理器电源效率的延迟敏感度提示处理器性能 
+powercfg -attributes SUB_PROCESSOR 619b7505-003b-4e82-b7a6-4dd29c300972 -ATTRIB_HIDE
+powercfg -setacvalueindex scheme_current 54533251-82be-4824-96c1-47b60b740d00 619b7505-003b-4e82-b7a6-4dd29c300972 100
+
+rem 开启处理器电源管理：生效的异类策略/无睡眠
+powercfg -attributes SUB_PROCESSOR 7f2f5cfa-f10c-4823-b5e1-e93ae85f46b5 -ATTRIB_HIDE
+powercfg -setacvalueindex scheme_current 54533251-82be-4824-96c1-47b60b740d00 7f2f5cfa-f10c-4823-b5e1-e93ae85f46b5 0
+
+rem 开启处理器电源管理：异类线程调度策略/首选高性能处理器
+powercfg -attributes SUB_PROCESSOR 93b8b6dc-0698-4d1c-9ee4-0644e900c85d -ATTRIB_HIDE
+powercfg -setacvalueindex scheme_current 54533251-82be-4824-96c1-47b60b740d00 93b8b6dc-0698-4d1c-9ee4-0644e900c85d 2
+
+rem 开启处理器电源管理：异类短运行线程调度策略/首选高性能处理器
+powercfg -attributes SUB_PROCESSOR bae08b81-2d5e-4688-ad6a-13243356654b -ATTRIB_HIDE
+powercfg -setacvalueindex scheme_current 54533251-82be-4824-96c1-47b60b740d00 bae08b81-2d5e-4688-ad6a-13243356654b 2
+
 
 rem 禁用cpu核心停泊（core parking）
 powercfg -setacvalueindex scheme_current sub_processor CPMINCORES 100
@@ -76,6 +92,12 @@ powercfg -setacvalueindex scheme_current sub_processor DISTRIBUTEUTIL 0
 rem JavaScript计时器频率
 powercfg -setacvalueindex scheme_current b14a8f96-7b67-4e78-8192-b890b1a62b8a 4c793e7d-a264-42e1-87d3-7a0d2f523ccd 1
 powercfg -setacvalueindex scheme_current 02f815b5-a5cf-4c84-bf20-649d1f75d3d8 4c793e7d-a264-42e1-87d3-7a0d2f523ccd 1
+
+rem 多媒体设置视频播放质量补偿
+powercfg -setacvalueindex scheme_current 9596fb26-9850-41fd-ac3e-f7c3c00afd4b 10778347-1370-4ee0-8bbd-33bdacaade49 1
+rem 多媒体设置播放视频时优化视频质量
+powercfg -setacvalueindex scheme_current 9596fb26-9850-41fd-ac3e-f7c3c00afd4b 34c7b99f-9a6d-4b3c-8dc7-b6693b78cef4 0
+
 
 rem 系统从不睡眠
 powercfg -setacvalueindex scheme_current 238c9fa8-0aad-41ed-83f4-97be242c8f20 29f6c1db-86da-48c5-9fdb-f2b67b1f44da 0
