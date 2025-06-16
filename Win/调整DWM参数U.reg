@@ -58,3 +58,8 @@ Windows Registry Editor Version 5.00
 ;关闭显示模式更改动画
 "ForceDisableModeChangeAnimation"=dword:00000001
 "FlipQueueSize"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows]
+"DesktopHeapLogging"=dword:00000000
+"DwmInputUsesIoCompletionPort"=dword:00000000
+"EnableDwmInputProcessing"=dword:00000000
