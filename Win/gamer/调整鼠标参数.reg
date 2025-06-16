@@ -1,0 +1,27 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_USERS\.DEFAULT\Control Panel\Mouse]
+"MouseSensitivity"="10"
+"MouseSpeed"="0"
+"MouseThreshold1"="0"
+"MouseThreshold2"="0"
+"MouseTrails"="0"
+"DoubleClickSpeed"="200"
+"SwapMouseButtons"="0"
+"RawInput"="1"
+"SnapToDefaultButton"="0"
+"MouseDelay"="0"
+"ActiveWindowTracking"=dword:00000000
+
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"MouseSensitivity"="10"
+"MouseSpeed"="0"
+"MouseThreshold1"="0"
+"MouseThreshold2"="0"
+"MouseTrails"="0"
+"DoubleClickSpeed"="200"
+"SwapMouseButtons"="0"
+"RawInput"="1"
+"SnapToDefaultButton"="0"
+"MouseDelay"="0"
+"ActiveWindowTracking"=dword:00000000
