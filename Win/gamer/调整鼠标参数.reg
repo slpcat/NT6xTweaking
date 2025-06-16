@@ -25,3 +25,8 @@ Windows Registry Editor Version 5.00
 "SnapToDefaultButton"="0"
 "MouseDelay"="0"
 "ActiveWindowTracking"=dword:00000000
+
+; Increase explorer responses
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\mouhid\Parameters]
+"TreatAbsolutePointerAsAbsolute"=dword:00000001
+"TreatAbsoluteAsRelative"=dword:00000000
