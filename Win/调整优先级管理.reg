@@ -95,3 +95,9 @@ Windows Registry Editor Version 5.00
 "GPU Priority"=dword:00000008
 "Affinity"=dword:00000000
 "BackgroundPriority"=dword:00000008
+
+[HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Low Latency]
+"GPU Priority"=dword:0000000f
+"Priority"=dword:00000008
+"Scheduling Category"="Medium"
+"SFIO Priority"="High"
