@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+; Mouse Cursor Tweaks
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Input\Settings\ControllerProcessor\CursorMagnetism]
+"AttractionRectInsetInDIPS"=dword:00000000
+"DistanceThresholdInDIPS"=dword:00000000
+"MagnetismDelayInMilliseconds"=dword:00000001
+"MagnetismUpdateIntervalInMilliseconds"=dword:00000001
+"VelocityInDIPSPerSecond"=dword:00000000
+
+; Mouse Cursor faster refresh
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Input\Settings\ControllerProcessor\CursorSpeed]
+CursorSensitivity=dword:00002710
+CursorUpdateInterval=dword:00000001
+IRRemoteNavigationDelta=dword:00000001
