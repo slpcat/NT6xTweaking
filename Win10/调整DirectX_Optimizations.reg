@@ -13,6 +13,20 @@ Windows Registry Editor Version 5.00
 [HKEY_USERS\.DEFAULT\Software\Microsoft\DirectX\UserGpuPreferences]
 ;Automatic Super Resolution 
 "DirectXUserGlobalSettings"="DXGIEffects=1028;VRROptimizeEnable=1;AutoHDREnable=48;SwapEffectUpgradeEnable=1;"
-[HKEY_CURRENT_USER\Software\Microsoft\DirectX\UserGpuPreferences]
 
+[HKEY_CURRENT_USER\Software\Microsoft\DirectX\UserGpuPreferences]
 "DirectXUserGlobalSettings"="DXGIEffects=1028;VRROptimizeEnable=1;AutoHDREnable=48;SwapEffectUpgradeEnable=1;"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DirectX]
+"MaxFrameLatency"=dword:00000001
+"DisableThreadedOptimizations"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Direct3D\Global]
+"EnableMultiThreadedRendering"=dword:00000001
+"DisableVSync"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Direct3D\Drivers]
+"SoftwareOnly"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DirectInput]
+"EnableBackgroundProcessing"=dword:00000001
