@@ -5,7 +5,30 @@ Windows Registry Editor Version 5.00
 "KeyboardDelay"="0"
 "InitialKeyboardIndicators"="0"
 
+[HKEY_USERS\.DEFAULT\Control Panel\Accessibility\Keyboard Response]
+"Flags"="27"
+"DelayBeforeAcceptance"="0"
+"BounceTime"="0"
+"Last BounceKey Setting"=dword:00000000
+"Last Valid Delay"=dword:00000000
+"Last Valid Repeat"=dword:00000000
+"Last Valid Wait"=dword:00000000
+"KeyboardDelay"=dword:00000000
+
 [HKEY_CURRENT_USER\Control Panel\Keyboard]
 "KeyboardSpeed"="50"
 "KeyboardDelay"="0"
 "InitialKeyboardIndicators"="0"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\kbdclass\Parameters]
+"KeyboardDataQueueSize"=dword:00000040
+
+[HKEY_CURRENT_USER\Control Panel\Accessibility\Keyboard Response]
+"Flags"="27"
+"DelayBeforeAcceptance"="0"
+"BounceTime"="0"
+"Last BounceKey Setting"=dword:00000000
+"Last Valid Delay"=dword:00000000
+"Last Valid Repeat"=dword:00000000
+"Last Valid Wait"=dword:00000000
+"KeyboardDelay"=dword:00000000
