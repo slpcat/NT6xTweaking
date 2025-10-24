@@ -1,5 +1,6 @@
 Windows Registry Editor Version 5.00
 
+;"会导致杀毒软件崩溃"
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Policies\EarlyLaunch]
 "DriverLoadPolicy"=dword:00000008
 
