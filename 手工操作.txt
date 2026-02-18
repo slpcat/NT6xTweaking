@@ -1,13 +1,18 @@
 1.精简工具
 https://github.com/ntdevlabs/tiny11builder
+
 2.右键powershell
+
 3.卸载edge浏览器
 https://github.com/ShadowWhisperer/Remove-MS-Edge/
+
 4.DefenderRemover
-https://github.com/ionuttbara/windows-defender-remover/releases  缺陷：会导致app store无法下载安装app
+https://github.com/ionuttbara/windows-defender-remover/releases
+
 5.win10/win11反间谍
 https://www.getblackbird.net/download/ 缺陷：会导致win11无法更新，改成离线更新包打补丁，同理 驱动也是离线安装,启动Delivery Optimization服务修复自动更新。
 https://pxc-coding.com/donotspy11/
+
 6.rdp多用户登录
 https://github.com/sebaxakerhtc/rdpwrap/releases
 
@@ -17,11 +22,14 @@ dism++ 配置禁止windows defender ，禁止windows update
 安装部署完毕用TrustedInstaller权限禁止无用服务，禁止zipfolder
 7.nfs client
 https://github.com/kofemann/ms-nfs41-client
+
 8. mac 驱动下载工具
 https://github.com/timsutton/brigadier
+
 9.文件搜索 Everything
 基于名称快速定位文件和文件夹
 https://www.voidtools.com/zh-cn/downloads/
+
 10.虚拟屏幕 4k@240hz
 https://github.com/nomi-san/parsec-vdd
 
