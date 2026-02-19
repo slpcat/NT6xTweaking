@@ -32,7 +32,7 @@ Windows Registry Editor Version 5.00
 "Win8DpiScaling"=dword:00000000
 "LogPixels"=dword:00000064
 "TranscodedImageCount"=dword:00000001
-"UserPreferencesMask"=hex:94,12,03,80,10,00,00,00
+"UserPreferencesMask"=hex:90,12,07,80,10,00,00,00
 "WindowArrangementActive"="1"
 
 [HKEY_USERS\.DEFAULT\Control Panel\Desktop\WindowMetrics]
@@ -92,7 +92,7 @@ Windows Registry Editor Version 5.00
 "Win8DpiScaling"=dword:00000000
 "LogPixels"=dword:00000064
 "TranscodedImageCount"=dword:00000001
-"UserPreferencesMask"=hex:94,12,03,80,10,00,00,00
+"UserPreferencesMask"=hex:90,12,07,80,10,00,00,00
 "WindowArrangementActive"="1"
 
 [HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics]
