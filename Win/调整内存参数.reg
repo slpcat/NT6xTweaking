@@ -12,3 +12,4 @@ Windows Registry Editor Version 5.00
 "DontVerifyRandomDrivers"=dword:00000001
 ;http://support.microsoft.com/kb/920739
 ;"SystemCacheDirtyPageThreshold"=dword:00000080
+"DwmMaximumQueuedFrames"=dword:00000002
