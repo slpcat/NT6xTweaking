@@ -1,5 +1,6 @@
 1.精简工具
 https://github.com/ntdevlabs/tiny11builder
+https://nano11-dev.github.io/
 
 2.右键powershell
 
